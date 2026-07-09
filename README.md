@@ -32,7 +32,12 @@ Each player supports common rank fields plus flexible projected stat categories:
 
 ## Daily Update
 
-`scripts/update-projections.mjs` is designed for GitHub Actions. FantasyPros is wired directly. ESPN and CBS are configurable because their public pages move often and are frequently rendered or protected; set repository variables `ESPN_RANKINGS_URL` and `CBS_RANKINGS_URL` to a JSON or CSV export/feed when available.
+`scripts/update-projections.mjs` is designed for GitHub Actions and pulls directly from FantasyPros every day:
+
+- Overall PPR ranks: `https://www.fantasypros.com/nfl/rankings/ppr-cheatsheets.php`
+- Position projections: FantasyPros draft projection pages for QB, RB, WR, TE, K, and DST
+
+No ESPN or CBS repository variables are needed for the default workflow.
 
 Run locally:
 
