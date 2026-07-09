@@ -1,0 +1,27 @@
+name: Update fantasy projections
+
+on:
+  schedule:
+    - cron: "17 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm run update:data
+        env:
+          ESPN_RANKINGS_URL: ${{ vars.ESPN_RANKINGS_URL }}
+          CBS_RANKINGS_URL: ${{ vars.CBS_RANKINGS_URL }}
+      - name: Commit updated JSON
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update fantasy football projections"
+          file_pattern: data/projections.json
