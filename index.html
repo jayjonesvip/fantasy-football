@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fantasy Draft Board</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">2026 PPR Draft Research</p>
+        <h1>Fantasy Draft Board</h1>
+      </div>
+      <div class="actions">
+        <button id="themeToggle" class="icon-button" title="Toggle theme" aria-label="Toggle theme">◐</button>
+        <button id="printOverall" class="primary">Export Overall PDF</button>
+        <button id="printPosition" class="secondary">Export Position PDF</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary" aria-label="Draft board summary">
+        <div>
+          <span id="playerCount">0</span>
+          <p>Players</p>
+        </div>
+        <div>
+          <span id="updatedAt">-</span>
+          <p>Updated</p>
+        </div>
+        <div>
+          <span id="sourceCount">0</span>
+          <p>Sources</p>
+        </div>
+        <div>
+          <span>PPR</span>
+          <p>Scoring</p>
+        </div>
+      </section>
+
+      <section class="controls">
+        <label class="search">
+          <span>⌕</span>
+          <input id="searchInput" type="search" placeholder="Search player, team, or position">
+        </label>
+        <div id="positionTabs" class="tabs" role="tablist"></div>
+      </section>
+
+      <section class="board">
+        <div class="board-head">
+          <div>
+            <h2 id="viewTitle">Overall Top 300</h2>
+            <p id="viewMeta">Consensus ranks with flexible projected stats.</p>
+          </div>
+          <select id="sortSelect" aria-label="Sort players">
+            <option value="overallRank">Overall rank</option>
+            <option value="positionRank">Position rank</option>
+            <option value="projectedPoints">Projected points</option>
+            <option value="name">Player name</option>
+          </select>
+        </div>
+        <div id="dataNotice" class="notice" hidden></div>
+        <div class="table-wrap">
+          <table id="playersTable">
+            <thead id="tableHead"></thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <template id="emptyState">
+      <tr>
+        <td colspan="12" class="empty">No players match that research view.</td>
+      </tr>
+    </template>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

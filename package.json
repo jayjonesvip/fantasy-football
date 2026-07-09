@@ -1,0 +1,10 @@
+{
+  "name": "fantasy-cheatsheet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update:data": "node scripts/update-projections.mjs",
+    "serve": "node scripts/serve.mjs"
+  }
+}
