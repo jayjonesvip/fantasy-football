@@ -137,8 +137,8 @@ function render() {
       <td class="rank">${player.overallRank}</td>
       <td class="player">${player.name}</td>
       <td>${player.team || "-"}</td>
-      <td><span class="chip">${player.position}</span></td>
-      <td>${player.position}${player.positionRank || "-"}</td>
+      <td><span class="chip chip-${player.position}">${player.position === "DST" ? "DEF" : player.position}</span></td>
+      <td>${player.position === "DST" ? "DEF" : player.position}${player.positionRank || "-"}</td>
       <td>${player.previousRank || "-"}</td>
       <td>${rankDelta(player)}</td>
       <td>${player.highestRank || "-"}</td>

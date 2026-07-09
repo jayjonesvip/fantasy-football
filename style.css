@@ -252,11 +252,18 @@ td {
   justify-content: center;
   padding: 4px 8px;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--accent-2) 14%, transparent);
-  color: var(--accent-2);
+  border: 1px solid rgba(0, 0, 0, .18);
+  color: #111827;
   font-size: 12px;
   font-weight: 850;
 }
+
+.chip-QB { background: #ff6fb1; }
+.chip-RB { background: #39ff88; }
+.chip-WR { background: #fff34d; }
+.chip-TE { background: #c084fc; }
+.chip-K { background: #b88746; color: #fffaf0; }
+.chip-DST { background: #38bdf8; }
 
 .up { color: var(--good); }
 .down { color: var(--bad); }
