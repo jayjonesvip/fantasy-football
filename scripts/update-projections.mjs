@@ -2,10 +2,25 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
-const DATA_FILE = path.join(ROOT, "data", "projections.json");
 const SEASON = 2026;
-const SCORING = "PPR";
-const FANTASYPROS_RANKINGS_URL = "https://www.fantasypros.com/nfl/rankings/ppr-cheatsheets.php";
+const DEFAULT_SCORING = "ppr";
+const SCORING_FORMATS = {
+  standard: {
+    label: "Standard",
+    file: "projections-standard.json",
+    url: "https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php"
+  },
+  "half-ppr": {
+    label: "Half PPR",
+    file: "projections-half-ppr.json",
+    url: "https://www.fantasypros.com/nfl/rankings/half-point-ppr-cheatsheets.php"
+  },
+  ppr: {
+    label: "PPR",
+    file: "projections-ppr.json",
+    url: "https://www.fantasypros.com/nfl/rankings/ppr-cheatsheets.php"
+  }
+};
 const PROJECTION_URLS = {
   QB: "https://www.fantasypros.com/nfl/projections/qb.php?week=draft",
   RB: "https://www.fantasypros.com/nfl/projections/rb.php?week=draft",
@@ -165,30 +180,39 @@ function attachProjections(players, projectionMaps) {
 }
 
 async function main() {
-  const prior = JSON.parse(await readFile(DATA_FILE, "utf8").catch(() => '{"players":[]}'));
-  const priorById = new Map((prior.players || []).map((player) => [player.id, player]));
-  const rankingsHtml = await fetchText(FANTASYPROS_RANKINGS_URL);
-  const rankedPlayers = parseRankings(rankingsHtml, priorById);
-  if (rankedPlayers.length < 300) {
-    throw new Error(`FantasyPros returned ${rankedPlayers.length} ranked players; expected at least 300.`);
-  }
-
   const { projectionMaps, sourceMeta } = await fetchAllProjections();
-  const players = attachProjections(rankedPlayers, projectionMaps);
-  const payload = {
-    generatedAt: new Date().toISOString(),
-    season: SEASON,
-    scoring: SCORING,
-    status: "updated-from-fantasypros",
-    sources: [
-      { name: "FantasyPros PPR rankings", url: FANTASYPROS_RANKINGS_URL, count: rankedPlayers.length, ok: true },
-      ...sourceMeta
-    ],
-    players
-  };
+  const generatedAt = new Date().toISOString();
 
-  await writeFile(DATA_FILE, `${JSON.stringify(payload, null, 2)}\n`);
-  console.log(`Wrote ${players.length} FantasyPros players to ${DATA_FILE}`);
+  for (const [key, scoring] of Object.entries(SCORING_FORMATS)) {
+    const dataFile = path.join(ROOT, "data", scoring.file);
+    const prior = JSON.parse(await readFile(dataFile, "utf8").catch(() => '{"players":[]}'));
+    const priorById = new Map((prior.players || []).map((player) => [player.id, player]));
+    const rankingsHtml = await fetchText(scoring.url);
+    const rankedPlayers = parseRankings(rankingsHtml, priorById);
+    if (rankedPlayers.length < 300) {
+      throw new Error(`FantasyPros ${scoring.label} returned ${rankedPlayers.length} ranked players; expected at least 300.`);
+    }
+
+    const players = attachProjections(rankedPlayers, projectionMaps);
+    const payload = {
+      generatedAt,
+      season: SEASON,
+      scoring: scoring.label,
+      scoringKey: key,
+      status: "updated-from-fantasypros",
+      sources: [
+        { name: `FantasyPros ${scoring.label} rankings`, url: scoring.url, count: rankedPlayers.length, ok: true },
+        ...sourceMeta
+      ],
+      players
+    };
+
+    await writeFile(dataFile, `${JSON.stringify(payload, null, 2)}\n`);
+    if (key === DEFAULT_SCORING) {
+      await writeFile(path.join(ROOT, "data", "projections.json"), `${JSON.stringify(payload, null, 2)}\n`);
+    }
+    console.log(`Wrote ${players.length} FantasyPros ${scoring.label} players to ${dataFile}`);
+  }
 }
 
 main().catch((error) => {

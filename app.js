@@ -1,10 +1,15 @@
 const POSITIONS = ["ALL", "QB", "RB", "WR", "TE", "K", "DST"];
+const SCORING_FILES = {
+  ppr: "data/projections-ppr.json",
+  "half-ppr": "data/projections-half-ppr.json",
+  standard: "data/projections-standard.json"
+};
 const POSITION_STATS = {
   QB: ["passYds", "passTd", "int", "rushYds", "rushTd"],
   RB: ["rushYds", "rushTd", "rec", "recYds", "recTd"],
   WR: ["targets", "rec", "recYds", "recTd"],
   TE: ["targets", "rec", "recYds", "recTd"],
-  K: ["fieldGoals", "extraPoints"],
+  K: ["fg", "xp"],
   DST: ["sacks", "defInterceptions", "fumbleRecoveries", "pointsAllowed"]
 };
 const STAT_LABELS = {
@@ -17,8 +22,9 @@ const STAT_LABELS = {
   recYds: "Rec Yds",
   recTd: "Rec TD",
   targets: "Tgt",
-  fieldGoals: "FG",
-  extraPoints: "XP",
+  fg: "FG",
+  fga: "FGA",
+  xp: "XP",
   sacks: "Sack",
   defInterceptions: "Def INT",
   fumbleRecoveries: "FR",
@@ -27,6 +33,7 @@ const STAT_LABELS = {
 
 const state = {
   data: null,
+  scoring: localStorage.getItem("fantasy-scoring") || "ppr",
   position: "ALL",
   query: "",
   sort: "overallRank"
@@ -36,8 +43,10 @@ const els = {
   playerCount: document.querySelector("#playerCount"),
   updatedAt: document.querySelector("#updatedAt"),
   sourceCount: document.querySelector("#sourceCount"),
+  scoringLabel: document.querySelector("#scoringLabel"),
   positionTabs: document.querySelector("#positionTabs"),
   searchInput: document.querySelector("#searchInput"),
+  scoringSelect: document.querySelector("#scoringSelect"),
   sortSelect: document.querySelector("#sortSelect"),
   tableHead: document.querySelector("#tableHead"),
   tableBody: document.querySelector("#tableBody"),
@@ -51,7 +60,8 @@ const els = {
 };
 
 async function loadData() {
-  const response = await fetch("data/projections.json", { cache: "no-store" });
+  const dataUrl = SCORING_FILES[state.scoring] || SCORING_FILES.ppr;
+  const response = await fetch(dataUrl, { cache: "no-store" });
   state.data = await response.json();
   renderChrome();
   render();
@@ -59,6 +69,8 @@ async function loadData() {
 
 function renderChrome() {
   els.playerCount.textContent = state.data.players.length;
+  els.scoringLabel.textContent = state.data.scoring;
+  els.scoringSelect.value = state.scoring;
   els.sourceCount.textContent = state.data.sources.filter((source) => source.ok !== false).length || state.data.sources.length;
   els.updatedAt.textContent = new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric" })
     .format(new Date(state.data.generatedAt));
@@ -115,8 +127,9 @@ function formatStat(value) {
 function render() {
   const players = getVisiblePlayers();
   const stats = statsForView(players);
-  els.viewTitle.textContent = state.position === "ALL" ? "Overall Top 300" : `${state.position} Cheat Sheet`;
-  els.viewMeta.textContent = `${players.length} players shown · ${state.data.status}`;
+  const positionLabel = state.position === "DST" ? "DEF" : state.position;
+  els.viewTitle.textContent = state.position === "ALL" ? `${state.data.scoring} Overall Top 300` : `${state.data.scoring} ${positionLabel} Cheat Sheet`;
+  els.viewMeta.textContent = `${players.length} players shown - ${state.data.status}`;
   els.tableHead.innerHTML = `
     <tr>
       <th class="rank">Ovr</th>
@@ -160,6 +173,12 @@ els.positionTabs.addEventListener("click", (event) => {
 els.searchInput.addEventListener("input", (event) => {
   state.query = event.target.value;
   render();
+});
+
+els.scoringSelect.addEventListener("change", async (event) => {
+  state.scoring = event.target.value;
+  localStorage.setItem("fantasy-scoring", state.scoring);
+  await loadData();
 });
 
 els.sortSelect.addEventListener("change", (event) => {

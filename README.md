@@ -1,6 +1,6 @@
 # Fantasy Draft Board
 
-Single-page fantasy football research app backed by `data/projections.json`.
+Single-page fantasy football research app backed by FantasyPros ranking JSON files for Standard, Half PPR, and PPR scoring.
 
 ## Data Contract
 
@@ -23,9 +23,7 @@ Each player supports common rank fields plus flexible projected stat categories:
     "rushYds": 566
   },
   "sourceRanks": {
-    "FantasyPros": 19,
-    "ESPN": 24,
-    "CBS Sports": 21
+    "FantasyPros": 19
   }
 }
 ```
@@ -34,10 +32,12 @@ Each player supports common rank fields plus flexible projected stat categories:
 
 `scripts/update-projections.mjs` is designed for GitHub Actions and pulls directly from FantasyPros every day:
 
-- Overall PPR ranks: `https://www.fantasypros.com/nfl/rankings/ppr-cheatsheets.php`
+- Standard ranks: `https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php`
+- Half PPR ranks: `https://www.fantasypros.com/nfl/rankings/half-point-ppr-cheatsheets.php`
+- PPR ranks: `https://www.fantasypros.com/nfl/rankings/ppr-cheatsheets.php`
 - Position projections: FantasyPros draft projection pages for QB, RB, WR, TE, K, and DST
 
-No ESPN or CBS repository variables are needed for the default workflow.
+The app loads `data/projections-ppr.json`, `data/projections-half-ppr.json`, or `data/projections-standard.json` from the scoring dropdown near the grid. `data/projections.json` remains a PPR compatibility alias.
 
 Run locally:
 
