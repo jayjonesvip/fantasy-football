@@ -34,7 +34,7 @@
           <p>Sources</p>
         </div>
         <div>
-          <span>PPR</span>
+          <span id="scoringLabel">PPR</span>
           <p>Scoring</p>
         </div>
       </section>
@@ -53,12 +53,25 @@
             <h2 id="viewTitle">Overall Top 300</h2>
             <p id="viewMeta">Consensus ranks with flexible projected stats.</p>
           </div>
-          <select id="sortSelect" aria-label="Sort players">
-            <option value="overallRank">Overall rank</option>
-            <option value="positionRank">Position rank</option>
-            <option value="projectedPoints">Projected points</option>
-            <option value="name">Player name</option>
-          </select>
+          <div class="board-selectors">
+            <label>
+              <span>Scoring</span>
+              <select id="scoringSelect" aria-label="Scoring format">
+                <option value="ppr">PPR</option>
+                <option value="half-ppr">Half PPR</option>
+                <option value="standard">Standard</option>
+              </select>
+            </label>
+            <label>
+              <span>Sort</span>
+              <select id="sortSelect" aria-label="Sort players">
+                <option value="overallRank">Overall rank</option>
+                <option value="positionRank">Position rank</option>
+                <option value="projectedPoints">Projected points</option>
+                <option value="name">Player name</option>
+              </select>
+            </label>
+          </div>
         </div>
         <div id="dataNotice" class="notice" hidden></div>
         <div class="table-wrap">
