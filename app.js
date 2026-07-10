@@ -1,4 +1,5 @@
 const POSITIONS = ["ALL", "QB", "RB", "WR", "TE", "K", "DST"];
+const APP_VERSION = "2026-07-10-scoring";
 const SCORING_FILES = {
   ppr: "data/projections-ppr.json",
   "half-ppr": "data/projections-half-ppr.json",
@@ -61,7 +62,8 @@ const els = {
 
 async function loadData() {
   const dataUrl = SCORING_FILES[state.scoring] || SCORING_FILES.ppr;
-  const response = await fetch(dataUrl, { cache: "no-store" });
+  const response = await fetch(`${dataUrl}?v=${APP_VERSION}`, { cache: "reload" });
+  if (!response.ok) throw new Error(`Could not load ${dataUrl}`);
   state.data = await response.json();
   renderChrome();
   render();
