@@ -32,7 +32,7 @@
     {
       "name": "FantasyPros TE projections",
       "url": "https://www.fantasypros.com/nfl/projections/te.php?week=draft",
-      "count": 10,
+      "count": 115,
       "ok": true
     },
     {
@@ -44,7 +44,7 @@
     {
       "name": "FantasyPros DST projections",
       "url": "https://www.fantasypros.com/nfl/projections/dst.php?week=draft",
-      "count": 32,
+      "count": 10,
       "ok": true
     }
   ],
@@ -721,10 +721,10 @@
       }
     },
     {
-      "id": "tetairoa-mcmillan-car-wr",
-      "fantasyProsId": 25417,
-      "name": "Tetairoa McMillan",
-      "team": "CAR",
+      "id": "garrett-wilson-nyj-wr",
+      "fantasyProsId": 23072,
+      "name": "Garrett Wilson",
+      "team": "NYJ",
       "position": "WR",
       "overallRank": 28,
       "positionRank": 15,
@@ -1169,6 +1169,23 @@
         "fumblesLost": 0.3,
         "fantasyPoints": 133.8
       },
+      "sourceRanks": {
+        "FantasyPros": 45
+      }
+    },
+    {
+      "id": "luther-burden-iii-chi-wr",
+      "fantasyProsId": 27016,
+      "name": "Luther Burden III",
+      "team": "CHI",
+      "position": "WR",
+      "overallRank": 45,
+      "positionRank": 23,
+      "previousRank": 46,
+      "highestRank": 26,
+      "lowestRank": 86,
+      "projectedPoints": 0,
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 45
       }
@@ -2219,6 +2236,23 @@
         "fumblesLost": 0.2,
         "fantasyPoints": 107.2
       },
+      "sourceRanks": {
+        "FantasyPros": 87
+      }
+    },
+    {
+      "id": "michael-wilson-ari-wr",
+      "fantasyProsId": 25333,
+      "name": "Michael Wilson",
+      "team": "ARI",
+      "position": "WR",
+      "overallRank": 87,
+      "positionRank": 39,
+      "previousRank": 86,
+      "highestRank": 60,
+      "lowestRank": 115,
+      "projectedPoints": 0,
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 87
       }
@@ -3390,6 +3424,32 @@
         "fantasyPoints": 78.5
       },
       "sourceRanks": {
+        "FantasyPros": 134
+      }
+    },
+    {
+      "id": "tyler-allgeier-ari-rb",
+      "fantasyProsId": 24172,
+      "name": "Tyler Allgeier",
+      "team": "ARI",
+      "position": "RB",
+      "overallRank": 135,
+      "positionRank": 44,
+      "previousRank": 134,
+      "highestRank": 118,
+      "lowestRank": 257,
+      "projectedPoints": 78.5,
+      "projectedStats": {
+        "rushAtt": 111.7,
+        "rushYds": 428.1,
+        "rushTd": 4.2,
+        "rec": 17,
+        "recYds": 108.5,
+        "recTd": 0.2,
+        "fumblesLost": 0.6,
+        "fantasyPoints": 78.5
+      },
+      "sourceRanks": {
         "FantasyPros": 135
       }
     },
@@ -4175,10 +4235,10 @@
       }
     },
     {
-      "id": "tre-harris-lac-wr",
-      "fantasyProsId": 26215,
-      "name": "Tre' Harris",
-      "team": "LAC",
+      "id": "tre-tucker-lv-wr",
+      "fantasyProsId": 25337,
+      "name": "Tre Tucker",
+      "team": "LV",
       "position": "WR",
       "overallRank": 169,
       "positionRank": 65,
@@ -4369,17 +4429,7 @@
       "highestRank": 171,
       "lowestRank": 188,
       "projectedPoints": 102.5,
-      "projectedStats": {
-        "sacks": 42.2,
-        "defInterceptions": 13,
-        "fumbleRecoveries": 10,
-        "forcedFumbles": 14.4,
-        "defTd": 2.4,
-        "safeties": 0,
-        "pointsAllowed": 323.2,
-        "yardsAllowed": 5263.6,
-        "fantasyPoints": 102.5
-      },
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 177
       }
@@ -4548,6 +4598,23 @@
       "highestRank": 172,
       "lowestRank": 249,
       "projectedPoints": 98.1,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 184
+      }
+    },
+    {
+      "id": "brandon-aubrey-dal-k",
+      "fantasyProsId": 26068,
+      "name": "Brandon Aubrey",
+      "team": "DAL",
+      "position": "K",
+      "overallRank": 185,
+      "positionRank": 1,
+      "previousRank": 187,
+      "highestRank": 185,
+      "lowestRank": 192,
+      "projectedPoints": 153,
       "projectedStats": {
         "sacks": 40.6,
         "defInterceptions": 11.6,
@@ -4560,7 +4627,51 @@
         "fantasyPoints": 98.1
       },
       "sourceRanks": {
-        "FantasyPros": 184
+        "FantasyPros": 185
+      }
+    },
+    {
+      "id": "pittsburgh-steelers-pit-dst",
+      "fantasyProsId": 8240,
+      "name": "Pittsburgh Steelers",
+      "team": "PIT",
+      "position": "DST",
+      "overallRank": 186,
+      "positionRank": 8,
+      "previousRank": 190,
+      "highestRank": 171,
+      "lowestRank": 206,
+      "projectedPoints": 112.8,
+      "projectedStats": {
+        "sacks": 46,
+        "defInterceptions": 13.3,
+        "fumbleRecoveries": 12.8,
+        "forcedFumbles": 18.8,
+        "defTd": 2.4,
+        "safeties": 0,
+        "pointsAllowed": 347.4,
+        "yardsAllowed": 5453.7,
+        "fantasyPoints": 112.8
+      },
+      "sourceRanks": {
+        "FantasyPros": 186
+      }
+    },
+    {
+      "id": "jacksonville-jaguars-jac-dst",
+      "fantasyProsId": 8140,
+      "name": "Jacksonville Jaguars",
+      "team": "JAC",
+      "position": "DST",
+      "overallRank": 187,
+      "positionRank": 9,
+      "previousRank": 189,
+      "highestRank": 183,
+      "lowestRank": 212,
+      "projectedPoints": 99,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 187
       }
     },
     {
@@ -4776,6 +4887,29 @@
       "lowestRank": 254,
       "projectedPoints": 0,
       "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 194
+      }
+    },
+    {
+      "id": "aj-barner-sea-te",
+      "fantasyProsId": 26335,
+      "name": "AJ Barner",
+      "team": "SEA",
+      "position": "TE",
+      "overallRank": 194,
+      "positionRank": 24,
+      "previousRank": 195,
+      "highestRank": 144,
+      "lowestRank": 254,
+      "projectedPoints": 75.7,
+      "projectedStats": {
+        "rec": 48.6,
+        "recYds": 469.5,
+        "recTd": 4.9,
+        "fumblesLost": 0.2,
+        "fantasyPoints": 75.7
+      },
       "sourceRanks": {
         "FantasyPros": 194
       }
@@ -5081,17 +5215,7 @@
       "highestRank": 184,
       "lowestRank": 280,
       "projectedPoints": 101.7,
-      "projectedStats": {
-        "sacks": 45.9,
-        "defInterceptions": 12.8,
-        "fumbleRecoveries": 9.2,
-        "forcedFumbles": 13.9,
-        "defTd": 2,
-        "safeties": 0,
-        "pointsAllowed": 360.6,
-        "yardsAllowed": 5295.8,
-        "fantasyPoints": 101.7
-      },
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 207
       }
@@ -5345,17 +5469,7 @@
       "highestRank": 190,
       "lowestRank": 344,
       "projectedPoints": 100.9,
-      "projectedStats": {
-        "sacks": 46.2,
-        "defInterceptions": 12.1,
-        "fumbleRecoveries": 8.6,
-        "forcedFumbles": 12.7,
-        "defTd": 2.2,
-        "safeties": 0,
-        "pointsAllowed": 386.4,
-        "yardsAllowed": 5192.2,
-        "fantasyPoints": 100.9
-      },
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 219
       }
@@ -5393,6 +5507,32 @@
       "position": "RB",
       "overallRank": 221,
       "positionRank": 63,
+      "highestRank": 135,
+      "lowestRank": 359,
+      "projectedPoints": 15.4,
+      "projectedStats": {
+        "rushAtt": 20.3,
+        "rushYds": 83.4,
+        "rushTd": 0.6,
+        "rec": 4.3,
+        "recYds": 29.9,
+        "recTd": 0.2,
+        "fumblesLost": 0.1,
+        "fantasyPoints": 15.4
+      },
+      "sourceRanks": {
+        "FantasyPros": 220
+      }
+    },
+    {
+      "id": "nicholas-singleton-ten-rb",
+      "fantasyProsId": 24343,
+      "name": "Nicholas Singleton",
+      "team": "TEN",
+      "position": "RB",
+      "overallRank": 221,
+      "positionRank": 63,
+      "previousRank": 218,
       "highestRank": 135,
       "lowestRank": 359,
       "projectedPoints": 15.4,
@@ -6238,6 +6378,29 @@
       "lowestRank": 352,
       "projectedPoints": 0,
       "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 258
+      }
+    },
+    {
+      "id": "mason-taylor-nyj-te",
+      "fantasyProsId": 26005,
+      "name": "Mason Taylor",
+      "team": "NYJ",
+      "position": "TE",
+      "overallRank": 258,
+      "positionRank": 33,
+      "previousRank": 261,
+      "highestRank": 203,
+      "lowestRank": 352,
+      "projectedPoints": 53.2,
+      "projectedStats": {
+        "rec": 44.5,
+        "recYds": 390.8,
+        "recTd": 2.4,
+        "fumblesLost": 0.1,
+        "fantasyPoints": 53.2
+      },
       "sourceRanks": {
         "FantasyPros": 258
       }
