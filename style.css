@@ -140,6 +140,66 @@ button {
   margin-top: 3px;
 }
 
+.movement {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.movement-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  min-height: 82px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.movement-card p {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.movement-card strong,
+.movement-card span {
+  display: block;
+}
+
+.movement-card strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+}
+
+.movement-card span {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.movement-card b {
+  min-width: 62px;
+  text-align: right;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.movement-up {
+  border-color: color-mix(in srgb, var(--good) 46%, var(--line));
+}
+
+.movement-down {
+  border-color: color-mix(in srgb, var(--bad) 46%, var(--line));
+}
+
 .controls {
   justify-content: space-between;
   margin-bottom: 16px;
@@ -306,6 +366,18 @@ td {
 
   .summary {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .movement {
+    grid-template-columns: 1fr;
+  }
+
+  .movement-card {
+    grid-template-columns: 1fr auto;
+  }
+
+  .movement-card p {
+    grid-column: 1 / -1;
   }
 
   .table-wrap {

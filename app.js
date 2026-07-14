@@ -1,5 +1,5 @@
 const POSITIONS = ["ALL", "QB", "RB", "WR", "TE", "K", "DST"];
-const APP_VERSION = "2026-07-10-scoring";
+const APP_VERSION = "2026-07-14-movement";
 const SCORING_FILES = {
   ppr: "data/projections-ppr.json",
   "half-ppr": "data/projections-half-ppr.json",
@@ -45,6 +45,12 @@ const els = {
   updatedAt: document.querySelector("#updatedAt"),
   sourceCount: document.querySelector("#sourceCount"),
   scoringLabel: document.querySelector("#scoringLabel"),
+  topRiserName: document.querySelector("#topRiserName"),
+  topRiserMeta: document.querySelector("#topRiserMeta"),
+  topRiserDelta: document.querySelector("#topRiserDelta"),
+  biggestDropName: document.querySelector("#biggestDropName"),
+  biggestDropMeta: document.querySelector("#biggestDropMeta"),
+  biggestDropDelta: document.querySelector("#biggestDropDelta"),
   positionTabs: document.querySelector("#positionTabs"),
   searchInput: document.querySelector("#searchInput"),
   scoringSelect: document.querySelector("#scoringSelect"),
@@ -84,6 +90,41 @@ function renderChrome() {
   els.dataNotice.textContent = isFallback
     ? "Development dataset shown: 300 generated players are loaded while live source exports are unavailable. Connect authorized ESPN/CBS/FantasyPros feeds in the updater for verified daily rankings."
     : "";
+  renderMovementSummary();
+}
+
+function positionLabel(position) {
+  return position === "DST" ? "DEF" : position;
+}
+
+function movementDelta(player) {
+  if (!player.previousRank) return 0;
+  return player.previousRank - player.overallRank;
+}
+
+function renderMovementSummary() {
+  const movers = state.data.players
+    .map((player) => ({ ...player, delta: movementDelta(player) }))
+    .filter((player) => player.delta !== 0);
+  const topRiser = movers.filter((player) => player.delta > 0).sort((a, b) => b.delta - a.delta)[0];
+  const biggestDrop = movers.filter((player) => player.delta < 0).sort((a, b) => a.delta - b.delta)[0];
+  renderMovementCard(topRiser, els.topRiserName, els.topRiserMeta, els.topRiserDelta, "up");
+  renderMovementCard(biggestDrop, els.biggestDropName, els.biggestDropMeta, els.biggestDropDelta, "down");
+}
+
+function renderMovementCard(player, nameEl, metaEl, deltaEl, direction) {
+  if (!player) {
+    nameEl.textContent = "-";
+    metaEl.textContent = "No movement yet";
+    deltaEl.textContent = "-";
+    deltaEl.className = "";
+    return;
+  }
+  const absoluteDelta = Math.abs(player.delta);
+  nameEl.textContent = player.name;
+  metaEl.textContent = `${player.team || "-"} ${positionLabel(player.position)}${player.positionRank || ""} - ${player.previousRank} to ${player.overallRank}`;
+  deltaEl.textContent = `${direction === "up" ? "+" : "-"}${absoluteDelta}`;
+  deltaEl.className = direction === "up" ? "movement-delta up" : "movement-delta down";
 }
 
 function getVisiblePlayers() {
@@ -129,8 +170,8 @@ function formatStat(value) {
 function render() {
   const players = getVisiblePlayers();
   const stats = statsForView(players);
-  const positionLabel = state.position === "DST" ? "DEF" : state.position;
-  els.viewTitle.textContent = state.position === "ALL" ? `${state.data.scoring} Overall Top 300` : `${state.data.scoring} ${positionLabel} Cheat Sheet`;
+  const selectedPositionLabel = positionLabel(state.position);
+  els.viewTitle.textContent = state.position === "ALL" ? `${state.data.scoring} Overall Top 300` : `${state.data.scoring} ${selectedPositionLabel} Cheat Sheet`;
   els.viewMeta.textContent = `${players.length} players shown - ${state.data.status}`;
   els.tableHead.innerHTML = `
     <tr>
@@ -152,8 +193,8 @@ function render() {
       <td class="rank">${player.overallRank}</td>
       <td class="player">${player.name}</td>
       <td>${player.team || "-"}</td>
-      <td><span class="chip chip-${player.position}">${player.position === "DST" ? "DEF" : player.position}</span></td>
-      <td>${player.position === "DST" ? "DEF" : player.position}${player.positionRank || "-"}</td>
+      <td><span class="chip chip-${player.position}">${positionLabel(player.position)}</span></td>
+      <td>${positionLabel(player.position)}${player.positionRank || "-"}</td>
       <td>${player.previousRank || "-"}</td>
       <td>${rankDelta(player)}</td>
       <td>${player.highestRank || "-"}</td>
