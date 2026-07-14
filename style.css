@@ -317,8 +317,7 @@ td {
   font-weight: 850;
 }
 
-.player {
-  display: inline-flex;
+.player {  
   align-items: center;
   gap: 6px;
   font-weight: 820;
@@ -346,6 +345,7 @@ tbody tr:hover {
   font-size: 1em;
   font-weight: 900;
   line-height: 1;
+  padding-right: 12px;
   text-align: center;
 }
 
