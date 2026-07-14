@@ -1,7 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title>FantasyToolbelt football favicon</title>
-  <rect width="64" height="64" rx="14" fill="#0f766e"/>
-  <path d="M13 38c8.5-18 26.5-26 38-24 2.8 11.8-5.3 29.4-23.3 37.6C19.6 55.3 8.8 46.8 13 38Z" fill="#7c3f18"/>
-  <path d="M13 38c11.6 4.5 28-3.5 38-24" fill="none" stroke="#fff7ed" stroke-width="3.2" stroke-linecap="round"/>
-  <path d="M26 31l10 5M29 26l10 5M23 36l10 5" stroke="#fff7ed" stroke-width="2.7" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>FantasyToolbelt crowned football favicon</title>
+  <defs>
+    <linearGradient id="grass" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#26a269"/>
+      <stop offset=".55" stop-color="#0f7a4c"/>
+      <stop offset="1" stop-color="#075f3a"/>
+    </linearGradient>
+    <linearGradient id="ball" x1=".15" x2=".85" y1=".1" y2=".9">
+      <stop offset="0" stop-color="#b96731"/>
+      <stop offset=".48" stop-color="#7b3f1d"/>
+      <stop offset="1" stop-color="#4f260f"/>
+    </linearGradient>
+    <linearGradient id="crown" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff08a"/>
+      <stop offset=".55" stop-color="#f4b833"/>
+      <stop offset="1" stop-color="#c98206"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#032618" flood-opacity=".4"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#grass)"/>
+  <path d="M-8 98c22-14 45-19 69-14 26 5 49 2 75-17v70H-8Z" fill="#064d31" opacity=".38"/>
+  <path d="M14 104c27-17 55-22 84-15 9 2 18 2 28-1" fill="none" stroke="#7ee7a3" stroke-width="5" stroke-linecap="round" opacity=".38"/>
+  <g filter="url(#shadow)">
+    <path d="M24 73c7-22 32-43 73-47 15 33-3 66-38 78-19 7-42-11-35-31Z" fill="url(#ball)"/>
+    <path d="M29 74c19 9 50-5 68-45" fill="none" stroke="#fff8e7" stroke-width="6" stroke-linecap="round"/>
+    <path d="M50 58l20 9M54 49l20 9M46 67l20 9" stroke="#fff8e7" stroke-width="5" stroke-linecap="round"/>
+    <path d="M45 32 55 13l14 17 18-19 4 26Z" fill="url(#crown)" stroke="#6c4200" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="55" cy="13" r="4" fill="#fff3a3"/>
+    <circle cx="87" cy="11" r="4" fill="#fff3a3"/>
+    <circle cx="69" cy="30" r="3" fill="#8b5cf6"/>
+  </g>
 </svg>

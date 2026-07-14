@@ -1,14 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
   <title id="title">FantasyToolbelt</title>
-  <desc id="desc">Fantasy football rankings, projections, tags, and printable cheat sheets.</desc>
-  <rect width="1200" height="630" fill="#101319"/>
-  <rect x="64" y="64" width="1072" height="502" rx="28" fill="#181d26" stroke="#2dd4bf" stroke-width="3"/>
-  <text x="112" y="178" fill="#2dd4bf" font-family="Arial, sans-serif" font-size="36" font-weight="800">FANTASY FOOTBALL DRAFT RESEARCH</text>
-  <text x="112" y="285" fill="#eef2f7" font-family="Arial, sans-serif" font-size="92" font-weight="900">FantasyToolbelt</text>
-  <text x="112" y="365" fill="#a6b0c1" font-family="Arial, sans-serif" font-size="38" font-weight="600">Rankings, projections, movement, tags, and printable cheat sheets.</text>
-  <g transform="translate(905 160) scale(4.2)">
-    <path d="M13 38c8.5-18 26.5-26 38-24 2.8 11.8-5.3 29.4-23.3 37.6C19.6 55.3 8.8 46.8 13 38Z" fill="#7c3f18"/>
-    <path d="M13 38c11.6 4.5 28-3.5 38-24" fill="none" stroke="#fff7ed" stroke-width="3.2" stroke-linecap="round"/>
-    <path d="M26 31l10 5M29 26l10 5M23 36l10 5" stroke="#fff7ed" stroke-width="2.7" stroke-linecap="round"/>
+  <desc id="desc">A crowned football on a grass field for FantasyToolbelt fantasy football rankings and cheat sheets.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset=".62" stop-color="#172235"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#38b66d"/>
+      <stop offset=".55" stop-color="#15844e"/>
+      <stop offset="1" stop-color="#075f3a"/>
+    </linearGradient>
+    <linearGradient id="ball" x1=".1" x2=".9" y1=".1" y2=".9">
+      <stop offset="0" stop-color="#c9783d"/>
+      <stop offset=".48" stop-color="#7c3f18"/>
+      <stop offset="1" stop-color="#3f1d0c"/>
+    </linearGradient>
+    <linearGradient id="crown" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff08a"/>
+      <stop offset=".5" stop-color="#f5c13f"/>
+      <stop offset="1" stop-color="#c47a00"/>
+    </linearGradient>
+    <filter id="softShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#020617" flood-opacity=".55"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <path d="M0 404c169-57 343-67 522-31 215 43 442 9 678-75v332H0Z" fill="url(#grass)"/>
+  <path d="M0 496c177-39 367-45 570-18 201 27 411 3 630-70" fill="none" stroke="#8ef0a9" stroke-width="7" opacity=".38"/>
+  <path d="M0 552c196-32 390-33 582-4 205 31 411 16 618-45" fill="none" stroke="#0b4c31" stroke-width="9" opacity=".35"/>
+
+  <g transform="translate(744 110)" filter="url(#softShadow)">
+    <path d="M28 268C51 174 161 75 337 57c60 143-21 286-171 339C82 425-3 352 28 268Z" fill="url(#ball)"/>
+    <path d="M47 270C130 313 261 244 336 70" fill="none" stroke="#fff7ed" stroke-width="18" stroke-linecap="round"/>
+    <path d="M131 201l85 42M149 162l85 42M114 239l85 42" stroke="#fff7ed" stroke-width="15" stroke-linecap="round"/>
+    <path d="M109 80 152 0l58 73 77-82 18 112Z" fill="url(#crown)" stroke="#6b3f00" stroke-width="10" stroke-linejoin="round"/>
+    <circle cx="152" cy="0" r="15" fill="#fff4a8"/>
+    <circle cx="287" cy="-9" r="15" fill="#fff4a8"/>
+    <circle cx="210" cy="72" r="12" fill="#8b5cf6"/>
+  </g>
+
+  <g>
+    <text x="82" y="145" fill="#2dd4bf" font-family="Arial, sans-serif" font-size="34" font-weight="900" letter-spacing="3">FANTASY FOOTBALL DRAFT RESEARCH</text>
+    <text x="78" y="260" fill="#f8fafc" font-family="Arial, sans-serif" font-size="90" font-weight="900">FantasyToolbelt</text>
+    <text x="84" y="334" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="36" font-weight="700">Rankings, projections, player tags, risers, fallers, and printable cheat sheets.</text>
+    <g transform="translate(84 408)">
+      <rect width="162" height="56" rx="12" fill="#39ff88"/>
+      <rect x="178" width="162" height="56" rx="12" fill="#fff34d"/>
+      <rect x="356" width="162" height="56" rx="12" fill="#ff6fb1"/>
+      <text x="81" y="37" text-anchor="middle" fill="#111827" font-family="Arial, sans-serif" font-size="24" font-weight="900">RB</text>
+      <text x="259" y="37" text-anchor="middle" fill="#111827" font-family="Arial, sans-serif" font-size="24" font-weight="900">WR</text>
+      <text x="437" y="37" text-anchor="middle" fill="#111827" font-family="Arial, sans-serif" font-size="24" font-weight="900">QB</text>
+    </g>
   </g>
 </svg>
