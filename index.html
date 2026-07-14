@@ -108,6 +108,37 @@
       </tr>
     </template>
 
-    <script src="app.js?v=2026-07-14-movement" type="module"></script>
+    <div id="tagModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="tagModalTitle" hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <section class="modal-panel">
+        <header>
+          <div>
+            <p>Player Note</p>
+            <h2 id="tagModalTitle">Tag Player</h2>
+          </div>
+          <button class="icon-button" type="button" data-close-modal aria-label="Close">x</button>
+        </header>
+        <div class="tag-actions">
+          <button class="tag-option tag-target" type="button" data-tag-value="target">
+            <span class="tag-icon tag-icon-target">⌖</span>
+            Target
+          </button>
+          <button class="tag-option tag-avoid" type="button" data-tag-value="avoid">
+            <span class="tag-icon tag-icon-avoid">⊘</span>
+            Avoid
+          </button>
+          <button class="tag-option tag-injured" type="button" data-tag-value="injured">
+            <span class="tag-icon tag-icon-injured">✚</span>
+            Injured
+          </button>
+        </div>
+        <footer>
+          <button class="secondary" type="button" id="clearTag">Clear</button>
+          <button class="primary" type="button" data-close-modal>Cancel</button>
+        </footer>
+      </section>
+    </div>
+
+    <script src="app.js?v=2026-07-14-tags" type="module"></script>
   </body>
 </html>

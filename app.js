@@ -1,9 +1,15 @@
 const POSITIONS = ["ALL", "QB", "RB", "WR", "TE", "K", "DST"];
-const APP_VERSION = "2026-07-14-movement";
+const APP_VERSION = "2026-07-14-tags";
 const SCORING_FILES = {
   ppr: "data/projections-ppr.json",
   "half-ppr": "data/projections-half-ppr.json",
   standard: "data/projections-standard.json"
+};
+const TAG_STORAGE_KEY = "fantasy-player-tags";
+const TAGS = {
+  target: { label: "Target", icon: "⌖", className: "tag-icon-target" },
+  avoid: { label: "Avoid", icon: "⊘", className: "tag-icon-avoid" },
+  injured: { label: "Injured", icon: "✚", className: "tag-icon-injured" }
 };
 const POSITION_STATS = {
   QB: ["passYds", "passTd", "int", "rushYds", "rushTd"],
@@ -34,6 +40,8 @@ const STAT_LABELS = {
 
 const state = {
   data: null,
+  tags: JSON.parse(localStorage.getItem(TAG_STORAGE_KEY) || "{}"),
+  activePlayerId: null,
   scoring: localStorage.getItem("fantasy-scoring") || "ppr",
   position: "ALL",
   query: "",
@@ -63,7 +71,10 @@ const els = {
   themeToggle: document.querySelector("#themeToggle"),
   printOverall: document.querySelector("#printOverall"),
   printPosition: document.querySelector("#printPosition"),
-  emptyState: document.querySelector("#emptyState")
+  emptyState: document.querySelector("#emptyState"),
+  tagModal: document.querySelector("#tagModal"),
+  tagModalTitle: document.querySelector("#tagModalTitle"),
+  clearTag: document.querySelector("#clearTag")
 };
 
 async function loadData() {
@@ -161,6 +172,12 @@ function rankDelta(player) {
   return `<span class="${delta > 0 ? "up" : "down"}">${delta > 0 ? "▲" : "▼"} ${Math.abs(delta)}</span>`;
 }
 
+function tagIcon(player) {
+  const tag = TAGS[state.tags[player.id]];
+  if (!tag) return "";
+  return `<span class="tag-icon ${tag.className}" title="${tag.label}" aria-label="${tag.label}">${tag.icon}</span>`;
+}
+
 function formatStat(value) {
   if (value === undefined || value === null || value === "") return "-";
   if (Number.isFinite(Number(value))) return Number(value).toLocaleString(undefined, { maximumFractionDigits: 1 });
@@ -189,9 +206,9 @@ function render() {
     </tr>
   `;
   els.tableBody.innerHTML = players.length ? players.map((player) => `
-    <tr>
+    <tr data-player-id="${player.id}">
       <td class="rank">${player.overallRank}</td>
-      <td class="player">${player.name}</td>
+      <td class="player">${tagIcon(player)}<span>${player.name}</span></td>
       <td>${player.team || "-"}</td>
       <td><span class="chip chip-${player.position}">${positionLabel(player.position)}</span></td>
       <td>${positionLabel(player.position)}${player.positionRank || "-"}</td>
@@ -203,6 +220,37 @@ function render() {
       ${stats.map((stat) => `<td>${formatStat(player.projectedStats?.[stat])}</td>`).join("")}
     </tr>
   `).join("") : els.emptyState.innerHTML;
+}
+
+function saveTags() {
+  localStorage.setItem(TAG_STORAGE_KEY, JSON.stringify(state.tags));
+}
+
+function openTagModal(playerId) {
+  const player = state.data.players.find((candidate) => candidate.id === playerId);
+  if (!player) return;
+  state.activePlayerId = playerId;
+  els.tagModalTitle.textContent = player.name;
+  els.tagModal.hidden = false;
+}
+
+function closeTagModal() {
+  state.activePlayerId = null;
+  els.tagModal.hidden = true;
+}
+
+function setPlayerTag(tagValue) {
+  if (!state.activePlayerId) return;
+  if (tagValue) state.tags[state.activePlayerId] = tagValue;
+  else delete state.tags[state.activePlayerId];
+  saveTags();
+  closeTagModal();
+  render();
+}
+
+function printGrid() {
+  document.body.classList.add("print-grid-only");
+  window.print();
 }
 
 els.positionTabs.addEventListener("click", (event) => {
@@ -229,6 +277,25 @@ els.sortSelect.addEventListener("change", (event) => {
   render();
 });
 
+els.tableBody.addEventListener("click", (event) => {
+  const row = event.target.closest("tr[data-player-id]");
+  if (!row) return;
+  openTagModal(row.dataset.playerId);
+});
+
+els.tagModal.addEventListener("click", (event) => {
+  const closeButton = event.target.closest("[data-close-modal]");
+  const tagButton = event.target.closest("[data-tag-value]");
+  if (closeButton) closeTagModal();
+  if (tagButton) setPlayerTag(tagButton.dataset.tagValue);
+});
+
+els.clearTag.addEventListener("click", () => setPlayerTag(""));
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && !els.tagModal.hidden) closeTagModal();
+});
+
 els.themeToggle.addEventListener("click", () => {
   const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
   document.documentElement.dataset.theme = next;
@@ -239,14 +306,18 @@ els.printOverall.addEventListener("click", () => {
   state.position = "ALL";
   renderChrome();
   render();
-  window.print();
+  printGrid();
 });
 
 els.printPosition.addEventListener("click", () => {
   if (state.position === "ALL") state.position = "QB";
   renderChrome();
   render();
-  window.print();
+  printGrid();
+});
+
+window.addEventListener("afterprint", () => {
+  document.body.classList.remove("print-grid-only");
 });
 
 document.documentElement.dataset.theme = localStorage.getItem("fantasy-theme") || "light";
