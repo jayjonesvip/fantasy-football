@@ -1,4 +1,4 @@
-# Fantasy Draft Board
+# FantasyToolbelt
 
 Single-page fantasy football research app backed by FantasyPros ranking JSON files for Standard, Half PPR, and PPR scoring.
 
@@ -52,3 +52,5 @@ npm run serve
 ```
 
 Open `http://localhost:4173`.
+
+Production domain: `https://fantasytoolbelt.com/`
