@@ -318,11 +318,11 @@ td {
 }
 
 .player {
-  display: grid;
-  grid-template-columns: 20px minmax(0, 1fr);
+  display: inline-flex;
   align-items: center;
-  gap: 7px;
+  gap: 6px;
   font-weight: 820;
+  max-width: 100%;
 }
 
 .player span:last-child {
@@ -340,24 +340,13 @@ tbody tr:hover {
 }
 
 .tag-icon {
-  display: inline-grid;
-  place-items: center;
-  flex: 0 0 20px;
-  width: 20px;
-  height: 20px;
-  border-radius: 999px;
-  border: 1px solid currentColor;
-  font-family: Arial, sans-serif;
-  font-size: 12px;
-  font-weight: 900;
-  line-height: 20px;
-  text-align: center;
-}
-
-.tag-icon-placeholder {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  flex: 0 0 auto;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
 }
 
 .tag-icon-target {
@@ -571,8 +560,7 @@ tbody tr:hover {
   }
 
   body.print-grid-only .player {
-    grid-template-columns: 12px minmax(0, 1fr);
-    gap: 3px;
+    gap: 2px;
   }
 
   body.print-grid-only .chip {
@@ -582,14 +570,6 @@ tbody tr:hover {
   }
 
   body.print-grid-only .tag-icon {
-    width: 12px;
-    height: 12px;
-    flex-basis: 12px;
-    font-size: 8px;
-  }
-
-  body.print-grid-only .tag-icon-placeholder {
-    width: 12px;
-    height: 12px;
+    font-size: 1em;
   }
 }

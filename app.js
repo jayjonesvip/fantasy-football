@@ -1,5 +1,5 @@
 const POSITIONS = ["ALL", "QB", "RB", "WR", "TE", "K", "DST"];
-const APP_VERSION = "2026-07-14-tags";
+const APP_VERSION = "2026-07-14-inline-tags";
 const SCORING_FILES = {
   ppr: "data/projections-ppr.json",
   "half-ppr": "data/projections-half-ppr.json",
@@ -174,7 +174,7 @@ function rankDelta(player) {
 
 function tagIcon(player) {
   const tag = TAGS[state.tags[player.id]];
-  if (!tag) return `<span class="tag-icon-placeholder" aria-hidden="true"></span>`;
+  if (!tag) return "";
   return `<span class="tag-icon ${tag.className}" title="${tag.label}" aria-label="${tag.label}">${tag.icon}</span>`;
 }
 
