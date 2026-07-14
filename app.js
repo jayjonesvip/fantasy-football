@@ -174,7 +174,7 @@ function rankDelta(player) {
 
 function tagIcon(player) {
   const tag = TAGS[state.tags[player.id]];
-  if (!tag) return "";
+  if (!tag) return `<span class="tag-icon-placeholder" aria-hidden="true"></span>`;
   return `<span class="tag-icon ${tag.className}" title="${tag.label}" aria-label="${tag.label}">${tag.icon}</span>`;
 }
 
