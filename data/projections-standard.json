@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T14:33:48.020Z",
+  "generatedAt": "2026-09-10T14:24:12.405Z",
   "season": 2026,
   "scoring": "Standard",
   "scoringKey": "standard",
@@ -111,7 +111,7 @@
       "positionRank": 2,
       "previousRank": 3,
       "highestRank": 1,
-      "lowestRank": 8,
+      "lowestRank": 12,
       "projectedPoints": 316.3,
       "projectedStats": {
         "rushAtt": 295.7,
@@ -240,8 +240,8 @@
       "overallRank": 8,
       "positionRank": 4,
       "previousRank": 8,
-      "highestRank": 5,
-      "lowestRank": 23,
+      "highestRank": 3,
+      "lowestRank": 30,
       "projectedPoints": 255.1,
       "projectedStats": {
         "rushAtt": 297.7,
@@ -267,7 +267,7 @@
       "positionRank": 5,
       "previousRank": 9,
       "highestRank": 1,
-      "lowestRank": 30,
+      "lowestRank": 37,
       "projectedPoints": 292,
       "projectedStats": {
         "rushAtt": 261.3,
@@ -317,7 +317,7 @@
       "position": "WR",
       "overallRank": 11,
       "positionRank": 6,
-      "previousRank": 12,
+      "previousRank": 11,
       "highestRank": 6,
       "lowestRank": 41,
       "projectedPoints": 220,
@@ -343,7 +343,7 @@
       "position": "WR",
       "overallRank": 12,
       "positionRank": 7,
-      "previousRank": 11,
+      "previousRank": 12,
       "highestRank": 4,
       "lowestRank": 39,
       "projectedPoints": 223.3,
@@ -431,39 +431,16 @@
       }
     },
     {
-      "id": "brock-bowers-lv-te",
-      "fantasyProsId": 22955,
-      "name": "Brock Bowers",
-      "team": "LV",
-      "position": "TE",
-      "overallRank": 16,
-      "positionRank": 1,
-      "previousRank": 16,
-      "highestRank": 14,
-      "lowestRank": 48,
-      "projectedPoints": 192.4,
-      "projectedStats": {
-        "rec": 93.9,
-        "recYds": 991.4,
-        "recTd": 6.8,
-        "fumblesLost": 0.2,
-        "fantasyPoints": 192.4
-      },
-      "sourceRanks": {
-        "FantasyPros": 16
-      }
-    },
-    {
       "id": "drake-london-atl-wr",
       "fantasyProsId": 23163,
       "name": "Drake London",
       "team": "ATL",
       "position": "WR",
-      "overallRank": 17,
+      "overallRank": 16,
       "positionRank": 9,
       "previousRank": 17,
       "highestRank": 10,
-      "lowestRank": 39,
+      "lowestRank": 41,
       "projectedPoints": 222.4,
       "projectedStats": {
         "rec": 97.7,
@@ -476,7 +453,7 @@
         "fantasyPoints": 222.4
       },
       "sourceRanks": {
-        "FantasyPros": 17
+        "FantasyPros": 16
       }
     },
     {
@@ -485,7 +462,7 @@
       "name": "Chase Brown",
       "team": "CIN",
       "position": "RB",
-      "overallRank": 18,
+      "overallRank": 17,
       "positionRank": 8,
       "previousRank": 18,
       "highestRank": 5,
@@ -502,7 +479,7 @@
         "fantasyPoints": 253.2
       },
       "sourceRanks": {
-        "FantasyPros": 18
+        "FantasyPros": 17
       }
     },
     {
@@ -511,7 +488,7 @@
       "name": "George Pickens",
       "team": "DAL",
       "position": "WR",
-      "overallRank": 19,
+      "overallRank": 18,
       "positionRank": 10,
       "previousRank": 19,
       "highestRank": 9,
@@ -519,7 +496,7 @@
       "projectedPoints": 210.9,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 19
+        "FantasyPros": 18
       }
     },
     {
@@ -528,10 +505,10 @@
       "name": "Kenneth Walker III",
       "team": "KC",
       "position": "RB",
-      "overallRank": 20,
+      "overallRank": 19,
       "positionRank": 9,
       "previousRank": 20,
-      "highestRank": 10,
+      "highestRank": 5,
       "lowestRank": 52,
       "projectedPoints": 234.4,
       "projectedStats": {
@@ -543,6 +520,29 @@
         "recTd": 1.5,
         "fumblesLost": 0.9,
         "fantasyPoints": 234.4
+      },
+      "sourceRanks": {
+        "FantasyPros": 19
+      }
+    },
+    {
+      "id": "trey-mcbride-ari-te",
+      "fantasyProsId": 22936,
+      "name": "Trey McBride",
+      "team": "ARI",
+      "position": "TE",
+      "overallRank": 20,
+      "positionRank": 1,
+      "previousRank": 24,
+      "highestRank": 16,
+      "lowestRank": 84,
+      "projectedPoints": 204.7,
+      "projectedStats": {
+        "rec": 111.4,
+        "recYds": 1100.2,
+        "recTd": 6.6,
+        "fumblesLost": 0.2,
+        "fantasyPoints": 204.7
       },
       "sourceRanks": {
         "FantasyPros": 20
@@ -558,7 +558,7 @@
       "positionRank": 10,
       "previousRank": 21,
       "highestRank": 8,
-      "lowestRank": 60,
+      "lowestRank": 52,
       "projectedPoints": 211.9,
       "projectedStats": {},
       "sourceRanks": {
@@ -575,7 +575,7 @@
       "positionRank": 11,
       "previousRank": 22,
       "highestRank": 8,
-      "lowestRank": 49,
+      "lowestRank": 47,
       "projectedPoints": 265.7,
       "projectedStats": {
         "rushAtt": 237.2,
@@ -599,9 +599,9 @@
       "position": "WR",
       "overallRank": 23,
       "positionRank": 11,
-      "previousRank": 24,
+      "previousRank": 23,
       "highestRank": 11,
-      "lowestRank": 46,
+      "lowestRank": 51,
       "projectedPoints": 213,
       "projectedStats": {
         "rec": 96.1,
@@ -618,35 +618,12 @@
       }
     },
     {
-      "id": "trey-mcbride-ari-te",
-      "fantasyProsId": 22936,
-      "name": "Trey McBride",
-      "team": "ARI",
-      "position": "TE",
-      "overallRank": 24,
-      "positionRank": 2,
-      "previousRank": 23,
-      "highestRank": 16,
-      "lowestRank": 84,
-      "projectedPoints": 204.7,
-      "projectedStats": {
-        "rec": 111.4,
-        "recYds": 1100.2,
-        "recTd": 6.6,
-        "fumblesLost": 0.2,
-        "fantasyPoints": 204.7
-      },
-      "sourceRanks": {
-        "FantasyPros": 24
-      }
-    },
-    {
       "id": "josh-allen-buf-qb",
       "fantasyProsId": 17298,
       "name": "Josh Allen",
       "team": "BUF",
       "position": "QB",
-      "overallRank": 25,
+      "overallRank": 24,
       "positionRank": 1,
       "previousRank": 25,
       "highestRank": 21,
@@ -665,7 +642,7 @@
         "fantasyPoints": 367.1
       },
       "sourceRanks": {
-        "FantasyPros": 25
+        "FantasyPros": 24
       }
     },
     {
@@ -674,15 +651,49 @@
       "name": "Malik Nabers",
       "team": "NYG",
       "position": "WR",
-      "overallRank": 26,
+      "overallRank": 25,
       "positionRank": 12,
       "previousRank": 26,
       "highestRank": 6,
-      "lowestRank": 54,
+      "lowestRank": 49,
       "projectedPoints": 148.9,
       "projectedStats": {},
       "sourceRanks": {
+        "FantasyPros": 25
+      }
+    },
+    {
+      "id": "ashton-jeanty-lv-rb",
+      "fantasyProsId": 25989,
+      "name": "Ashton Jeanty",
+      "team": "LV",
+      "position": "RB",
+      "overallRank": 26,
+      "positionRank": 12,
+      "previousRank": 28,
+      "highestRank": 8,
+      "lowestRank": 55,
+      "projectedPoints": 247.3,
+      "projectedStats": {},
+      "sourceRanks": {
         "FantasyPros": 26
+      }
+    },
+    {
+      "id": "devonta-smith-phi-wr",
+      "fantasyProsId": 19222,
+      "name": "DeVonta Smith",
+      "team": "PHI",
+      "position": "WR",
+      "overallRank": 27,
+      "positionRank": 13,
+      "previousRank": 29,
+      "highestRank": 9,
+      "lowestRank": 50,
+      "projectedPoints": 148.9,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 27
       }
     },
     {
@@ -691,7 +702,7 @@
       "name": "Lamar Jackson",
       "team": "BAL",
       "position": "QB",
-      "overallRank": 27,
+      "overallRank": 28,
       "positionRank": 2,
       "previousRank": 27,
       "highestRank": 24,
@@ -710,41 +721,7 @@
         "fantasyPoints": 328.1
       },
       "sourceRanks": {
-        "FantasyPros": 27
-      }
-    },
-    {
-      "id": "ashton-jeanty-lv-rb",
-      "fantasyProsId": 25989,
-      "name": "Ashton Jeanty",
-      "team": "LV",
-      "position": "RB",
-      "overallRank": 28,
-      "positionRank": 12,
-      "previousRank": 28,
-      "highestRank": 8,
-      "lowestRank": 55,
-      "projectedPoints": 247.3,
-      "projectedStats": {},
-      "sourceRanks": {
         "FantasyPros": 28
-      }
-    },
-    {
-      "id": "devonta-smith-phi-wr",
-      "fantasyProsId": 19222,
-      "name": "DeVonta Smith",
-      "team": "PHI",
-      "position": "WR",
-      "overallRank": 29,
-      "positionRank": 13,
-      "previousRank": 30,
-      "highestRank": 15,
-      "lowestRank": 50,
-      "projectedPoints": 148.9,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 29
       }
     },
     {
@@ -753,13 +730,36 @@
       "name": "Zay Flowers",
       "team": "BAL",
       "position": "WR",
-      "overallRank": 30,
+      "overallRank": 29,
       "positionRank": 14,
-      "previousRank": 29,
-      "highestRank": 14,
+      "previousRank": 30,
+      "highestRank": 10,
       "lowestRank": 54,
       "projectedPoints": 161.6,
       "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 29
+      }
+    },
+    {
+      "id": "colston-loveland-chi-te",
+      "fantasyProsId": 26006,
+      "name": "Colston Loveland",
+      "team": "CHI",
+      "position": "TE",
+      "overallRank": 30,
+      "positionRank": 2,
+      "previousRank": 36,
+      "highestRank": 16,
+      "lowestRank": 96,
+      "projectedPoints": 171.1,
+      "projectedStats": {
+        "rec": 79.6,
+        "recYds": 913.6,
+        "recTd": 6.7,
+        "fumblesLost": 0.2,
+        "fantasyPoints": 171.1
+      },
       "sourceRanks": {
         "FantasyPros": 30
       }
@@ -774,7 +774,7 @@
       "positionRank": 13,
       "previousRank": 31,
       "highestRank": 15,
-      "lowestRank": 49,
+      "lowestRank": 52,
       "projectedPoints": 206.3,
       "projectedStats": {},
       "sourceRanks": {
@@ -790,7 +790,7 @@
       "overallRank": 32,
       "positionRank": 14,
       "previousRank": 32,
-      "highestRank": 15,
+      "highestRank": 13,
       "lowestRank": 60,
       "projectedPoints": 202,
       "projectedStats": {},
@@ -799,20 +799,43 @@
       }
     },
     {
+      "id": "brock-bowers-lv-te",
+      "fantasyProsId": 22955,
+      "name": "Brock Bowers",
+      "team": "LV",
+      "position": "TE",
+      "overallRank": 33,
+      "positionRank": 3,
+      "previousRank": 16,
+      "highestRank": 14,
+      "lowestRank": 96,
+      "projectedPoints": 192.4,
+      "projectedStats": {
+        "rec": 93.9,
+        "recYds": 991.4,
+        "recTd": 6.8,
+        "fumblesLost": 0.2,
+        "fantasyPoints": 192.4
+      },
+      "sourceRanks": {
+        "FantasyPros": 33
+      }
+    },
+    {
       "id": "tee-higgins-cin-wr",
       "fantasyProsId": 19211,
       "name": "Tee Higgins",
       "team": "CIN",
       "position": "WR",
-      "overallRank": 33,
+      "overallRank": 34,
       "positionRank": 15,
       "previousRank": 33,
       "highestRank": 14,
-      "lowestRank": 50,
+      "lowestRank": 51,
       "projectedPoints": 150.6,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 33
+        "FantasyPros": 34
       }
     },
     {
@@ -821,11 +844,11 @@
       "name": "Drake Maye",
       "team": "NE",
       "position": "QB",
-      "overallRank": 34,
+      "overallRank": 35,
       "positionRank": 3,
       "previousRank": 34,
       "highestRank": 25,
-      "lowestRank": 73,
+      "lowestRank": 68,
       "projectedPoints": 324.8,
       "projectedStats": {
         "passAtt": 512.1,
@@ -840,7 +863,7 @@
         "fantasyPoints": 324.8
       },
       "sourceRanks": {
-        "FantasyPros": 34
+        "FantasyPros": 35
       }
     },
     {
@@ -849,7 +872,7 @@
       "name": "Rashee Rice",
       "team": "KC",
       "position": "WR",
-      "overallRank": 35,
+      "overallRank": 36,
       "positionRank": 16,
       "previousRank": 35,
       "highestRank": 11,
@@ -866,29 +889,6 @@
         "fantasyPoints": 224.2
       },
       "sourceRanks": {
-        "FantasyPros": 35
-      }
-    },
-    {
-      "id": "colston-loveland-chi-te",
-      "fantasyProsId": 26006,
-      "name": "Colston Loveland",
-      "team": "CHI",
-      "position": "TE",
-      "overallRank": 36,
-      "positionRank": 3,
-      "previousRank": 36,
-      "highestRank": 16,
-      "lowestRank": 110,
-      "projectedPoints": 171.1,
-      "projectedStats": {
-        "rec": 79.6,
-        "recYds": 913.6,
-        "recTd": 6.7,
-        "fumblesLost": 0.2,
-        "fantasyPoints": 171.1
-      },
-      "sourceRanks": {
         "FantasyPros": 36
       }
     },
@@ -902,28 +902,11 @@
       "positionRank": 17,
       "previousRank": 37,
       "highestRank": 10,
-      "lowestRank": 69,
+      "lowestRank": 68,
       "projectedPoints": 154.9,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 37
-      }
-    },
-    {
-      "id": "tetairoa-mcmillan-car-wr",
-      "fantasyProsId": 25417,
-      "name": "Tetairoa McMillan",
-      "team": "CAR",
-      "position": "WR",
-      "overallRank": 38,
-      "positionRank": 18,
-      "previousRank": 38,
-      "highestRank": 19,
-      "lowestRank": 69,
-      "projectedPoints": 148.9,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 38
       }
     },
     {
@@ -932,12 +915,29 @@
       "name": "Breece Hall",
       "team": "NYJ",
       "position": "RB",
-      "overallRank": 39,
+      "overallRank": 38,
       "positionRank": 15,
       "previousRank": 39,
-      "highestRank": 23,
+      "highestRank": 20,
       "lowestRank": 57,
       "projectedPoints": 206.2,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 38
+      }
+    },
+    {
+      "id": "tetairoa-mcmillan-car-wr",
+      "fantasyProsId": 25417,
+      "name": "Tetairoa McMillan",
+      "team": "CAR",
+      "position": "WR",
+      "overallRank": 39,
+      "positionRank": 18,
+      "previousRank": 38,
+      "highestRank": 18,
+      "lowestRank": 69,
+      "projectedPoints": 148.9,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 39
@@ -961,16 +961,33 @@
       }
     },
     {
+      "id": "ladd-mcconkey-lac-wr",
+      "fantasyProsId": 26122,
+      "name": "Ladd McConkey",
+      "team": "LAC",
+      "position": "WR",
+      "overallRank": 41,
+      "positionRank": 20,
+      "previousRank": 42,
+      "highestRank": 14,
+      "lowestRank": 70,
+      "projectedPoints": 135.6,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 41
+      }
+    },
+    {
       "id": "joe-burrow-cin-qb",
       "fantasyProsId": 19196,
       "name": "Joe Burrow",
       "team": "CIN",
       "position": "QB",
-      "overallRank": 41,
+      "overallRank": 42,
       "positionRank": 4,
       "previousRank": 41,
       "highestRank": 27,
-      "lowestRank": 79,
+      "lowestRank": 103,
       "projectedPoints": 313.7,
       "projectedStats": {
         "passAtt": 595,
@@ -985,41 +1002,7 @@
         "fantasyPoints": 313.7
       },
       "sourceRanks": {
-        "FantasyPros": 41
-      }
-    },
-    {
-      "id": "ladd-mcconkey-lac-wr",
-      "fantasyProsId": 26122,
-      "name": "Ladd McConkey",
-      "team": "LAC",
-      "position": "WR",
-      "overallRank": 42,
-      "positionRank": 20,
-      "previousRank": 42,
-      "highestRank": 21,
-      "lowestRank": 70,
-      "projectedPoints": 135.6,
-      "projectedStats": {},
-      "sourceRanks": {
         "FantasyPros": 42
-      }
-    },
-    {
-      "id": "jeremiyah-love-ari-rb",
-      "fantasyProsId": 25403,
-      "name": "Jeremiyah Love",
-      "team": "ARI",
-      "position": "RB",
-      "overallRank": 43,
-      "positionRank": 16,
-      "previousRank": 43,
-      "highestRank": 23,
-      "lowestRank": 78,
-      "projectedPoints": 201.3,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 43
       }
     },
     {
@@ -1028,12 +1011,29 @@
       "name": "Travis Etienne Jr.",
       "team": "NO",
       "position": "RB",
-      "overallRank": 44,
-      "positionRank": 17,
+      "overallRank": 43,
+      "positionRank": 16,
       "previousRank": 44,
       "highestRank": 23,
-      "lowestRank": 87,
+      "lowestRank": 72,
       "projectedPoints": 189.9,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 43
+      }
+    },
+    {
+      "id": "jeremiyah-love-ari-rb",
+      "fantasyProsId": 25403,
+      "name": "Jeremiyah Love",
+      "team": "ARI",
+      "position": "RB",
+      "overallRank": 44,
+      "positionRank": 17,
+      "previousRank": 43,
+      "highestRank": 26,
+      "lowestRank": 78,
+      "projectedPoints": 201.3,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 44
@@ -1048,8 +1048,8 @@
       "overallRank": 45,
       "positionRank": 18,
       "previousRank": 45,
-      "highestRank": 30,
-      "lowestRank": 66,
+      "highestRank": 23,
+      "lowestRank": 63,
       "projectedPoints": 187.9,
       "projectedStats": {},
       "sourceRanks": {
@@ -1065,8 +1065,8 @@
       "overallRank": 46,
       "positionRank": 21,
       "previousRank": 46,
-      "highestRank": 31,
-      "lowestRank": 81,
+      "highestRank": 26,
+      "lowestRank": 82,
       "projectedPoints": 152.8,
       "projectedStats": {},
       "sourceRanks": {
@@ -1081,8 +1081,8 @@
       "position": "WR",
       "overallRank": 47,
       "positionRank": 22,
-      "previousRank": 48,
-      "highestRank": 26,
+      "previousRank": 47,
+      "highestRank": 19,
       "lowestRank": 83,
       "projectedPoints": 153.5,
       "projectedStats": {},
@@ -1098,7 +1098,7 @@
       "position": "WR",
       "overallRank": 48,
       "positionRank": 23,
-      "previousRank": 47,
+      "previousRank": 48,
       "highestRank": 26,
       "lowestRank": 75,
       "projectedPoints": 147.8,
@@ -1125,34 +1125,34 @@
       }
     },
     {
-      "id": "terry-mclaurin-was-wr",
-      "fantasyProsId": 18466,
-      "name": "Terry McLaurin",
-      "team": "WAS",
-      "position": "WR",
+      "id": "bucky-irving-tb-rb",
+      "fantasyProsId": 25981,
+      "name": "Bucky Irving",
+      "team": "TB",
+      "position": "RB",
       "overallRank": 50,
-      "positionRank": 25,
-      "previousRank": 50,
-      "highestRank": 32,
-      "lowestRank": 75,
-      "projectedPoints": 143.2,
+      "positionRank": 19,
+      "previousRank": 51,
+      "highestRank": 34,
+      "lowestRank": 71,
+      "projectedPoints": 186.2,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 50
       }
     },
     {
-      "id": "bucky-irving-tb-rb",
-      "fantasyProsId": 25981,
-      "name": "Bucky Irving",
-      "team": "TB",
-      "position": "RB",
+      "id": "terry-mclaurin-was-wr",
+      "fantasyProsId": 18466,
+      "name": "Terry McLaurin",
+      "team": "WAS",
+      "position": "WR",
       "overallRank": 51,
-      "positionRank": 19,
-      "previousRank": 51,
-      "highestRank": 20,
-      "lowestRank": 71,
-      "projectedPoints": 186.2,
+      "positionRank": 25,
+      "previousRank": 50,
+      "highestRank": 32,
+      "lowestRank": 74,
+      "projectedPoints": 143.2,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 51
@@ -1166,9 +1166,9 @@
       "position": "QB",
       "overallRank": 52,
       "positionRank": 5,
-      "previousRank": 53,
+      "previousRank": 52,
       "highestRank": 27,
-      "lowestRank": 97,
+      "lowestRank": 112,
       "projectedPoints": 321.8,
       "projectedStats": {
         "passAtt": 500.5,
@@ -1187,34 +1187,34 @@
       }
     },
     {
-      "id": "quinshon-judkins-cle-rb",
-      "fantasyProsId": 25391,
-      "name": "Quinshon Judkins",
-      "team": "CLE",
+      "id": "david-montgomery-hou-rb",
+      "fantasyProsId": 18239,
+      "name": "David Montgomery",
+      "team": "HOU",
       "position": "RB",
       "overallRank": 53,
       "positionRank": 20,
-      "previousRank": 52,
-      "highestRank": 23,
-      "lowestRank": 77,
-      "projectedPoints": 182.4,
+      "previousRank": 54,
+      "highestRank": 33,
+      "lowestRank": 95,
+      "projectedPoints": 161.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 53
       }
     },
     {
-      "id": "david-montgomery-hou-rb",
-      "fantasyProsId": 18239,
-      "name": "David Montgomery",
-      "team": "HOU",
+      "id": "quinshon-judkins-cle-rb",
+      "fantasyProsId": 25391,
+      "name": "Quinshon Judkins",
+      "team": "CLE",
       "position": "RB",
       "overallRank": 54,
       "positionRank": 21,
-      "previousRank": 54,
-      "highestRank": 33,
-      "lowestRank": 72,
-      "projectedPoints": 161.5,
+      "previousRank": 53,
+      "highestRank": 23,
+      "lowestRank": 77,
+      "projectedPoints": 182.4,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 54
@@ -1230,7 +1230,7 @@
       "positionRank": 26,
       "previousRank": 55,
       "highestRank": 26,
-      "lowestRank": 101,
+      "lowestRank": 106,
       "projectedPoints": 133.8,
       "projectedStats": {},
       "sourceRanks": {
@@ -1247,11 +1247,51 @@
       "positionRank": 22,
       "previousRank": 56,
       "highestRank": 31,
-      "lowestRank": 92,
+      "lowestRank": 95,
       "projectedPoints": 198.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 56
+      }
+    },
+    {
+      "id": "dj-moore-buf-wr",
+      "fantasyProsId": 17265,
+      "name": "DJ Moore",
+      "team": "BUF",
+      "position": "WR",
+      "overallRank": 57,
+      "positionRank": 27,
+      "previousRank": 58,
+      "highestRank": 19,
+      "lowestRank": 98,
+      "projectedPoints": 138.6,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 57
+      }
+    },
+    {
+      "id": "tyler-warren-ind-te",
+      "fantasyProsId": 26434,
+      "name": "Tyler Warren",
+      "team": "IND",
+      "position": "TE",
+      "overallRank": 58,
+      "positionRank": 4,
+      "previousRank": 63,
+      "highestRank": 16,
+      "lowestRank": 84,
+      "projectedPoints": 161.8,
+      "projectedStats": {
+        "rec": 77.8,
+        "recYds": 846.2,
+        "recTd": 5.2,
+        "fumblesLost": 0.3,
+        "fantasyPoints": 161.8
+      },
+      "sourceRanks": {
+        "FantasyPros": 58
       }
     },
     {
@@ -1260,11 +1300,11 @@
       "name": "Jayden Daniels",
       "team": "WAS",
       "position": "QB",
-      "overallRank": 57,
+      "overallRank": 59,
       "positionRank": 6,
       "previousRank": 57,
       "highestRank": 27,
-      "lowestRank": 103,
+      "lowestRank": 112,
       "projectedPoints": 312.6,
       "projectedStats": {
         "passAtt": 497,
@@ -1279,24 +1319,7 @@
         "fantasyPoints": 312.6
       },
       "sourceRanks": {
-        "FantasyPros": 57
-      }
-    },
-    {
-      "id": "dj-moore-buf-wr",
-      "fantasyProsId": 17265,
-      "name": "DJ Moore",
-      "team": "BUF",
-      "position": "WR",
-      "overallRank": 58,
-      "positionRank": 27,
-      "previousRank": 58,
-      "highestRank": 19,
-      "lowestRank": 98,
-      "projectedPoints": 138.6,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 58
+        "FantasyPros": 59
       }
     },
     {
@@ -1305,15 +1328,15 @@
       "name": "Rome Odunze",
       "team": "CHI",
       "position": "WR",
-      "overallRank": 59,
+      "overallRank": 60,
       "positionRank": 28,
       "previousRank": 59,
-      "highestRank": 35,
+      "highestRank": 39,
       "lowestRank": 88,
       "projectedPoints": 146.4,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 59
+        "FantasyPros": 60
       }
     },
     {
@@ -1322,29 +1345,12 @@
       "name": "Jadarian Price",
       "team": "SEA",
       "position": "RB",
-      "overallRank": 60,
+      "overallRank": 61,
       "positionRank": 23,
       "previousRank": 60,
       "highestRank": 33,
-      "lowestRank": 131,
+      "lowestRank": 126,
       "projectedPoints": 161.5,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 60
-      }
-    },
-    {
-      "id": "bhayshul-tuten-jac-rb",
-      "fantasyProsId": 27297,
-      "name": "Bhayshul Tuten",
-      "team": "JAC",
-      "position": "RB",
-      "overallRank": 61,
-      "positionRank": 24,
-      "previousRank": 61,
-      "highestRank": 33,
-      "lowestRank": 95,
-      "projectedPoints": 179.2,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 61
@@ -1357,9 +1363,9 @@
       "team": "GB",
       "position": "TE",
       "overallRank": 62,
-      "positionRank": 4,
+      "positionRank": 5,
       "previousRank": 62,
-      "highestRank": 29,
+      "highestRank": 34,
       "lowestRank": 96,
       "projectedPoints": 143.8,
       "projectedStats": {
@@ -1374,24 +1380,18 @@
       }
     },
     {
-      "id": "tyler-warren-ind-te",
-      "fantasyProsId": 26434,
-      "name": "Tyler Warren",
-      "team": "IND",
-      "position": "TE",
+      "id": "bhayshul-tuten-jac-rb",
+      "fantasyProsId": 27297,
+      "name": "Bhayshul Tuten",
+      "team": "JAC",
+      "position": "RB",
       "overallRank": 63,
-      "positionRank": 5,
-      "previousRank": 63,
-      "highestRank": 20,
-      "lowestRank": 84,
-      "projectedPoints": 161.8,
-      "projectedStats": {
-        "rec": 77.8,
-        "recYds": 846.2,
-        "recTd": 5.2,
-        "fumblesLost": 0.3,
-        "fantasyPoints": 161.8
-      },
+      "positionRank": 24,
+      "previousRank": 61,
+      "highestRank": 33,
+      "lowestRank": 102,
+      "projectedPoints": 179.2,
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 63
       }
@@ -1406,7 +1406,7 @@
       "positionRank": 29,
       "previousRank": 64,
       "highestRank": 31,
-      "lowestRank": 131,
+      "lowestRank": 129,
       "projectedPoints": 131.4,
       "projectedStats": {},
       "sourceRanks": {
@@ -1423,7 +1423,7 @@
       "positionRank": 7,
       "previousRank": 65,
       "highestRank": 27,
-      "lowestRank": 97,
+      "lowestRank": 100,
       "projectedPoints": 305,
       "projectedStats": {},
       "sourceRanks": {
@@ -1438,8 +1438,8 @@
       "position": "WR",
       "overallRank": 66,
       "positionRank": 30,
-      "previousRank": 67,
-      "highestRank": 21,
+      "previousRank": 66,
+      "highestRank": 24,
       "lowestRank": 330,
       "projectedPoints": 117.8,
       "projectedStats": {},
@@ -1448,37 +1448,20 @@
       }
     },
     {
-      "id": "treveyon-henderson-ne-rb",
-      "fantasyProsId": 23065,
-      "name": "TreVeyon Henderson",
-      "team": "NE",
-      "position": "RB",
-      "overallRank": 67,
-      "positionRank": 25,
-      "previousRank": 66,
-      "highestRank": 30,
-      "lowestRank": 102,
-      "projectedPoints": 163.9,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 67
-      }
-    },
-    {
       "id": "rhamondre-stevenson-ne-rb",
       "fantasyProsId": 22726,
       "name": "Rhamondre Stevenson",
       "team": "NE",
       "position": "RB",
-      "overallRank": 68,
-      "positionRank": 26,
-      "previousRank": 69,
-      "highestRank": 52,
-      "lowestRank": 113,
+      "overallRank": 67,
+      "positionRank": 25,
+      "previousRank": 68,
+      "highestRank": 47,
+      "lowestRank": 99,
       "projectedPoints": 149.1,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 68
+        "FantasyPros": 67
       }
     },
     {
@@ -1487,15 +1470,15 @@
       "name": "Justin Herbert",
       "team": "LAC",
       "position": "QB",
-      "overallRank": 69,
+      "overallRank": 68,
       "positionRank": 8,
-      "previousRank": 68,
-      "highestRank": 36,
+      "previousRank": 69,
+      "highestRank": 29,
       "lowestRank": 112,
       "projectedPoints": 300.3,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 69
+        "FantasyPros": 68
       }
     },
     {
@@ -1504,7 +1487,7 @@
       "name": "Trevor Lawrence",
       "team": "JAC",
       "position": "QB",
-      "overallRank": 70,
+      "overallRank": 69,
       "positionRank": 9,
       "previousRank": 70,
       "highestRank": 29,
@@ -1523,7 +1506,7 @@
         "fantasyPoints": 311.7
       },
       "sourceRanks": {
-        "FantasyPros": 70
+        "FantasyPros": 69
       }
     },
     {
@@ -1532,15 +1515,49 @@
       "name": "Marvin Harrison Jr.",
       "team": "ARI",
       "position": "WR",
-      "overallRank": 71,
+      "overallRank": 70,
       "positionRank": 31,
       "previousRank": 71,
       "highestRank": 41,
-      "lowestRank": 125,
+      "lowestRank": 122,
       "projectedPoints": 130,
       "projectedStats": {},
       "sourceRanks": {
+        "FantasyPros": 70
+      }
+    },
+    {
+      "id": "treveyon-henderson-ne-rb",
+      "fantasyProsId": 23065,
+      "name": "TreVeyon Henderson",
+      "team": "NE",
+      "position": "RB",
+      "overallRank": 71,
+      "positionRank": 26,
+      "previousRank": 67,
+      "highestRank": 42,
+      "lowestRank": 176,
+      "projectedPoints": 163.9,
+      "projectedStats": {},
+      "sourceRanks": {
         "FantasyPros": 71
+      }
+    },
+    {
+      "id": "jaylen-warren-pit-rb",
+      "fantasyProsId": 24209,
+      "name": "Jaylen Warren",
+      "team": "PIT",
+      "position": "RB",
+      "overallRank": 72,
+      "positionRank": 27,
+      "previousRank": 73,
+      "highestRank": 52,
+      "lowestRank": 117,
+      "projectedPoints": 150.5,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 72
       }
     },
     {
@@ -1549,7 +1566,7 @@
       "name": "Dak Prescott",
       "team": "DAL",
       "position": "QB",
-      "overallRank": 72,
+      "overallRank": 73,
       "positionRank": 10,
       "previousRank": 72,
       "highestRank": 36,
@@ -1568,23 +1585,6 @@
         "fantasyPoints": 315.8
       },
       "sourceRanks": {
-        "FantasyPros": 72
-      }
-    },
-    {
-      "id": "jaylen-warren-pit-rb",
-      "fantasyProsId": 24209,
-      "name": "Jaylen Warren",
-      "team": "PIT",
-      "position": "RB",
-      "overallRank": 73,
-      "positionRank": 27,
-      "previousRank": 73,
-      "highestRank": 50,
-      "lowestRank": 117,
-      "projectedPoints": 150.5,
-      "projectedStats": {},
-      "sourceRanks": {
         "FantasyPros": 73
       }
     },
@@ -1596,30 +1596,13 @@
       "position": "WR",
       "overallRank": 74,
       "positionRank": 32,
-      "previousRank": 75,
+      "previousRank": 74,
       "highestRank": 50,
-      "lowestRank": 101,
+      "lowestRank": 106,
       "projectedPoints": 130.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 74
-      }
-    },
-    {
-      "id": "tony-pollard-ten-rb",
-      "fantasyProsId": 18705,
-      "name": "Tony Pollard",
-      "team": "TEN",
-      "position": "RB",
-      "overallRank": 75,
-      "positionRank": 28,
-      "previousRank": 74,
-      "highestRank": 56,
-      "lowestRank": 126,
-      "projectedPoints": 159.2,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 75
       }
     },
     {
@@ -1628,12 +1611,29 @@
       "name": "Brian Thomas Jr.",
       "team": "JAC",
       "position": "WR",
-      "overallRank": 76,
+      "overallRank": 75,
       "positionRank": 33,
       "previousRank": 76,
       "highestRank": 44,
-      "lowestRank": 120,
+      "lowestRank": 142,
       "projectedPoints": 119.6,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 75
+      }
+    },
+    {
+      "id": "tony-pollard-ten-rb",
+      "fantasyProsId": 18705,
+      "name": "Tony Pollard",
+      "team": "TEN",
+      "position": "RB",
+      "overallRank": 76,
+      "positionRank": 28,
+      "previousRank": 75,
+      "highestRank": 56,
+      "lowestRank": 148,
+      "projectedPoints": 159.2,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 76
@@ -1647,7 +1647,7 @@
       "position": "RB",
       "overallRank": 77,
       "positionRank": 29,
-      "previousRank": 78,
+      "previousRank": 77,
       "highestRank": 57,
       "lowestRank": 232,
       "projectedPoints": 153.1,
@@ -1664,8 +1664,8 @@
       "position": "TE",
       "overallRank": 78,
       "positionRank": 6,
-      "previousRank": 77,
-      "highestRank": 35,
+      "previousRank": 78,
+      "highestRank": 34,
       "lowestRank": 123,
       "projectedPoints": 155.9,
       "projectedStats": {
@@ -1697,54 +1697,37 @@
       }
     },
     {
-      "id": "j-k-dobbins-den-rb",
-      "fantasyProsId": 19245,
-      "name": "J.K. Dobbins",
-      "team": "DEN",
-      "position": "RB",
-      "overallRank": 80,
-      "positionRank": 30,
-      "previousRank": 80,
-      "highestRank": 60,
-      "lowestRank": 131,
-      "projectedPoints": 152.9,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 80
-      }
-    },
-    {
       "id": "blake-corum-lar-rb",
       "fantasyProsId": 23013,
       "name": "Blake Corum",
       "team": "LAR",
       "position": "RB",
-      "overallRank": 81,
-      "positionRank": 31,
+      "overallRank": 80,
+      "positionRank": 30,
       "previousRank": 81,
       "highestRank": 63,
       "lowestRank": 145,
       "projectedPoints": 126.7,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 81
+        "FantasyPros": 80
       }
     },
     {
-      "id": "alec-pierce-ind-wr",
-      "fantasyProsId": 23791,
-      "name": "Alec Pierce",
-      "team": "IND",
-      "position": "WR",
-      "overallRank": 82,
-      "positionRank": 35,
-      "previousRank": 82,
-      "highestRank": 46,
-      "lowestRank": 138,
-      "projectedPoints": 143.2,
+      "id": "j-k-dobbins-den-rb",
+      "fantasyProsId": 19245,
+      "name": "J.K. Dobbins",
+      "team": "DEN",
+      "position": "RB",
+      "overallRank": 81,
+      "positionRank": 31,
+      "previousRank": 80,
+      "highestRank": 57,
+      "lowestRank": 134,
+      "projectedPoints": 152.9,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 82
+        "FantasyPros": 81
       }
     },
     {
@@ -1753,32 +1736,32 @@
       "name": "Quentin Johnston",
       "team": "LAC",
       "position": "WR",
-      "overallRank": 83,
-      "positionRank": 36,
+      "overallRank": 82,
+      "positionRank": 35,
       "previousRank": 83,
-      "highestRank": 51,
+      "highestRank": 44,
       "lowestRank": 142,
       "projectedPoints": 116.1,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 83
+        "FantasyPros": 82
       }
     },
     {
-      "id": "courtland-sutton-den-wr",
-      "fantasyProsId": 17253,
-      "name": "Courtland Sutton",
-      "team": "DEN",
+      "id": "alec-pierce-ind-wr",
+      "fantasyProsId": 23791,
+      "name": "Alec Pierce",
+      "team": "IND",
       "position": "WR",
-      "overallRank": 84,
-      "positionRank": 37,
-      "previousRank": 84,
-      "highestRank": 51,
-      "lowestRank": 129,
-      "projectedPoints": 134.9,
+      "overallRank": 83,
+      "positionRank": 36,
+      "previousRank": 82,
+      "highestRank": 48,
+      "lowestRank": 237,
+      "projectedPoints": 143.2,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 84
+        "FantasyPros": 83
       }
     },
     {
@@ -1787,11 +1770,11 @@
       "name": "George Kittle",
       "team": "SF",
       "position": "TE",
-      "overallRank": 85,
+      "overallRank": 84,
       "positionRank": 7,
-      "previousRank": 86,
+      "previousRank": 85,
       "highestRank": 34,
-      "lowestRank": 234,
+      "lowestRank": 130,
       "projectedPoints": 156.2,
       "projectedStats": {
         "rec": 72.1,
@@ -1800,6 +1783,23 @@
         "fumblesLost": 0.2,
         "fantasyPoints": 156.2
       },
+      "sourceRanks": {
+        "FantasyPros": 84
+      }
+    },
+    {
+      "id": "courtland-sutton-den-wr",
+      "fantasyProsId": 17253,
+      "name": "Courtland Sutton",
+      "team": "DEN",
+      "position": "WR",
+      "overallRank": 85,
+      "positionRank": 37,
+      "previousRank": 84,
+      "highestRank": 44,
+      "lowestRank": 125,
+      "projectedPoints": 134.9,
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 85
       }
@@ -1812,7 +1812,7 @@
       "position": "RB",
       "overallRank": 86,
       "positionRank": 32,
-      "previousRank": 85,
+      "previousRank": 86,
       "highestRank": 57,
       "lowestRank": 196,
       "projectedPoints": 108.4,
@@ -1830,7 +1830,7 @@
       "overallRank": 87,
       "positionRank": 8,
       "previousRank": 87,
-      "highestRank": 67,
+      "highestRank": 36,
       "lowestRank": 137,
       "projectedPoints": 149,
       "projectedStats": {},
@@ -1847,29 +1847,12 @@
       "overallRank": 88,
       "positionRank": 38,
       "previousRank": 88,
-      "highestRank": 65,
-      "lowestRank": 142,
+      "highestRank": 51,
+      "lowestRank": 139,
       "projectedPoints": 107.8,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 88
-      }
-    },
-    {
-      "id": "jacory-croskey-merritt-was-rb",
-      "fantasyProsId": 27316,
-      "name": "Jacory Croskey-Merritt",
-      "team": "WAS",
-      "position": "RB",
-      "overallRank": 89,
-      "positionRank": 33,
-      "previousRank": 89,
-      "highestRank": 63,
-      "lowestRank": 145,
-      "projectedPoints": 132.4,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 89
       }
     },
     {
@@ -1878,10 +1861,10 @@
       "name": "Harold Fannin Jr.",
       "team": "CLE",
       "position": "TE",
-      "overallRank": 90,
+      "overallRank": 89,
       "positionRank": 9,
       "previousRank": 90,
-      "highestRank": 44,
+      "highestRank": 22,
       "lowestRank": 195,
       "projectedPoints": 158.6,
       "projectedStats": {
@@ -1891,6 +1874,23 @@
         "fumblesLost": 0.8,
         "fantasyPoints": 158.6
       },
+      "sourceRanks": {
+        "FantasyPros": 89
+      }
+    },
+    {
+      "id": "jacory-croskey-merritt-was-rb",
+      "fantasyProsId": 27316,
+      "name": "Jacory Croskey-Merritt",
+      "team": "WAS",
+      "position": "RB",
+      "overallRank": 90,
+      "positionRank": 33,
+      "previousRank": 89,
+      "highestRank": 66,
+      "lowestRank": 145,
+      "projectedPoints": 132.4,
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 90
       }
@@ -1904,7 +1904,7 @@
       "overallRank": 91,
       "positionRank": 34,
       "previousRank": 91,
-      "highestRank": 64,
+      "highestRank": 60,
       "lowestRank": 151,
       "projectedPoints": 123.9,
       "projectedStats": {},
@@ -1921,8 +1921,8 @@
       "overallRank": 92,
       "positionRank": 11,
       "previousRank": 92,
-      "highestRank": 68,
-      "lowestRank": 124,
+      "highestRank": 62,
+      "lowestRank": 136,
       "projectedPoints": 310.8,
       "projectedStats": {
         "passAtt": 555.5,
@@ -1941,34 +1941,34 @@
       }
     },
     {
-      "id": "chuba-hubbard-car-rb",
-      "fantasyProsId": 19792,
-      "name": "Chuba Hubbard",
-      "team": "CAR",
+      "id": "marshawn-lloyd-gb-rb",
+      "fantasyProsId": 23118,
+      "name": "MarShawn Lloyd",
+      "team": "GB",
       "position": "RB",
       "overallRank": 93,
       "positionRank": 35,
-      "previousRank": 95,
-      "highestRank": 60,
-      "lowestRank": 134,
-      "projectedPoints": 150.8,
+      "previousRank": 94,
+      "highestRank": 47,
+      "lowestRank": 259,
+      "projectedPoints": 36.6,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 93
       }
     },
     {
-      "id": "marshawn-lloyd-gb-rb",
-      "fantasyProsId": 23118,
-      "name": "MarShawn Lloyd",
-      "team": "GB",
+      "id": "chuba-hubbard-car-rb",
+      "fantasyProsId": 19792,
+      "name": "Chuba Hubbard",
+      "team": "CAR",
       "position": "RB",
       "overallRank": 94,
       "positionRank": 36,
-      "previousRank": 96,
-      "highestRank": 47,
-      "lowestRank": 259,
-      "projectedPoints": 36.6,
+      "previousRank": 93,
+      "highestRank": 57,
+      "lowestRank": 143,
+      "projectedPoints": 150.8,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 94
@@ -1982,8 +1982,8 @@
       "position": "QB",
       "overallRank": 95,
       "positionRank": 12,
-      "previousRank": 93,
-      "highestRank": 68,
+      "previousRank": 95,
+      "highestRank": 58,
       "lowestRank": 124,
       "projectedPoints": 297.7,
       "projectedStats": {},
@@ -1992,37 +1992,20 @@
       }
     },
     {
-      "id": "jaxson-dart-nyg-qb",
-      "fantasyProsId": 23160,
-      "name": "Jaxson Dart",
-      "team": "NYG",
-      "position": "QB",
-      "overallRank": 96,
-      "positionRank": 13,
-      "previousRank": 94,
-      "highestRank": 56,
-      "lowestRank": 133,
-      "projectedPoints": 309.5,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 96
-      }
-    },
-    {
       "id": "michael-wilson-ari-wr",
       "fantasyProsId": 25333,
       "name": "Michael Wilson",
       "team": "ARI",
       "position": "WR",
-      "overallRank": 97,
+      "overallRank": 96,
       "positionRank": 39,
-      "previousRank": 99,
-      "highestRank": 69,
+      "previousRank": 97,
+      "highestRank": 48,
       "lowestRank": 261,
       "projectedPoints": 107.2,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 97
+        "FantasyPros": 96
       }
     },
     {
@@ -2031,32 +2014,32 @@
       "name": "Dalton Kincaid",
       "team": "BUF",
       "position": "TE",
-      "overallRank": 98,
+      "overallRank": 97,
       "positionRank": 10,
       "previousRank": 98,
-      "highestRank": 76,
-      "lowestRank": 157,
+      "highestRank": 67,
+      "lowestRank": 144,
       "projectedPoints": 102.6,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 98
+        "FantasyPros": 97
       }
     },
     {
-      "id": "jordan-addison-min-wr",
-      "fantasyProsId": 23107,
-      "name": "Jordan Addison",
-      "team": "MIN",
-      "position": "WR",
-      "overallRank": 99,
-      "positionRank": 40,
-      "previousRank": 97,
-      "highestRank": 61,
-      "lowestRank": 153,
-      "projectedPoints": 113.6,
+      "id": "jaxson-dart-nyg-qb",
+      "fantasyProsId": 23160,
+      "name": "Jaxson Dart",
+      "team": "NYG",
+      "position": "QB",
+      "overallRank": 98,
+      "positionRank": 13,
+      "previousRank": 96,
+      "highestRank": 58,
+      "lowestRank": 152,
+      "projectedPoints": 309.5,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 99
+        "FantasyPros": 98
       }
     },
     {
@@ -2065,12 +2048,29 @@
       "name": "Jayden Reed",
       "team": "GB",
       "position": "WR",
-      "overallRank": 100,
-      "positionRank": 41,
+      "overallRank": 99,
+      "positionRank": 40,
       "previousRank": 100,
       "highestRank": 70,
       "lowestRank": 168,
       "projectedPoints": 113.3,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 99
+      }
+    },
+    {
+      "id": "jordan-addison-min-wr",
+      "fantasyProsId": 23107,
+      "name": "Jordan Addison",
+      "team": "MIN",
+      "position": "WR",
+      "overallRank": 100,
+      "positionRank": 41,
+      "previousRank": 99,
+      "highestRank": 61,
+      "lowestRank": 149,
+      "projectedPoints": 113.6,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 100
@@ -2085,7 +2085,7 @@
       "overallRank": 101,
       "positionRank": 14,
       "previousRank": 101,
-      "highestRank": 68,
+      "highestRank": 58,
       "lowestRank": 136,
       "projectedPoints": 305.8,
       "projectedStats": {
@@ -2113,7 +2113,7 @@
       "overallRank": 102,
       "positionRank": 15,
       "previousRank": 102,
-      "highestRank": 62,
+      "highestRank": 58,
       "lowestRank": 145,
       "projectedPoints": 287.3,
       "projectedStats": {},
@@ -2130,7 +2130,7 @@
       "overallRank": 103,
       "positionRank": 16,
       "previousRank": 103,
-      "highestRank": 68,
+      "highestRank": 58,
       "lowestRank": 134,
       "projectedPoints": 294,
       "projectedStats": {},
@@ -2147,7 +2147,7 @@
       "overallRank": 104,
       "positionRank": 37,
       "previousRank": 104,
-      "highestRank": 71,
+      "highestRank": 77,
       "lowestRank": 167,
       "projectedPoints": 133,
       "projectedStats": {},
@@ -2164,7 +2164,7 @@
       "overallRank": 105,
       "positionRank": 42,
       "previousRank": 105,
-      "highestRank": 80,
+      "highestRank": 75,
       "lowestRank": 176,
       "projectedPoints": 109.4,
       "projectedStats": {},
@@ -2181,7 +2181,7 @@
       "overallRank": 106,
       "positionRank": 11,
       "previousRank": 106,
-      "highestRank": 76,
+      "highestRank": 67,
       "lowestRank": 154,
       "projectedPoints": 148,
       "projectedStats": {
@@ -2203,7 +2203,7 @@
       "position": "WR",
       "overallRank": 107,
       "positionRank": 43,
-      "previousRank": 108,
+      "previousRank": 107,
       "highestRank": 70,
       "lowestRank": 229,
       "projectedPoints": 0,
@@ -2220,9 +2220,9 @@
       "position": "RB",
       "overallRank": 108,
       "positionRank": 38,
-      "previousRank": 107,
-      "highestRank": 64,
-      "lowestRank": 159,
+      "previousRank": 108,
+      "highestRank": 66,
+      "lowestRank": 161,
       "projectedPoints": 131.3,
       "projectedStats": {},
       "sourceRanks": {
@@ -2237,9 +2237,9 @@
       "position": "TE",
       "overallRank": 109,
       "positionRank": 12,
-      "previousRank": 111,
+      "previousRank": 109,
       "highestRank": 67,
-      "lowestRank": 171,
+      "lowestRank": 195,
       "projectedPoints": 150.3,
       "projectedStats": {
         "rec": 69.6,
@@ -2253,20 +2253,37 @@
       }
     },
     {
+      "id": "kyler-murray-min-qb",
+      "fantasyProsId": 18600,
+      "name": "Kyler Murray",
+      "team": "MIN",
+      "position": "QB",
+      "overallRank": 110,
+      "positionRank": 17,
+      "previousRank": 112,
+      "highestRank": 58,
+      "lowestRank": 239,
+      "projectedPoints": 277.5,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 110
+      }
+    },
+    {
       "id": "josh-downs-ind-wr",
       "fantasyProsId": 24706,
       "name": "Josh Downs",
       "team": "IND",
       "position": "WR",
-      "overallRank": 110,
+      "overallRank": 111,
       "positionRank": 44,
       "previousRank": 110,
       "highestRank": 80,
-      "lowestRank": 164,
+      "lowestRank": 165,
       "projectedPoints": 96.6,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 110
+        "FantasyPros": 111
       }
     },
     {
@@ -2275,29 +2292,12 @@
       "name": "Chris Rodriguez Jr.",
       "team": "JAC",
       "position": "RB",
-      "overallRank": 111,
+      "overallRank": 112,
       "positionRank": 39,
-      "previousRank": 113,
+      "previousRank": 111,
       "highestRank": 66,
       "lowestRank": 250,
       "projectedPoints": 89.4,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 111
-      }
-    },
-    {
-      "id": "kyler-murray-min-qb",
-      "fantasyProsId": 18600,
-      "name": "Kyler Murray",
-      "team": "MIN",
-      "position": "QB",
-      "overallRank": 112,
-      "positionRank": 17,
-      "previousRank": 114,
-      "highestRank": 58,
-      "lowestRank": 239,
-      "projectedPoints": 277.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 112
@@ -2311,7 +2311,7 @@
       "position": "RB",
       "overallRank": 113,
       "positionRank": 40,
-      "previousRank": 112,
+      "previousRank": 113,
       "highestRank": 72,
       "lowestRank": 200,
       "projectedPoints": 128.4,
@@ -2328,9 +2328,9 @@
       "position": "TE",
       "overallRank": 114,
       "positionRank": 13,
-      "previousRank": 109,
+      "previousRank": 114,
       "highestRank": 76,
-      "lowestRank": 245,
+      "lowestRank": 253,
       "projectedPoints": 102.5,
       "projectedStats": {},
       "sourceRanks": {
@@ -2345,7 +2345,7 @@
       "position": "RB",
       "overallRank": 115,
       "positionRank": 41,
-      "previousRank": 116,
+      "previousRank": 115,
       "highestRank": 71,
       "lowestRank": 317,
       "projectedPoints": 116.6,
@@ -2355,20 +2355,37 @@
       }
     },
     {
+      "id": "de-zhaun-stribling-sf-wr",
+      "fantasyProsId": 28138,
+      "name": "De'Zhaun Stribling",
+      "team": "SF",
+      "position": "WR",
+      "overallRank": 116,
+      "positionRank": 45,
+      "previousRank": 120,
+      "highestRank": 69,
+      "lowestRank": 349,
+      "projectedPoints": 58.1,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 116
+      }
+    },
+    {
       "id": "makai-lemon-phi-wr",
       "fantasyProsId": 25420,
       "name": "Makai Lemon",
       "team": "PHI",
       "position": "WR",
-      "overallRank": 116,
-      "positionRank": 45,
-      "previousRank": 115,
+      "overallRank": 117,
+      "positionRank": 46,
+      "previousRank": 116,
       "highestRank": 80,
       "lowestRank": 345,
       "projectedPoints": 105.6,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 116
+        "FantasyPros": 117
       }
     },
     {
@@ -2377,15 +2394,15 @@
       "name": "Jordan Love",
       "team": "GB",
       "position": "QB",
-      "overallRank": 117,
+      "overallRank": 118,
       "positionRank": 18,
-      "previousRank": 119,
-      "highestRank": 97,
+      "previousRank": 117,
+      "highestRank": 90,
       "lowestRank": 198,
       "projectedPoints": 267.5,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 117
+        "FantasyPros": 118
       }
     },
     {
@@ -2394,7 +2411,7 @@
       "name": "Mark Andrews",
       "team": "BAL",
       "position": "TE",
-      "overallRank": 118,
+      "overallRank": 119,
       "positionRank": 14,
       "previousRank": 118,
       "highestRank": 67,
@@ -2402,7 +2419,7 @@
       "projectedPoints": 106.5,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 118
+        "FantasyPros": 119
       }
     },
     {
@@ -2411,29 +2428,12 @@
       "name": "Baker Mayfield",
       "team": "TB",
       "position": "QB",
-      "overallRank": 119,
+      "overallRank": 120,
       "positionRank": 19,
-      "previousRank": 120,
+      "previousRank": 119,
       "highestRank": 79,
       "lowestRank": 178,
       "projectedPoints": 282,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 119
-      }
-    },
-    {
-      "id": "de-zhaun-stribling-sf-wr",
-      "fantasyProsId": 28138,
-      "name": "De'Zhaun Stribling",
-      "team": "SF",
-      "position": "WR",
-      "overallRank": 120,
-      "positionRank": 46,
-      "previousRank": 117,
-      "highestRank": 69,
-      "lowestRank": 349,
-      "projectedPoints": 58.1,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 120
@@ -2449,45 +2449,11 @@
       "positionRank": 47,
       "previousRank": 121,
       "highestRank": 70,
-      "lowestRank": 200,
+      "lowestRank": 198,
       "projectedPoints": 101,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 121
-      }
-    },
-    {
-      "id": "xavier-worthy-kc-wr",
-      "fantasyProsId": 23019,
-      "name": "Xavier Worthy",
-      "team": "KC",
-      "position": "WR",
-      "overallRank": 122,
-      "positionRank": 48,
-      "previousRank": 122,
-      "highestRank": 87,
-      "lowestRank": 201,
-      "projectedPoints": 112.1,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 122
-      }
-    },
-    {
-      "id": "jakobi-meyers-jac-wr",
-      "fantasyProsId": 18598,
-      "name": "Jakobi Meyers",
-      "team": "JAC",
-      "position": "WR",
-      "overallRank": 123,
-      "positionRank": 49,
-      "previousRank": 123,
-      "highestRank": 81,
-      "lowestRank": 183,
-      "projectedPoints": 115.1,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 123
       }
     },
     {
@@ -2496,7 +2462,7 @@
       "name": "Aaron Jones Sr.",
       "team": "MIN",
       "position": "RB",
-      "overallRank": 124,
+      "overallRank": 122,
       "positionRank": 42,
       "previousRank": 124,
       "highestRank": 78,
@@ -2504,24 +2470,41 @@
       "projectedPoints": 127,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 124
+        "FantasyPros": 122
       }
     },
     {
-      "id": "wan-dale-robinson-ten-wr",
-      "fantasyProsId": 22985,
-      "name": "Wan'Dale Robinson",
-      "team": "TEN",
+      "id": "xavier-worthy-kc-wr",
+      "fantasyProsId": 23019,
+      "name": "Xavier Worthy",
+      "team": "KC",
       "position": "WR",
-      "overallRank": 125,
-      "positionRank": 50,
-      "previousRank": 126,
-      "highestRank": 75,
-      "lowestRank": 209,
-      "projectedPoints": 105.9,
+      "overallRank": 123,
+      "positionRank": 48,
+      "previousRank": 122,
+      "highestRank": 74,
+      "lowestRank": 200,
+      "projectedPoints": 112.1,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 125
+        "FantasyPros": 123
+      }
+    },
+    {
+      "id": "jakobi-meyers-jac-wr",
+      "fantasyProsId": 18598,
+      "name": "Jakobi Meyers",
+      "team": "JAC",
+      "position": "WR",
+      "overallRank": 124,
+      "positionRank": 49,
+      "previousRank": 123,
+      "highestRank": 81,
+      "lowestRank": 183,
+      "projectedPoints": 115.1,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 124
       }
     },
     {
@@ -2530,15 +2513,15 @@
       "name": "KC Concepcion",
       "team": "CLE",
       "position": "WR",
-      "overallRank": 126,
-      "positionRank": 51,
-      "previousRank": 125,
-      "highestRank": 88,
+      "overallRank": 125,
+      "positionRank": 50,
+      "previousRank": 126,
+      "highestRank": 81,
       "lowestRank": 346,
       "projectedPoints": 89.8,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 126
+        "FantasyPros": 125
       }
     },
     {
@@ -2547,12 +2530,29 @@
       "name": "Romeo Doubs",
       "team": "NE",
       "position": "WR",
-      "overallRank": 127,
-      "positionRank": 52,
+      "overallRank": 126,
+      "positionRank": 51,
       "previousRank": 127,
-      "highestRank": 75,
+      "highestRank": 88,
       "lowestRank": 200,
       "projectedPoints": 106.5,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 126
+      }
+    },
+    {
+      "id": "wan-dale-robinson-ten-wr",
+      "fantasyProsId": 22985,
+      "name": "Wan'Dale Robinson",
+      "team": "TEN",
+      "position": "WR",
+      "overallRank": 127,
+      "positionRank": 52,
+      "previousRank": 125,
+      "highestRank": 75,
+      "lowestRank": 209,
+      "projectedPoints": 105.9,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 127
@@ -2584,7 +2584,7 @@
       "overallRank": 129,
       "positionRank": 43,
       "previousRank": 129,
-      "highestRank": 92,
+      "highestRank": 77,
       "lowestRank": 174,
       "projectedPoints": 78.5,
       "projectedStats": {},
@@ -2602,28 +2602,11 @@
       "positionRank": 44,
       "previousRank": 130,
       "highestRank": 95,
-      "lowestRank": 174,
+      "lowestRank": 188,
       "projectedPoints": 100.3,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 130
-      }
-    },
-    {
-      "id": "juwan-johnson-no-te",
-      "fantasyProsId": 19562,
-      "name": "Juwan Johnson",
-      "team": "NO",
-      "position": "TE",
-      "overallRank": 131,
-      "positionRank": 15,
-      "previousRank": 132,
-      "highestRank": 96,
-      "lowestRank": 299,
-      "projectedPoints": 89.5,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 131
       }
     },
     {
@@ -2632,12 +2615,29 @@
       "name": "Malik Willis",
       "team": "MIA",
       "position": "QB",
-      "overallRank": 132,
+      "overallRank": 131,
       "positionRank": 21,
-      "previousRank": 131,
+      "previousRank": 132,
       "highestRank": 103,
       "lowestRank": 309,
       "projectedPoints": 270.9,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 131
+      }
+    },
+    {
+      "id": "juwan-johnson-no-te",
+      "fantasyProsId": 19562,
+      "name": "Juwan Johnson",
+      "team": "NO",
+      "position": "TE",
+      "overallRank": 132,
+      "positionRank": 15,
+      "previousRank": 131,
+      "highestRank": 94,
+      "lowestRank": 299,
+      "projectedPoints": 89.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 132
@@ -2668,30 +2668,13 @@
       "position": "WR",
       "overallRank": 134,
       "positionRank": 54,
-      "previousRank": 135,
-      "highestRank": 106,
-      "lowestRank": 198,
+      "previousRank": 134,
+      "highestRank": 101,
+      "lowestRank": 201,
       "projectedPoints": 106.7,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 134
-      }
-    },
-    {
-      "id": "jake-ferguson-dal-te",
-      "fantasyProsId": 22718,
-      "name": "Jake Ferguson",
-      "team": "DAL",
-      "position": "TE",
-      "overallRank": 135,
-      "positionRank": 16,
-      "previousRank": 134,
-      "highestRank": 103,
-      "lowestRank": 228,
-      "projectedPoints": 93.6,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 135
       }
     },
     {
@@ -2700,12 +2683,29 @@
       "name": "Josh Jacobs",
       "team": "GB",
       "position": "RB",
-      "overallRank": 136,
+      "overallRank": 135,
       "positionRank": 45,
-      "previousRank": 137,
+      "previousRank": 136,
       "highestRank": 33,
       "lowestRank": 317,
       "projectedPoints": 221.2,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 135
+      }
+    },
+    {
+      "id": "jake-ferguson-dal-te",
+      "fantasyProsId": 22718,
+      "name": "Jake Ferguson",
+      "team": "DAL",
+      "position": "TE",
+      "overallRank": 136,
+      "positionRank": 16,
+      "previousRank": 135,
+      "highestRank": 105,
+      "lowestRank": 235,
+      "projectedPoints": 93.6,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 136
@@ -2719,7 +2719,7 @@
       "position": "RB",
       "overallRank": 137,
       "positionRank": 46,
-      "previousRank": 136,
+      "previousRank": 137,
       "highestRank": 99,
       "lowestRank": 342,
       "projectedPoints": 24.6,
@@ -2729,17 +2729,17 @@
       }
     },
     {
-      "id": "deebo-samuel-sr-sf-wr",
-      "fantasyProsId": 18244,
-      "name": "Deebo Samuel Sr.",
-      "team": "SF",
-      "position": "WR",
+      "id": "mike-washington-jr-lv-rb",
+      "fantasyProsId": 28108,
+      "name": "Mike Washington Jr.",
+      "team": "LV",
+      "position": "RB",
       "overallRank": 138,
-      "positionRank": 55,
-      "previousRank": 139,
-      "highestRank": 81,
-      "lowestRank": 244,
-      "projectedPoints": 0,
+      "positionRank": 47,
+      "previousRank": 140,
+      "highestRank": 102,
+      "lowestRank": 353,
+      "projectedPoints": 62.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 138
@@ -2753,7 +2753,7 @@
       "position": "QB",
       "overallRank": 139,
       "positionRank": 22,
-      "previousRank": 138,
+      "previousRank": 139,
       "highestRank": 118,
       "lowestRank": 336,
       "projectedPoints": 266.4,
@@ -2763,54 +2763,20 @@
       }
     },
     {
-      "id": "mike-washington-jr-lv-rb",
-      "fantasyProsId": 28108,
-      "name": "Mike Washington Jr.",
-      "team": "LV",
-      "position": "RB",
+      "id": "deebo-samuel-sr-sf-wr",
+      "fantasyProsId": 18244,
+      "name": "Deebo Samuel Sr.",
+      "team": "SF",
+      "position": "WR",
       "overallRank": 140,
-      "positionRank": 47,
-      "previousRank": 140,
-      "highestRank": 102,
-      "lowestRank": 353,
-      "projectedPoints": 62.5,
+      "positionRank": 55,
+      "previousRank": 138,
+      "highestRank": 80,
+      "lowestRank": 244,
+      "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 140
-      }
-    },
-    {
-      "id": "keaton-mitchell-lac-rb",
-      "fantasyProsId": 25360,
-      "name": "Keaton Mitchell",
-      "team": "LAC",
-      "position": "RB",
-      "overallRank": 141,
-      "positionRank": 48,
-      "previousRank": 141,
-      "highestRank": 95,
-      "lowestRank": 312,
-      "projectedPoints": 59.2,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 141
-      }
-    },
-    {
-      "id": "khalil-shakir-buf-wr",
-      "fantasyProsId": 23748,
-      "name": "Khalil Shakir",
-      "team": "BUF",
-      "position": "WR",
-      "overallRank": 142,
-      "positionRank": 56,
-      "previousRank": 143,
-      "highestRank": 109,
-      "lowestRank": 214,
-      "projectedPoints": 99.4,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 142
       }
     },
     {
@@ -2819,12 +2785,46 @@
       "name": "Tank Bigsby",
       "team": "PHI",
       "position": "RB",
-      "overallRank": 143,
-      "positionRank": 49,
-      "previousRank": 142,
+      "overallRank": 141,
+      "positionRank": 48,
+      "previousRank": 143,
       "highestRank": 121,
-      "lowestRank": 236,
+      "lowestRank": 242,
       "projectedPoints": 64,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 141
+      }
+    },
+    {
+      "id": "keaton-mitchell-lac-rb",
+      "fantasyProsId": 25360,
+      "name": "Keaton Mitchell",
+      "team": "LAC",
+      "position": "RB",
+      "overallRank": 142,
+      "positionRank": 49,
+      "previousRank": 141,
+      "highestRank": 99,
+      "lowestRank": 312,
+      "projectedPoints": 59.2,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 142
+      }
+    },
+    {
+      "id": "khalil-shakir-buf-wr",
+      "fantasyProsId": 23748,
+      "name": "Khalil Shakir",
+      "team": "BUF",
+      "position": "WR",
+      "overallRank": 143,
+      "positionRank": 56,
+      "previousRank": 142,
+      "highestRank": 109,
+      "lowestRank": 214,
+      "projectedPoints": 99.4,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 143
@@ -2838,8 +2838,8 @@
       "position": "QB",
       "overallRank": 144,
       "positionRank": 23,
-      "previousRank": 145,
-      "highestRank": 107,
+      "previousRank": 144,
+      "highestRank": 100,
       "lowestRank": 335,
       "projectedPoints": 260.7,
       "projectedStats": {},
@@ -2848,37 +2848,20 @@
       }
     },
     {
-      "id": "zach-charbonnet-sea-rb",
-      "fantasyProsId": 23152,
-      "name": "Zach Charbonnet",
-      "team": "SEA",
+      "id": "tyjae-spears-ten-rb",
+      "fantasyProsId": 25323,
+      "name": "Tyjae Spears",
+      "team": "TEN",
       "position": "RB",
       "overallRank": 145,
       "positionRank": 50,
-      "previousRank": 144,
-      "highestRank": 95,
-      "lowestRank": 307,
-      "projectedPoints": 103.2,
+      "previousRank": 148,
+      "highestRank": 117,
+      "lowestRank": 236,
+      "projectedPoints": 90.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 145
-      }
-    },
-    {
-      "id": "jordyn-tyson-no-wr",
-      "fantasyProsId": 26035,
-      "name": "Jordyn Tyson",
-      "team": "NO",
-      "position": "WR",
-      "overallRank": 146,
-      "positionRank": 57,
-      "previousRank": 146,
-      "highestRank": 83,
-      "lowestRank": 350,
-      "projectedPoints": 109.2,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 146
       }
     },
     {
@@ -2887,32 +2870,15 @@
       "name": "Daniel Jones",
       "team": "IND",
       "position": "QB",
-      "overallRank": 147,
+      "overallRank": 146,
       "positionRank": 24,
       "previousRank": 147,
-      "highestRank": 104,
+      "highestRank": 103,
       "lowestRank": 338,
       "projectedPoints": 274.5,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 147
-      }
-    },
-    {
-      "id": "tyjae-spears-ten-rb",
-      "fantasyProsId": 25323,
-      "name": "Tyjae Spears",
-      "team": "TEN",
-      "position": "RB",
-      "overallRank": 148,
-      "positionRank": 51,
-      "previousRank": 148,
-      "highestRank": 119,
-      "lowestRank": 227,
-      "projectedPoints": 90.5,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 148
+        "FantasyPros": 146
       }
     },
     {
@@ -2921,12 +2887,46 @@
       "name": "Hunter Henry",
       "team": "NE",
       "position": "TE",
-      "overallRank": 149,
+      "overallRank": 147,
       "positionRank": 17,
       "previousRank": 149,
       "highestRank": 105,
-      "lowestRank": 208,
+      "lowestRank": 242,
       "projectedPoints": 97.4,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 147
+      }
+    },
+    {
+      "id": "jordyn-tyson-no-wr",
+      "fantasyProsId": 26035,
+      "name": "Jordyn Tyson",
+      "team": "NO",
+      "position": "WR",
+      "overallRank": 148,
+      "positionRank": 57,
+      "previousRank": 146,
+      "highestRank": 74,
+      "lowestRank": 350,
+      "projectedPoints": 109.2,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 148
+      }
+    },
+    {
+      "id": "brian-robinson-jr-atl-rb",
+      "fantasyProsId": 20094,
+      "name": "Brian Robinson Jr.",
+      "team": "ATL",
+      "position": "RB",
+      "overallRank": 149,
+      "positionRank": 51,
+      "previousRank": 151,
+      "highestRank": 102,
+      "lowestRank": 230,
+      "projectedPoints": 86.1,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 149
@@ -2940,9 +2940,9 @@
       "position": "TE",
       "overallRank": 150,
       "positionRank": 18,
-      "previousRank": 151,
+      "previousRank": 150,
       "highestRank": 111,
-      "lowestRank": 250,
+      "lowestRank": 235,
       "projectedPoints": 91.4,
       "projectedStats": {},
       "sourceRanks": {
@@ -2950,17 +2950,17 @@
       }
     },
     {
-      "id": "brian-robinson-jr-atl-rb",
-      "fantasyProsId": 20094,
-      "name": "Brian Robinson Jr.",
-      "team": "ATL",
+      "id": "zach-charbonnet-sea-rb",
+      "fantasyProsId": 23152,
+      "name": "Zach Charbonnet",
+      "team": "SEA",
       "position": "RB",
       "overallRank": 151,
       "positionRank": 52,
-      "previousRank": 150,
-      "highestRank": 102,
-      "lowestRank": 232,
-      "projectedPoints": 86.1,
+      "previousRank": 145,
+      "highestRank": 99,
+      "lowestRank": 307,
+      "projectedPoints": 103.2,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 151
@@ -2974,8 +2974,8 @@
       "position": "WR",
       "overallRank": 152,
       "positionRank": 58,
-      "previousRank": 153,
-      "highestRank": 115,
+      "previousRank": 152,
+      "highestRank": 98,
       "lowestRank": 311,
       "projectedPoints": 92,
       "projectedStats": {},
@@ -2984,16 +2984,33 @@
       }
     },
     {
+      "id": "denzel-boston-cle-wr",
+      "fantasyProsId": 27339,
+      "name": "Denzel Boston",
+      "team": "CLE",
+      "position": "WR",
+      "overallRank": 153,
+      "positionRank": 59,
+      "previousRank": 155,
+      "highestRank": 106,
+      "lowestRank": 361,
+      "projectedPoints": 77.4,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 153
+      }
+    },
+    {
       "id": "houston-texans-hou-dst",
       "fantasyProsId": 8120,
       "name": "Houston Texans",
       "team": "HOU",
       "position": "DST",
-      "overallRank": 153,
+      "overallRank": 154,
       "positionRank": 1,
-      "previousRank": 154,
+      "previousRank": 153,
       "highestRank": 149,
-      "lowestRank": 170,
+      "lowestRank": 185,
       "projectedPoints": 120.3,
       "projectedStats": {
         "sacks": 49.6,
@@ -3007,7 +3024,7 @@
         "fantasyPoints": 120.3
       },
       "sourceRanks": {
-        "FantasyPros": 153
+        "FantasyPros": 154
       }
     },
     {
@@ -3016,29 +3033,12 @@
       "name": "Braelon Allen",
       "team": "NYJ",
       "position": "RB",
-      "overallRank": 154,
-      "positionRank": 53,
-      "previousRank": 155,
-      "highestRank": 117,
-      "lowestRank": 259,
-      "projectedPoints": 78.5,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 154
-      }
-    },
-    {
-      "id": "denzel-boston-cle-wr",
-      "fantasyProsId": 27339,
-      "name": "Denzel Boston",
-      "team": "CLE",
-      "position": "WR",
       "overallRank": 155,
-      "positionRank": 59,
-      "previousRank": 152,
-      "highestRank": 122,
-      "lowestRank": 361,
-      "projectedPoints": 77.4,
+      "positionRank": 53,
+      "previousRank": 154,
+      "highestRank": 117,
+      "lowestRank": 257,
+      "projectedPoints": 78.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 155
@@ -3070,7 +3070,7 @@
       "overallRank": 157,
       "positionRank": 60,
       "previousRank": 157,
-      "highestRank": 114,
+      "highestRank": 109,
       "lowestRank": 287,
       "projectedPoints": 0,
       "projectedStats": {},
@@ -3079,34 +3079,34 @@
       }
     },
     {
-      "id": "cam-ward-ten-qb",
-      "fantasyProsId": 24755,
-      "name": "Cam Ward",
-      "team": "TEN",
-      "position": "QB",
+      "id": "emmett-johnson-kc-rb",
+      "fantasyProsId": 28107,
+      "name": "Emmett Johnson",
+      "team": "KC",
+      "position": "RB",
       "overallRank": 158,
-      "positionRank": 25,
-      "previousRank": 158,
-      "highestRank": 133,
-      "lowestRank": 337,
-      "projectedPoints": 232.2,
+      "positionRank": 55,
+      "previousRank": 159,
+      "highestRank": 131,
+      "lowestRank": 357,
+      "projectedPoints": 29.3,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 158
       }
     },
     {
-      "id": "emmett-johnson-kc-rb",
-      "fantasyProsId": 28107,
-      "name": "Emmett Johnson",
-      "team": "KC",
-      "position": "RB",
+      "id": "terrance-ferguson-lar-te",
+      "fantasyProsId": 23091,
+      "name": "Terrance Ferguson",
+      "team": "LAR",
+      "position": "TE",
       "overallRank": 159,
-      "positionRank": 55,
-      "previousRank": 161,
-      "highestRank": 131,
-      "lowestRank": 357,
-      "projectedPoints": 29.3,
+      "positionRank": 19,
+      "previousRank": 163,
+      "highestRank": 96,
+      "lowestRank": 294,
+      "projectedPoints": 76.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 159
@@ -3119,14 +3119,31 @@
       "team": "WAS",
       "position": "TE",
       "overallRank": 160,
-      "positionRank": 19,
-      "previousRank": 159,
-      "highestRank": 123,
-      "lowestRank": 253,
+      "positionRank": 20,
+      "previousRank": 160,
+      "highestRank": 111,
+      "lowestRank": 256,
       "projectedPoints": 72.9,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 160
+      }
+    },
+    {
+      "id": "cam-ward-ten-qb",
+      "fantasyProsId": 24755,
+      "name": "Cam Ward",
+      "team": "TEN",
+      "position": "QB",
+      "overallRank": 161,
+      "positionRank": 25,
+      "previousRank": 158,
+      "highestRank": 133,
+      "lowestRank": 337,
+      "projectedPoints": 232.2,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 161
       }
     },
     {
@@ -3135,15 +3152,15 @@
       "name": "Adonai Mitchell",
       "team": "NYJ",
       "position": "WR",
-      "overallRank": 161,
+      "overallRank": 162,
       "positionRank": 61,
-      "previousRank": 160,
-      "highestRank": 135,
+      "previousRank": 161,
+      "highestRank": 129,
       "lowestRank": 271,
       "projectedPoints": 76.9,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 161
+        "FantasyPros": 162
       }
     },
     {
@@ -3152,46 +3169,29 @@
       "name": "Alvin Kamara",
       "team": "NO",
       "position": "RB",
-      "overallRank": 162,
-      "positionRank": 56,
-      "previousRank": 164,
-      "highestRank": 119,
-      "lowestRank": 325,
-      "projectedPoints": 88.9,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 162
-      }
-    },
-    {
-      "id": "terrance-ferguson-lar-te",
-      "fantasyProsId": 23091,
-      "name": "Terrance Ferguson",
-      "team": "LAR",
-      "position": "TE",
       "overallRank": 163,
-      "positionRank": 20,
+      "positionRank": 56,
       "previousRank": 162,
-      "highestRank": 96,
-      "lowestRank": 394,
-      "projectedPoints": 76.5,
+      "highestRank": 113,
+      "lowestRank": 331,
+      "projectedPoints": 88.9,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 163
       }
     },
     {
-      "id": "tyrone-tracy-jr-nyg-rb",
-      "fantasyProsId": 22980,
-      "name": "Tyrone Tracy Jr.",
-      "team": "NYG",
-      "position": "RB",
+      "id": "jalen-mcmillan-tb-wr",
+      "fantasyProsId": 23179,
+      "name": "Jalen McMillan",
+      "team": "TB",
+      "position": "WR",
       "overallRank": 164,
-      "positionRank": 57,
-      "previousRank": 163,
-      "highestRank": 119,
-      "lowestRank": 336,
-      "projectedPoints": 91,
+      "positionRank": 62,
+      "previousRank": 166,
+      "highestRank": 125,
+      "lowestRank": 298,
+      "projectedPoints": 87,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 164
@@ -3205,9 +3205,9 @@
       "position": "DST",
       "overallRank": 165,
       "positionRank": 2,
-      "previousRank": 166,
+      "previousRank": 165,
       "highestRank": 144,
-      "lowestRank": 190,
+      "lowestRank": 205,
       "projectedPoints": 109.3,
       "projectedStats": {
         "sacks": 48.4,
@@ -3225,33 +3225,16 @@
       }
     },
     {
-      "id": "jalen-mcmillan-tb-wr",
-      "fantasyProsId": 23179,
-      "name": "Jalen McMillan",
-      "team": "TB",
-      "position": "WR",
-      "overallRank": 166,
-      "positionRank": 62,
-      "previousRank": 165,
-      "highestRank": 135,
-      "lowestRank": 298,
-      "projectedPoints": 87,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 166
-      }
-    },
-    {
       "id": "denver-broncos-den-dst",
       "fantasyProsId": 8090,
       "name": "Denver Broncos",
       "team": "DEN",
       "position": "DST",
-      "overallRank": 167,
+      "overallRank": 166,
       "positionRank": 3,
       "previousRank": 167,
       "highestRank": 149,
-      "lowestRank": 182,
+      "lowestRank": 205,
       "projectedPoints": 116.9,
       "projectedStats": {
         "sacks": 58.4,
@@ -3265,24 +3248,7 @@
         "fantasyPoints": 116.9
       },
       "sourceRanks": {
-        "FantasyPros": 167
-      }
-    },
-    {
-      "id": "dalton-schultz-hou-te",
-      "fantasyProsId": 17349,
-      "name": "Dalton Schultz",
-      "team": "HOU",
-      "position": "TE",
-      "overallRank": 168,
-      "positionRank": 21,
-      "previousRank": 168,
-      "highestRank": 110,
-      "lowestRank": 280,
-      "projectedPoints": 82.9,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 168
+        "FantasyPros": 166
       }
     },
     {
@@ -3291,11 +3257,11 @@
       "name": "Seattle Seahawks",
       "team": "SEA",
       "position": "DST",
-      "overallRank": 169,
+      "overallRank": 167,
       "positionRank": 4,
       "previousRank": 169,
       "highestRank": 149,
-      "lowestRank": 182,
+      "lowestRank": 279,
       "projectedPoints": 110.6,
       "projectedStats": {
         "sacks": 46.4,
@@ -3309,58 +3275,41 @@
         "fantasyPoints": 110.6
       },
       "sourceRanks": {
+        "FantasyPros": 167
+      }
+    },
+    {
+      "id": "tyrone-tracy-jr-nyg-rb",
+      "fantasyProsId": 22980,
+      "name": "Tyrone Tracy Jr.",
+      "team": "NYG",
+      "position": "RB",
+      "overallRank": 168,
+      "positionRank": 57,
+      "previousRank": 164,
+      "highestRank": 119,
+      "lowestRank": 316,
+      "projectedPoints": 91,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 168
+      }
+    },
+    {
+      "id": "dalton-schultz-hou-te",
+      "fantasyProsId": 17349,
+      "name": "Dalton Schultz",
+      "team": "HOU",
+      "position": "TE",
+      "overallRank": 169,
+      "positionRank": 21,
+      "previousRank": 168,
+      "highestRank": 110,
+      "lowestRank": 280,
+      "projectedPoints": 82.9,
+      "projectedStats": {},
+      "sourceRanks": {
         "FantasyPros": 169
-      }
-    },
-    {
-      "id": "philadelphia-eagles-phi-dst",
-      "fantasyProsId": 8230,
-      "name": "Philadelphia Eagles",
-      "team": "PHI",
-      "position": "DST",
-      "overallRank": 170,
-      "positionRank": 5,
-      "previousRank": 174,
-      "highestRank": 160,
-      "lowestRank": 234,
-      "projectedPoints": 102.6,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 170
-      }
-    },
-    {
-      "id": "jerry-jeudy-cle-wr",
-      "fantasyProsId": 19201,
-      "name": "Jerry Jeudy",
-      "team": "CLE",
-      "position": "WR",
-      "overallRank": 171,
-      "positionRank": 63,
-      "previousRank": 170,
-      "highestRank": 120,
-      "lowestRank": 296,
-      "projectedPoints": 90.5,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 171
-      }
-    },
-    {
-      "id": "jauan-jennings-min-wr",
-      "fantasyProsId": 19590,
-      "name": "Jauan Jennings",
-      "team": "MIN",
-      "position": "WR",
-      "overallRank": 172,
-      "positionRank": 64,
-      "previousRank": 171,
-      "highestRank": 114,
-      "lowestRank": 311,
-      "projectedPoints": 85.2,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 172
       }
     },
     {
@@ -3369,32 +3318,32 @@
       "name": "Dontayvion Wicks",
       "team": "PHI",
       "position": "WR",
-      "overallRank": 173,
-      "positionRank": 65,
+      "overallRank": 170,
+      "positionRank": 63,
       "previousRank": 173,
-      "highestRank": 116,
-      "lowestRank": 295,
+      "highestRank": 93,
+      "lowestRank": 292,
       "projectedPoints": 49.8,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 173
+        "FantasyPros": 170
       }
     },
     {
-      "id": "jalen-nailor-lv-wr",
-      "fantasyProsId": 24177,
-      "name": "Jalen Nailor",
-      "team": "LV",
-      "position": "WR",
-      "overallRank": 174,
-      "positionRank": 66,
-      "previousRank": 175,
-      "highestRank": 116,
-      "lowestRank": 368,
-      "projectedPoints": 83.8,
+      "id": "philadelphia-eagles-phi-dst",
+      "fantasyProsId": 8230,
+      "name": "Philadelphia Eagles",
+      "team": "PHI",
+      "position": "DST",
+      "overallRank": 171,
+      "positionRank": 5,
+      "previousRank": 170,
+      "highestRank": 160,
+      "lowestRank": 234,
+      "projectedPoints": 102.6,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 174
+        "FantasyPros": 171
       }
     },
     {
@@ -3403,15 +3352,49 @@
       "name": "Bryce Young",
       "team": "CAR",
       "position": "QB",
-      "overallRank": 175,
+      "overallRank": 172,
       "positionRank": 26,
-      "previousRank": 172,
-      "highestRank": 136,
+      "previousRank": 175,
+      "highestRank": 133,
       "lowestRank": 339,
       "projectedPoints": 248.7,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 175
+        "FantasyPros": 172
+      }
+    },
+    {
+      "id": "jalen-nailor-lv-wr",
+      "fantasyProsId": 24177,
+      "name": "Jalen Nailor",
+      "team": "LV",
+      "position": "WR",
+      "overallRank": 173,
+      "positionRank": 64,
+      "previousRank": 174,
+      "highestRank": 120,
+      "lowestRank": 368,
+      "projectedPoints": 83.8,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 173
+      }
+    },
+    {
+      "id": "jauan-jennings-min-wr",
+      "fantasyProsId": 19590,
+      "name": "Jauan Jennings",
+      "team": "MIN",
+      "position": "WR",
+      "overallRank": 174,
+      "positionRank": 65,
+      "previousRank": 172,
+      "highestRank": 115,
+      "lowestRank": 311,
+      "projectedPoints": 85.2,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 174
       }
     },
     {
@@ -3420,12 +3403,29 @@
       "name": "Ray Davis",
       "team": "BUF",
       "position": "RB",
-      "overallRank": 176,
+      "overallRank": 175,
       "positionRank": 58,
       "previousRank": 176,
       "highestRank": 131,
       "lowestRank": 257,
       "projectedPoints": 28.1,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 175
+      }
+    },
+    {
+      "id": "jerry-jeudy-cle-wr",
+      "fantasyProsId": 19201,
+      "name": "Jerry Jeudy",
+      "team": "CLE",
+      "position": "WR",
+      "overallRank": 176,
+      "positionRank": 66,
+      "previousRank": 171,
+      "highestRank": 120,
+      "lowestRank": 296,
+      "projectedPoints": 90.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 176
@@ -3449,76 +3449,15 @@
       }
     },
     {
-      "id": "aj-barner-sea-te",
-      "fantasyProsId": 26335,
-      "name": "AJ Barner",
-      "team": "SEA",
-      "position": "TE",
-      "overallRank": 178,
-      "positionRank": 22,
-      "previousRank": 183,
-      "highestRank": 130,
-      "lowestRank": 324,
-      "projectedPoints": 75.7,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 178
-      }
-    },
-    {
-      "id": "new-england-patriots-ne-dst",
-      "fantasyProsId": 8180,
-      "name": "New England Patriots",
-      "team": "NE",
-      "position": "DST",
-      "overallRank": 179,
-      "positionRank": 6,
-      "previousRank": 178,
-      "highestRank": 159,
-      "lowestRank": 279,
-      "projectedPoints": 98.1,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 179
-      }
-    },
-    {
-      "id": "minnesota-vikings-min-dst",
-      "fantasyProsId": 8170,
-      "name": "Minnesota Vikings",
-      "team": "MIN",
-      "position": "DST",
-      "overallRank": 180,
-      "positionRank": 7,
-      "previousRank": 182,
-      "highestRank": 166,
-      "lowestRank": 248,
-      "projectedPoints": 113.1,
-      "projectedStats": {
-        "sacks": 49.4,
-        "defInterceptions": 12.7,
-        "fumbleRecoveries": 12.1,
-        "forcedFumbles": 18.2,
-        "defTd": 2.3,
-        "safeties": 0,
-        "pointsAllowed": 356.4,
-        "yardsAllowed": 5241.6,
-        "fantasyPoints": 113.1
-      },
-      "sourceRanks": {
-        "FantasyPros": 180
-      }
-    },
-    {
       "id": "pittsburgh-steelers-pit-dst",
       "fantasyProsId": 8240,
       "name": "Pittsburgh Steelers",
       "team": "PIT",
       "position": "DST",
-      "overallRank": 181,
-      "positionRank": 8,
-      "previousRank": 180,
-      "highestRank": 160,
+      "overallRank": 178,
+      "positionRank": 6,
+      "previousRank": 181,
+      "highestRank": 150,
       "lowestRank": 258,
       "projectedPoints": 112.4,
       "projectedStats": {
@@ -3533,7 +3472,7 @@
         "fantasyPoints": 112.4
       },
       "sourceRanks": {
-        "FantasyPros": 181
+        "FantasyPros": 178
       }
     },
     {
@@ -3542,11 +3481,11 @@
       "name": "Brandon Aubrey",
       "team": "DAL",
       "position": "K",
-      "overallRank": 182,
+      "overallRank": 179,
       "positionRank": 1,
-      "previousRank": 181,
+      "previousRank": 182,
       "highestRank": 168,
-      "lowestRank": 192,
+      "lowestRank": 197,
       "projectedPoints": 151.4,
       "projectedStats": {
         "fg": 34.8,
@@ -3554,6 +3493,67 @@
         "xp": 47,
         "fantasyPoints": 151.4
       },
+      "sourceRanks": {
+        "FantasyPros": 179
+      }
+    },
+    {
+      "id": "new-england-patriots-ne-dst",
+      "fantasyProsId": 8180,
+      "name": "New England Patriots",
+      "team": "NE",
+      "position": "DST",
+      "overallRank": 180,
+      "positionRank": 7,
+      "previousRank": 179,
+      "highestRank": 159,
+      "lowestRank": 279,
+      "projectedPoints": 98.1,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 180
+      }
+    },
+    {
+      "id": "minnesota-vikings-min-dst",
+      "fantasyProsId": 8170,
+      "name": "Minnesota Vikings",
+      "team": "MIN",
+      "position": "DST",
+      "overallRank": 181,
+      "positionRank": 8,
+      "previousRank": 180,
+      "highestRank": 166,
+      "lowestRank": 276,
+      "projectedPoints": 113.1,
+      "projectedStats": {
+        "sacks": 49.4,
+        "defInterceptions": 12.7,
+        "fumbleRecoveries": 12.1,
+        "forcedFumbles": 18.2,
+        "defTd": 2.3,
+        "safeties": 0,
+        "pointsAllowed": 356.4,
+        "yardsAllowed": 5241.6,
+        "fantasyPoints": 113.1
+      },
+      "sourceRanks": {
+        "FantasyPros": 181
+      }
+    },
+    {
+      "id": "aj-barner-sea-te",
+      "fantasyProsId": 26335,
+      "name": "AJ Barner",
+      "team": "SEA",
+      "position": "TE",
+      "overallRank": 182,
+      "positionRank": 22,
+      "previousRank": 178,
+      "highestRank": 130,
+      "lowestRank": 324,
+      "projectedPoints": 75.7,
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 182
       }
@@ -3566,9 +3566,9 @@
       "position": "DST",
       "overallRank": 183,
       "positionRank": 9,
-      "previousRank": 184,
+      "previousRank": 183,
       "highestRank": 161,
-      "lowestRank": 278,
+      "lowestRank": 279,
       "projectedPoints": 99,
       "projectedStats": {},
       "sourceRanks": {
@@ -3583,8 +3583,8 @@
       "position": "WR",
       "overallRank": 184,
       "positionRank": 68,
-      "previousRank": 185,
-      "highestRank": 149,
+      "previousRank": 184,
+      "highestRank": 142,
       "lowestRank": 372,
       "projectedPoints": 55.5,
       "projectedStats": {},
@@ -3593,20 +3593,98 @@
       }
     },
     {
-      "id": "omar-cooper-jr-nyj-wr",
-      "fantasyProsId": 28127,
-      "name": "Omar Cooper Jr.",
-      "team": "NYJ",
-      "position": "WR",
+      "id": "baltimore-ravens-bal-dst",
+      "fantasyProsId": 8020,
+      "name": "Baltimore Ravens",
+      "team": "BAL",
+      "position": "DST",
       "overallRank": 185,
-      "positionRank": 69,
-      "previousRank": 179,
-      "highestRank": 135,
-      "lowestRank": 370,
-      "projectedPoints": 74.1,
+      "positionRank": 10,
+      "previousRank": 194,
+      "highestRank": 160,
+      "lowestRank": 279,
+      "projectedPoints": 101.7,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 185
+      }
+    },
+    {
+      "id": "ka-imi-fairbairn-hou-k",
+      "fantasyProsId": 15756,
+      "name": "Ka'imi Fairbairn",
+      "team": "HOU",
+      "position": "K",
+      "overallRank": 186,
+      "positionRank": 2,
+      "previousRank": 192,
+      "highestRank": 183,
+      "lowestRank": 251,
+      "projectedPoints": 144.5,
+      "projectedStats": {
+        "fg": 36.3,
+        "fga": 40.5,
+        "xp": 35.6,
+        "fantasyPoints": 144.5
+      },
+      "sourceRanks": {
+        "FantasyPros": 186
+      }
+    },
+    {
+      "id": "kaelon-black-sf-rb",
+      "fantasyProsId": 28401,
+      "name": "Kaelon Black",
+      "team": "SF",
+      "position": "RB",
+      "overallRank": 187,
+      "positionRank": 59,
+      "previousRank": 191,
+      "highestRank": 119,
+      "lowestRank": 365,
+      "projectedPoints": 67,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 187
+      }
+    },
+    {
+      "id": "keenan-allen-ind-wr",
+      "fantasyProsId": 11616,
+      "name": "Keenan Allen",
+      "team": "IND",
+      "position": "WR",
+      "overallRank": 188,
+      "positionRank": 69,
+      "previousRank": 189,
+      "highestRank": 101,
+      "lowestRank": 395,
+      "projectedPoints": 0,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 188
+      }
+    },
+    {
+      "id": "cameron-dicker-lac-k",
+      "fantasyProsId": 23901,
+      "name": "Cameron Dicker",
+      "team": "LAC",
+      "position": "K",
+      "overallRank": 189,
+      "positionRank": 3,
+      "previousRank": 190,
+      "highestRank": 179,
+      "lowestRank": 281,
+      "projectedPoints": 142.7,
+      "projectedStats": {
+        "fg": 34.3,
+        "fga": 37.6,
+        "xp": 39.8,
+        "fantasyPoints": 142.7
+      },
+      "sourceRanks": {
+        "FantasyPros": 189
       }
     },
     {
@@ -3615,15 +3693,15 @@
       "name": "Kimani Vidal",
       "team": "LAC",
       "position": "RB",
-      "overallRank": 186,
-      "positionRank": 59,
+      "overallRank": 190,
+      "positionRank": 60,
       "previousRank": 186,
       "highestRank": 143,
       "lowestRank": 316,
       "projectedPoints": 49.1,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 186
+        "FantasyPros": 190
       }
     },
     {
@@ -3632,11 +3710,11 @@
       "name": "Los Angeles Chargers",
       "team": "LAC",
       "position": "DST",
-      "overallRank": 187,
-      "positionRank": 10,
+      "overallRank": 191,
+      "positionRank": 11,
       "previousRank": 187,
       "highestRank": 170,
-      "lowestRank": 279,
+      "lowestRank": 355,
       "projectedPoints": 108.8,
       "projectedStats": {
         "sacks": 48.9,
@@ -3650,136 +3728,24 @@
         "fantasyPoints": 108.8
       },
       "sourceRanks": {
-        "FantasyPros": 187
-      }
-    },
-    {
-      "id": "pat-bryant-den-wr",
-      "fantasyProsId": 27211,
-      "name": "Pat Bryant",
-      "team": "DEN",
-      "position": "WR",
-      "overallRank": 188,
-      "positionRank": 70,
-      "previousRank": 188,
-      "highestRank": 132,
-      "lowestRank": 306,
-      "projectedPoints": 44,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 188
-      }
-    },
-    {
-      "id": "keenan-allen-ind-wr",
-      "fantasyProsId": 11616,
-      "name": "Keenan Allen",
-      "team": "IND",
-      "position": "WR",
-      "overallRank": 189,
-      "positionRank": 71,
-      "previousRank": 190,
-      "highestRank": 125,
-      "lowestRank": 395,
-      "projectedPoints": 0,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 189
-      }
-    },
-    {
-      "id": "cameron-dicker-lac-k",
-      "fantasyProsId": 23901,
-      "name": "Cameron Dicker",
-      "team": "LAC",
-      "position": "K",
-      "overallRank": 190,
-      "positionRank": 2,
-      "previousRank": 191,
-      "highestRank": 179,
-      "lowestRank": 233,
-      "projectedPoints": 142.7,
-      "projectedStats": {
-        "fg": 34.3,
-        "fga": 37.6,
-        "xp": 39.8,
-        "fantasyPoints": 142.7
-      },
-      "sourceRanks": {
-        "FantasyPros": 190
-      }
-    },
-    {
-      "id": "kaelon-black-sf-rb",
-      "fantasyProsId": 28401,
-      "name": "Kaelon Black",
-      "team": "SF",
-      "position": "RB",
-      "overallRank": 191,
-      "positionRank": 60,
-      "previousRank": 195,
-      "highestRank": 126,
-      "lowestRank": 365,
-      "projectedPoints": 67,
-      "projectedStats": {},
-      "sourceRanks": {
         "FantasyPros": 191
       }
     },
     {
-      "id": "ka-imi-fairbairn-hou-k",
-      "fantasyProsId": 15756,
-      "name": "Ka'imi Fairbairn",
-      "team": "HOU",
-      "position": "K",
+      "id": "omar-cooper-jr-nyj-wr",
+      "fantasyProsId": 28127,
+      "name": "Omar Cooper Jr.",
+      "team": "NYJ",
+      "position": "WR",
       "overallRank": 192,
-      "positionRank": 3,
-      "previousRank": 193,
-      "highestRank": 183,
-      "lowestRank": 214,
-      "projectedPoints": 144.5,
-      "projectedStats": {
-        "fg": 36.3,
-        "fga": 40.5,
-        "xp": 35.6,
-        "fantasyPoints": 144.5
-      },
+      "positionRank": 70,
+      "previousRank": 185,
+      "highestRank": 135,
+      "lowestRank": 370,
+      "projectedPoints": 74.1,
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 192
-      }
-    },
-    {
-      "id": "calvin-ridley-ten-wr",
-      "fantasyProsId": 17258,
-      "name": "Calvin Ridley",
-      "team": "TEN",
-      "position": "WR",
-      "overallRank": 193,
-      "positionRank": 72,
-      "previousRank": 189,
-      "highestRank": 125,
-      "lowestRank": 295,
-      "projectedPoints": 104.3,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 193
-      }
-    },
-    {
-      "id": "baltimore-ravens-bal-dst",
-      "fantasyProsId": 8020,
-      "name": "Baltimore Ravens",
-      "team": "BAL",
-      "position": "DST",
-      "overallRank": 194,
-      "positionRank": 11,
-      "previousRank": 196,
-      "highestRank": 167,
-      "lowestRank": 279,
-      "projectedPoints": 101.7,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 194
       }
     },
     {
@@ -3788,15 +3754,32 @@
       "name": "Ja'Kobi Lane",
       "team": "BAL",
       "position": "WR",
-      "overallRank": 195,
-      "positionRank": 73,
-      "previousRank": 194,
-      "highestRank": 109,
+      "overallRank": 193,
+      "positionRank": 71,
+      "previousRank": 195,
+      "highestRank": 89,
       "lowestRank": 373,
       "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 195
+        "FantasyPros": 193
+      }
+    },
+    {
+      "id": "pat-bryant-den-wr",
+      "fantasyProsId": 27211,
+      "name": "Pat Bryant",
+      "team": "DEN",
+      "position": "WR",
+      "overallRank": 194,
+      "positionRank": 72,
+      "previousRank": 188,
+      "highestRank": 132,
+      "lowestRank": 306,
+      "projectedPoints": 44,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 194
       }
     },
     {
@@ -3805,63 +3788,85 @@
       "name": "Cam Little",
       "team": "JAC",
       "position": "K",
-      "overallRank": 196,
+      "overallRank": 195,
       "positionRank": 4,
-      "previousRank": 197,
+      "previousRank": 196,
       "highestRank": 180,
-      "lowestRank": 252,
+      "lowestRank": 332,
       "projectedPoints": 129.9,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 195
+      }
+    },
+    {
+      "id": "calvin-ridley-ten-wr",
+      "fantasyProsId": 17258,
+      "name": "Calvin Ridley",
+      "team": "TEN",
+      "position": "WR",
+      "overallRank": 196,
+      "positionRank": 73,
+      "previousRank": 193,
+      "highestRank": 116,
+      "lowestRank": 295,
+      "projectedPoints": 104.3,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 196
       }
     },
     {
-      "id": "kenyon-sadiq-nyj-te",
-      "fantasyProsId": 26055,
-      "name": "Kenyon Sadiq",
-      "team": "NYJ",
-      "position": "TE",
+      "id": "malik-davis-dal-rb",
+      "fantasyProsId": 24205,
+      "name": "Malik Davis",
+      "team": "DAL",
+      "position": "RB",
       "overallRank": 197,
-      "positionRank": 23,
-      "previousRank": 200,
-      "highestRank": 137,
-      "lowestRank": 374,
-      "projectedPoints": 79,
+      "positionRank": 61,
+      "previousRank": 203,
+      "highestRank": 140,
+      "lowestRank": 364,
+      "projectedPoints": 59.1,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 197
       }
     },
     {
-      "id": "t-j-hockenson-min-te",
-      "fantasyProsId": 18290,
-      "name": "T.J. Hockenson",
-      "team": "MIN",
-      "position": "TE",
+      "id": "jason-myers-sea-k",
+      "fantasyProsId": 14003,
+      "name": "Jason Myers",
+      "team": "SEA",
+      "position": "K",
       "overallRank": 198,
-      "positionRank": 24,
+      "positionRank": 5,
       "previousRank": 201,
-      "highestRank": 84,
-      "lowestRank": 296,
-      "projectedPoints": 76.6,
-      "projectedStats": {},
+      "highestRank": 184,
+      "lowestRank": 252,
+      "projectedPoints": 150.4,
+      "projectedStats": {
+        "fg": 34.7,
+        "fga": 39.6,
+        "xp": 46.3,
+        "fantasyPoints": 150.4
+      },
       "sourceRanks": {
         "FantasyPros": 198
       }
     },
     {
-      "id": "oronde-gadsden-ii-lac-te",
-      "fantasyProsId": 25997,
-      "name": "Oronde Gadsden II",
-      "team": "LAC",
-      "position": "TE",
+      "id": "nicholas-singleton-ten-rb",
+      "fantasyProsId": 24343,
+      "name": "Nicholas Singleton",
+      "team": "TEN",
+      "position": "RB",
       "overallRank": 199,
-      "positionRank": 25,
-      "previousRank": 198,
-      "highestRank": 96,
-      "lowestRank": 337,
-      "projectedPoints": 76.6,
+      "positionRank": 62,
+      "previousRank": 204,
+      "highestRank": 134,
+      "lowestRank": 359,
+      "projectedPoints": 15.4,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 199
@@ -3874,9 +3879,9 @@
       "team": "TB",
       "position": "RB",
       "overallRank": 200,
-      "positionRank": 61,
-      "previousRank": 205,
-      "highestRank": 141,
+      "positionRank": 63,
+      "previousRank": 200,
+      "highestRank": 140,
       "lowestRank": 325,
       "projectedPoints": 29.7,
       "projectedStats": {},
@@ -3885,76 +3890,20 @@
       }
     },
     {
-      "id": "jason-myers-sea-k",
-      "fantasyProsId": 14003,
-      "name": "Jason Myers",
-      "team": "SEA",
-      "position": "K",
+      "id": "t-j-hockenson-min-te",
+      "fantasyProsId": 18290,
+      "name": "T.J. Hockenson",
+      "team": "MIN",
+      "position": "TE",
       "overallRank": 201,
-      "positionRank": 5,
-      "previousRank": 202,
-      "highestRank": 184,
-      "lowestRank": 252,
-      "projectedPoints": 150.4,
-      "projectedStats": {
-        "fg": 34.7,
-        "fga": 39.6,
-        "xp": 46.3,
-        "fantasyPoints": 150.4
-      },
+      "positionRank": 23,
+      "previousRank": 198,
+      "highestRank": 96,
+      "lowestRank": 296,
+      "projectedPoints": 76.6,
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 201
-      }
-    },
-    {
-      "id": "isiah-pacheco-det-rb",
-      "fantasyProsId": 24333,
-      "name": "Isiah Pacheco",
-      "team": "DET",
-      "position": "RB",
-      "overallRank": 202,
-      "positionRank": 62,
-      "previousRank": 192,
-      "highestRank": 126,
-      "lowestRank": 317,
-      "projectedPoints": 94.9,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 202
-      }
-    },
-    {
-      "id": "malik-davis-dal-rb",
-      "fantasyProsId": 24205,
-      "name": "Malik Davis",
-      "team": "DAL",
-      "position": "RB",
-      "overallRank": 203,
-      "positionRank": 63,
-      "previousRank": 204,
-      "highestRank": 134,
-      "lowestRank": 364,
-      "projectedPoints": 59.1,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 203
-      }
-    },
-    {
-      "id": "nicholas-singleton-ten-rb",
-      "fantasyProsId": 24343,
-      "name": "Nicholas Singleton",
-      "team": "TEN",
-      "position": "RB",
-      "overallRank": 204,
-      "positionRank": 64,
-      "previousRank": 203,
-      "highestRank": 140,
-      "lowestRank": 359,
-      "projectedPoints": 15.4,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 204
       }
     },
     {
@@ -3963,12 +3912,63 @@
       "name": "Malik Washington",
       "team": "MIA",
       "position": "WR",
-      "overallRank": 205,
+      "overallRank": 202,
       "positionRank": 74,
-      "previousRank": 199,
+      "previousRank": 205,
       "highestRank": 98,
       "lowestRank": 314,
       "projectedPoints": 63.5,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 202
+      }
+    },
+    {
+      "id": "kenyon-sadiq-nyj-te",
+      "fantasyProsId": 26055,
+      "name": "Kenyon Sadiq",
+      "team": "NYJ",
+      "position": "TE",
+      "overallRank": 203,
+      "positionRank": 24,
+      "previousRank": 197,
+      "highestRank": 123,
+      "lowestRank": 371,
+      "projectedPoints": 79,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 203
+      }
+    },
+    {
+      "id": "kansas-city-chiefs-kc-dst",
+      "fantasyProsId": 8150,
+      "name": "Kansas City Chiefs",
+      "team": "KC",
+      "position": "DST",
+      "overallRank": 204,
+      "positionRank": 12,
+      "previousRank": 209,
+      "highestRank": 160,
+      "lowestRank": 279,
+      "projectedPoints": 92.5,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 204
+      }
+    },
+    {
+      "id": "jacoby-brissett-ari-qb",
+      "fantasyProsId": 15642,
+      "name": "Jacoby Brissett",
+      "team": "ARI",
+      "position": "QB",
+      "overallRank": 205,
+      "positionRank": 27,
+      "previousRank": 207,
+      "highestRank": 104,
+      "lowestRank": 340,
+      "projectedPoints": 232.4,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 205
@@ -3982,64 +3982,13 @@
       "position": "WR",
       "overallRank": 206,
       "positionRank": 75,
-      "previousRank": 208,
+      "previousRank": 206,
       "highestRank": 153,
-      "lowestRank": 316,
+      "lowestRank": 292,
       "projectedPoints": 95,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 206
-      }
-    },
-    {
-      "id": "jacoby-brissett-ari-qb",
-      "fantasyProsId": 15642,
-      "name": "Jacoby Brissett",
-      "team": "ARI",
-      "position": "QB",
-      "overallRank": 207,
-      "positionRank": 27,
-      "previousRank": 207,
-      "highestRank": 128,
-      "lowestRank": 340,
-      "projectedPoints": 232.4,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 207
-      }
-    },
-    {
-      "id": "travis-hunter-jac-wr",
-      "fantasyProsId": 26034,
-      "name": "Travis Hunter",
-      "team": "JAC",
-      "position": "WR",
-      "overallRank": 208,
-      "positionRank": 76,
-      "previousRank": 206,
-      "highestRank": 106,
-      "lowestRank": 327,
-      "projectedPoints": 70,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 208
-      }
-    },
-    {
-      "id": "kansas-city-chiefs-kc-dst",
-      "fantasyProsId": 8150,
-      "name": "Kansas City Chiefs",
-      "team": "KC",
-      "position": "DST",
-      "overallRank": 209,
-      "positionRank": 12,
-      "previousRank": 209,
-      "highestRank": 182,
-      "lowestRank": 279,
-      "projectedPoints": 92.5,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 209
       }
     },
     {
@@ -4048,11 +3997,11 @@
       "name": "Eddy Pineiro",
       "team": "SF",
       "position": "K",
-      "overallRank": 210,
+      "overallRank": 207,
       "positionRank": 6,
-      "previousRank": 212,
-      "highestRank": 188,
-      "lowestRank": 252,
+      "previousRank": 210,
+      "highestRank": 187,
+      "lowestRank": 281,
       "projectedPoints": 132.5,
       "projectedStats": {
         "fg": 31,
@@ -4061,24 +4010,7 @@
         "fantasyPoints": 132.5
       },
       "sourceRanks": {
-        "FantasyPros": 210
-      }
-    },
-    {
-      "id": "isaac-teslaa-det-wr",
-      "fantasyProsId": 27446,
-      "name": "Isaac TeSlaa",
-      "team": "DET",
-      "position": "WR",
-      "overallRank": 211,
-      "positionRank": 77,
-      "previousRank": 213,
-      "highestRank": 169,
-      "lowestRank": 329,
-      "projectedPoints": 59.6,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 211
+        "FantasyPros": 207
       }
     },
     {
@@ -4087,32 +4019,66 @@
       "name": "Kaytron Allen",
       "team": "WAS",
       "position": "RB",
-      "overallRank": 212,
-      "positionRank": 65,
-      "previousRank": 210,
+      "overallRank": 208,
+      "positionRank": 64,
+      "previousRank": 212,
       "highestRank": 141,
       "lowestRank": 363,
       "projectedPoints": 18.4,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 212
+        "FantasyPros": 208
       }
     },
     {
-      "id": "jaylin-noel-hou-wr",
-      "fantasyProsId": 27122,
-      "name": "Jaylin Noel",
-      "team": "HOU",
-      "position": "WR",
-      "overallRank": 213,
-      "positionRank": 78,
-      "previousRank": 211,
-      "highestRank": 153,
-      "lowestRank": 298,
-      "projectedPoints": 62.3,
+      "id": "oronde-gadsden-ii-lac-te",
+      "fantasyProsId": 25997,
+      "name": "Oronde Gadsden II",
+      "team": "LAC",
+      "position": "TE",
+      "overallRank": 209,
+      "positionRank": 25,
+      "previousRank": 199,
+      "highestRank": 96,
+      "lowestRank": 333,
+      "projectedPoints": 76.6,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 213
+        "FantasyPros": 209
+      }
+    },
+    {
+      "id": "travis-hunter-jac-wr",
+      "fantasyProsId": 26034,
+      "name": "Travis Hunter",
+      "team": "JAC",
+      "position": "WR",
+      "overallRank": 210,
+      "positionRank": 76,
+      "previousRank": 208,
+      "highestRank": 106,
+      "lowestRank": 327,
+      "projectedPoints": 70,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 210
+      }
+    },
+    {
+      "id": "isiah-pacheco-det-rb",
+      "fantasyProsId": 24333,
+      "name": "Isiah Pacheco",
+      "team": "DET",
+      "position": "RB",
+      "overallRank": 211,
+      "positionRank": 65,
+      "previousRank": 202,
+      "highestRank": 121,
+      "lowestRank": 317,
+      "projectedPoints": 94.9,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 211
       }
     },
     {
@@ -4121,49 +4087,32 @@
       "name": "Najee Harris",
       "team": "NYG",
       "position": "RB",
-      "overallRank": 214,
+      "overallRank": 212,
       "positionRank": 66,
-      "previousRank": 216,
+      "previousRank": 214,
       "highestRank": 102,
       "lowestRank": 309,
       "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 214
+        "FantasyPros": 212
       }
     },
     {
-      "id": "tyler-loop-bal-k",
-      "fantasyProsId": 27534,
-      "name": "Tyler Loop",
-      "team": "BAL",
-      "position": "K",
-      "overallRank": 215,
-      "positionRank": 7,
-      "previousRank": 215,
-      "highestRank": 196,
-      "lowestRank": 325,
-      "projectedPoints": 132.5,
+      "id": "isaac-teslaa-det-wr",
+      "fantasyProsId": 27446,
+      "name": "Isaac TeSlaa",
+      "team": "DET",
+      "position": "WR",
+      "overallRank": 213,
+      "positionRank": 77,
+      "previousRank": 211,
+      "highestRank": 169,
+      "lowestRank": 329,
+      "projectedPoints": 59.6,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 215
-      }
-    },
-    {
-      "id": "green-bay-packers-gb-dst",
-      "fantasyProsId": 8110,
-      "name": "Green Bay Packers",
-      "team": "GB",
-      "position": "DST",
-      "overallRank": 216,
-      "positionRank": 13,
-      "previousRank": 214,
-      "highestRank": 170,
-      "lowestRank": 279,
-      "projectedPoints": 95.3,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 216
+        "FantasyPros": 213
       }
     },
     {
@@ -4172,49 +4121,83 @@
       "name": "Aaron Rodgers",
       "team": "PIT",
       "position": "QB",
-      "overallRank": 217,
+      "overallRank": 214,
       "positionRank": 28,
-      "previousRank": 221,
-      "highestRank": 136,
+      "previousRank": 217,
+      "highestRank": 133,
       "lowestRank": 341,
       "projectedPoints": 222.9,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 214
+      }
+    },
+    {
+      "id": "chris-bell-mia-wr",
+      "fantasyProsId": 26038,
+      "name": "Chris Bell",
+      "team": "MIA",
+      "position": "WR",
+      "overallRank": 215,
+      "positionRank": 78,
+      "previousRank": 225,
+      "highestRank": 120,
+      "lowestRank": 378,
+      "projectedPoints": 54.1,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 215
+      }
+    },
+    {
+      "id": "tyler-loop-bal-k",
+      "fantasyProsId": 27534,
+      "name": "Tyler Loop",
+      "team": "BAL",
+      "position": "K",
+      "overallRank": 216,
+      "positionRank": 7,
+      "previousRank": 215,
+      "highestRank": 191,
+      "lowestRank": 332,
+      "projectedPoints": 132.5,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 216
+      }
+    },
+    {
+      "id": "green-bay-packers-gb-dst",
+      "fantasyProsId": 8110,
+      "name": "Green Bay Packers",
+      "team": "GB",
+      "position": "DST",
+      "overallRank": 217,
+      "positionRank": 13,
+      "previousRank": 216,
+      "highestRank": 170,
+      "lowestRank": 332,
+      "projectedPoints": 95.3,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 217
       }
     },
     {
-      "id": "pat-freiermuth-pit-te",
-      "fantasyProsId": 20163,
-      "name": "Pat Freiermuth",
-      "team": "PIT",
-      "position": "TE",
+      "id": "jaylin-noel-hou-wr",
+      "fantasyProsId": 27122,
+      "name": "Jaylin Noel",
+      "team": "HOU",
+      "position": "WR",
       "overallRank": 218,
-      "positionRank": 26,
-      "previousRank": 217,
-      "highestRank": 144,
-      "lowestRank": 324,
-      "projectedPoints": 80.9,
+      "positionRank": 79,
+      "previousRank": 213,
+      "highestRank": 153,
+      "lowestRank": 302,
+      "projectedPoints": 62.3,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 218
-      }
-    },
-    {
-      "id": "kaleb-johnson-gb-rb",
-      "fantasyProsId": 27165,
-      "name": "Kaleb Johnson",
-      "team": "GB",
-      "position": "RB",
-      "overallRank": 219,
-      "positionRank": 67,
-      "previousRank": 219,
-      "highestRank": 121,
-      "lowestRank": 326,
-      "projectedPoints": 0,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 219
       }
     },
     {
@@ -4223,10 +4206,10 @@
       "name": "Jake Bates",
       "team": "DET",
       "position": "K",
-      "overallRank": 220,
+      "overallRank": 219,
       "positionRank": 8,
       "previousRank": 220,
-      "highestRank": 191,
+      "highestRank": 186,
       "lowestRank": 254,
       "projectedPoints": 135.9,
       "projectedStats": {
@@ -4236,58 +4219,24 @@
         "fantasyPoints": 135.9
       },
       "sourceRanks": {
-        "FantasyPros": 220
+        "FantasyPros": 219
       }
     },
     {
-      "id": "jaylen-wright-mia-rb",
-      "fantasyProsId": 25987,
-      "name": "Jaylen Wright",
-      "team": "MIA",
-      "position": "RB",
-      "overallRank": 221,
-      "positionRank": 68,
+      "id": "pat-freiermuth-pit-te",
+      "fantasyProsId": 20163,
+      "name": "Pat Freiermuth",
+      "team": "PIT",
+      "position": "TE",
+      "overallRank": 220,
+      "positionRank": 26,
       "previousRank": 218,
-      "highestRank": 141,
-      "lowestRank": 293,
-      "projectedPoints": 43.3,
+      "highestRank": 144,
+      "lowestRank": 324,
+      "projectedPoints": 80.9,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 221
-      }
-    },
-    {
-      "id": "george-holani-sea-rb",
-      "fantasyProsId": 22915,
-      "name": "George Holani",
-      "team": "SEA",
-      "position": "RB",
-      "overallRank": 222,
-      "positionRank": 69,
-      "previousRank": 226,
-      "highestRank": 126,
-      "lowestRank": 369,
-      "projectedPoints": 33.1,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 222
-      }
-    },
-    {
-      "id": "evan-mcpherson-cin-k",
-      "fantasyProsId": 23297,
-      "name": "Evan McPherson",
-      "team": "CIN",
-      "position": "K",
-      "overallRank": 223,
-      "positionRank": 9,
-      "previousRank": 225,
-      "highestRank": 189,
-      "lowestRank": 332,
-      "projectedPoints": 128.7,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 223
+        "FantasyPros": 220
       }
     },
     {
@@ -4296,32 +4245,110 @@
       "name": "Malachi Fields",
       "team": "NYG",
       "position": "WR",
-      "overallRank": 224,
-      "positionRank": 79,
-      "previousRank": 222,
-      "highestRank": 139,
+      "overallRank": 221,
+      "positionRank": 80,
+      "previousRank": 224,
+      "highestRank": 135,
       "lowestRank": 375,
       "projectedPoints": 20.9,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 221
+      }
+    },
+    {
+      "id": "kaleb-johnson-gb-rb",
+      "fantasyProsId": 27165,
+      "name": "Kaleb Johnson",
+      "team": "GB",
+      "position": "RB",
+      "overallRank": 222,
+      "positionRank": 67,
+      "previousRank": 219,
+      "highestRank": 121,
+      "lowestRank": 326,
+      "projectedPoints": 0,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 222
+      }
+    },
+    {
+      "id": "buffalo-bills-buf-dst",
+      "fantasyProsId": 8030,
+      "name": "Buffalo Bills",
+      "team": "BUF",
+      "position": "DST",
+      "overallRank": 223,
+      "positionRank": 14,
+      "previousRank": 229,
+      "highestRank": 185,
+      "lowestRank": 343,
+      "projectedPoints": 107,
+      "projectedStats": {
+        "sacks": 42.7,
+        "defInterceptions": 14.6,
+        "fumbleRecoveries": 9.7,
+        "forcedFumbles": 12.8,
+        "defTd": 2.5,
+        "safeties": 0.5,
+        "pointsAllowed": 392.1,
+        "yardsAllowed": 5726.6,
+        "fantasyPoints": 107
+      },
+      "sourceRanks": {
+        "FantasyPros": 223
+      }
+    },
+    {
+      "id": "george-holani-sea-rb",
+      "fantasyProsId": 22915,
+      "name": "George Holani",
+      "team": "SEA",
+      "position": "RB",
+      "overallRank": 224,
+      "positionRank": 68,
+      "previousRank": 222,
+      "highestRank": 126,
+      "lowestRank": 369,
+      "projectedPoints": 33.1,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 224
       }
     },
     {
-      "id": "chris-bell-mia-wr",
-      "fantasyProsId": 26038,
-      "name": "Chris Bell",
-      "team": "MIA",
-      "position": "WR",
+      "id": "evan-mcpherson-cin-k",
+      "fantasyProsId": 23297,
+      "name": "Evan McPherson",
+      "team": "CIN",
+      "position": "K",
       "overallRank": 225,
-      "positionRank": 80,
-      "previousRank": 224,
-      "highestRank": 129,
-      "lowestRank": 378,
-      "projectedPoints": 54.1,
+      "positionRank": 9,
+      "previousRank": 223,
+      "highestRank": 189,
+      "lowestRank": 332,
+      "projectedPoints": 128.7,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 225
+      }
+    },
+    {
+      "id": "jaylen-wright-mia-rb",
+      "fantasyProsId": 25987,
+      "name": "Jaylen Wright",
+      "team": "MIA",
+      "position": "RB",
+      "overallRank": 226,
+      "positionRank": 69,
+      "previousRank": 221,
+      "highestRank": 143,
+      "lowestRank": 296,
+      "projectedPoints": 43.3,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 226
       }
     },
     {
@@ -4330,15 +4357,15 @@
       "name": "Darnell Mooney",
       "team": "NYG",
       "position": "WR",
-      "overallRank": 226,
+      "overallRank": 227,
       "positionRank": 81,
-      "previousRank": 228,
-      "highestRank": 162,
-      "lowestRank": 297,
+      "previousRank": 226,
+      "highestRank": 149,
+      "lowestRank": 313,
       "projectedPoints": 70.6,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 226
+        "FantasyPros": 227
       }
     },
     {
@@ -4347,9 +4374,9 @@
       "name": "Detroit Lions",
       "team": "DET",
       "position": "DST",
-      "overallRank": 227,
-      "positionRank": 14,
-      "previousRank": 223,
+      "overallRank": 228,
+      "positionRank": 15,
+      "previousRank": 227,
       "highestRank": 176,
       "lowestRank": 355,
       "projectedPoints": 106.9,
@@ -4365,48 +4392,26 @@
         "fantasyPoints": 106.9
       },
       "sourceRanks": {
-        "FantasyPros": 227
-      }
-    },
-    {
-      "id": "zachariah-branch-atl-wr",
-      "fantasyProsId": 25419,
-      "name": "Zachariah Branch",
-      "team": "ATL",
-      "position": "WR",
-      "overallRank": 228,
-      "positionRank": 82,
-      "previousRank": 227,
-      "highestRank": 149,
-      "lowestRank": 377,
-      "projectedPoints": 48.9,
-      "projectedStats": {},
-      "sourceRanks": {
         "FantasyPros": 228
       }
     },
     {
-      "id": "buffalo-bills-buf-dst",
-      "fantasyProsId": 8030,
-      "name": "Buffalo Bills",
-      "team": "BUF",
-      "position": "DST",
+      "id": "chase-mclaughlin-tb-k",
+      "fantasyProsId": 19058,
+      "name": "Chase McLaughlin",
+      "team": "TB",
+      "position": "K",
       "overallRank": 229,
-      "positionRank": 15,
-      "previousRank": 229,
-      "highestRank": 189,
-      "lowestRank": 343,
-      "projectedPoints": 107,
+      "positionRank": 10,
+      "previousRank": 232,
+      "highestRank": 191,
+      "lowestRank": 332,
+      "projectedPoints": 132.8,
       "projectedStats": {
-        "sacks": 42.7,
-        "defInterceptions": 14.6,
-        "fumbleRecoveries": 9.7,
-        "forcedFumbles": 12.8,
-        "defTd": 2.5,
-        "safeties": 0.5,
-        "pointsAllowed": 392.1,
-        "yardsAllowed": 5726.6,
-        "fantasyPoints": 107
+        "fg": 31.5,
+        "fga": 36.2,
+        "xp": 38.2,
+        "fantasyPoints": 132.8
       },
       "sourceRanks": {
         "FantasyPros": 229
@@ -4419,8 +4424,8 @@
       "team": "CHI",
       "position": "K",
       "overallRank": 230,
-      "positionRank": 10,
-      "previousRank": 232,
+      "positionRank": 11,
+      "previousRank": 230,
       "highestRank": 199,
       "lowestRank": 332,
       "projectedPoints": 133.2,
@@ -4435,90 +4440,85 @@
       }
     },
     {
-      "id": "gunnar-helm-ten-te",
-      "fantasyProsId": 27109,
-      "name": "Gunnar Helm",
-      "team": "TEN",
-      "position": "TE",
+      "id": "zachariah-branch-atl-wr",
+      "fantasyProsId": 25419,
+      "name": "Zachariah Branch",
+      "team": "ATL",
+      "position": "WR",
       "overallRank": 231,
-      "positionRank": 27,
-      "previousRank": 230,
-      "highestRank": 154,
-      "lowestRank": 308,
-      "projectedPoints": 62.5,
+      "positionRank": 82,
+      "previousRank": 228,
+      "highestRank": 149,
+      "lowestRank": 377,
+      "projectedPoints": 48.9,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 231
       }
     },
     {
-      "id": "chase-mclaughlin-tb-k",
-      "fantasyProsId": 19058,
-      "name": "Chase McLaughlin",
-      "team": "TB",
-      "position": "K",
+      "id": "greg-dulcich-mia-te",
+      "fantasyProsId": 23153,
+      "name": "Greg Dulcich",
+      "team": "MIA",
+      "position": "TE",
       "overallRank": 232,
-      "positionRank": 11,
-      "previousRank": 233,
-      "highestRank": 191,
-      "lowestRank": 332,
-      "projectedPoints": 132.8,
-      "projectedStats": {
-        "fg": 31.5,
-        "fga": 36.2,
-        "xp": 38.2,
-        "fantasyPoints": 132.8
-      },
+      "positionRank": 27,
+      "previousRank": 239,
+      "highestRank": 130,
+      "lowestRank": 354,
+      "projectedPoints": 78.9,
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 232
       }
     },
     {
-      "id": "emanuel-wilson-sea-rb",
-      "fantasyProsId": 25885,
-      "name": "Emanuel Wilson",
-      "team": "SEA",
-      "position": "RB",
+      "id": "gunnar-helm-ten-te",
+      "fantasyProsId": 27109,
+      "name": "Gunnar Helm",
+      "team": "TEN",
+      "position": "TE",
       "overallRank": 233,
-      "positionRank": 70,
+      "positionRank": 28,
       "previousRank": 231,
-      "highestRank": 141,
-      "lowestRank": 328,
-      "projectedPoints": 43.5,
+      "highestRank": 154,
+      "lowestRank": 308,
+      "projectedPoints": 62.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 233
       }
     },
     {
-      "id": "andy-borregales-ne-k",
-      "fantasyProsId": 27291,
-      "name": "Andy Borregales",
-      "team": "NE",
-      "position": "K",
+      "id": "justice-hill-bal-rb",
+      "fantasyProsId": 18256,
+      "name": "Justice Hill",
+      "team": "BAL",
+      "position": "RB",
       "overallRank": 234,
-      "positionRank": 12,
-      "previousRank": 235,
-      "highestRank": 181,
-      "lowestRank": 332,
-      "projectedPoints": 121.3,
+      "positionRank": 70,
+      "previousRank": 241,
+      "highestRank": 145,
+      "lowestRank": 337,
+      "projectedPoints": 81.3,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 234
       }
     },
     {
-      "id": "cooper-kupp-sea-wr",
-      "fantasyProsId": 16433,
-      "name": "Cooper Kupp",
-      "team": "SEA",
+      "id": "caleb-douglas-mia-wr",
+      "fantasyProsId": 28135,
+      "name": "Caleb Douglas",
+      "team": "MIA",
       "position": "WR",
       "overallRank": 235,
       "positionRank": 83,
-      "previousRank": 241,
-      "highestRank": 164,
-      "lowestRank": 314,
-      "projectedPoints": 77.7,
+      "previousRank": 242,
+      "highestRank": 137,
+      "lowestRank": 384,
+      "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 235
@@ -4531,8 +4531,8 @@
       "team": "LAR",
       "position": "K",
       "overallRank": 236,
-      "positionRank": 13,
-      "previousRank": 240,
+      "positionRank": 12,
+      "previousRank": 236,
       "highestRank": 192,
       "lowestRank": 330,
       "projectedPoints": 135.3,
@@ -4553,14 +4553,31 @@
       "team": "TB",
       "position": "TE",
       "overallRank": 237,
-      "positionRank": 28,
-      "previousRank": 236,
+      "positionRank": 29,
+      "previousRank": 237,
       "highestRank": 154,
-      "lowestRank": 297,
+      "lowestRank": 305,
       "projectedPoints": 74,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 237
+      }
+    },
+    {
+      "id": "cooper-kupp-sea-wr",
+      "fantasyProsId": 16433,
+      "name": "Cooper Kupp",
+      "team": "SEA",
+      "position": "WR",
+      "overallRank": 238,
+      "positionRank": 84,
+      "previousRank": 235,
+      "highestRank": 135,
+      "lowestRank": 314,
+      "projectedPoints": 77.7,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 238
       }
     },
     {
@@ -4569,32 +4586,49 @@
       "name": "Geno Smith",
       "team": "NYJ",
       "position": "QB",
-      "overallRank": 238,
+      "overallRank": 239,
       "positionRank": 29,
-      "previousRank": 237,
+      "previousRank": 238,
       "highestRank": 152,
       "lowestRank": 342,
       "projectedPoints": 233.2,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 238
+        "FantasyPros": 239
       }
     },
     {
-      "id": "greg-dulcich-mia-te",
-      "fantasyProsId": 23153,
-      "name": "Greg Dulcich",
-      "team": "MIA",
-      "position": "TE",
-      "overallRank": 239,
-      "positionRank": 29,
-      "previousRank": 239,
-      "highestRank": 130,
-      "lowestRank": 354,
-      "projectedPoints": 78.9,
+      "id": "andy-borregales-ne-k",
+      "fantasyProsId": 27291,
+      "name": "Andy Borregales",
+      "team": "NE",
+      "position": "K",
+      "overallRank": 240,
+      "positionRank": 13,
+      "previousRank": 234,
+      "highestRank": 181,
+      "lowestRank": 332,
+      "projectedPoints": 121.3,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 239
+        "FantasyPros": 240
+      }
+    },
+    {
+      "id": "emanuel-wilson-sea-rb",
+      "fantasyProsId": 25885,
+      "name": "Emanuel Wilson",
+      "team": "SEA",
+      "position": "RB",
+      "overallRank": 241,
+      "positionRank": 71,
+      "previousRank": 233,
+      "highestRank": 148,
+      "lowestRank": 313,
+      "projectedPoints": 43.5,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 241
       }
     },
     {
@@ -4603,83 +4637,32 @@
       "name": "Cleveland Browns",
       "team": "CLE",
       "position": "DST",
-      "overallRank": 240,
-      "positionRank": 16,
-      "previousRank": 234,
-      "highestRank": 150,
-      "lowestRank": 339,
-      "projectedPoints": 100.9,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 240
-      }
-    },
-    {
-      "id": "justice-hill-bal-rb",
-      "fantasyProsId": 18256,
-      "name": "Justice Hill",
-      "team": "BAL",
-      "position": "RB",
-      "overallRank": 241,
-      "positionRank": 71,
-      "previousRank": 243,
-      "highestRank": 141,
-      "lowestRank": 326,
-      "projectedPoints": 81.3,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 241
-      }
-    },
-    {
-      "id": "caleb-douglas-mia-wr",
-      "fantasyProsId": 28135,
-      "name": "Caleb Douglas",
-      "team": "MIA",
-      "position": "WR",
       "overallRank": 242,
-      "positionRank": 84,
-      "previousRank": 238,
-      "highestRank": 139,
-      "lowestRank": 384,
-      "projectedPoints": 0,
+      "positionRank": 16,
+      "previousRank": 240,
+      "highestRank": 150,
+      "lowestRank": 355,
+      "projectedPoints": 100.9,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 242
       }
     },
     {
-      "id": "james-conner-ari-rb",
-      "fantasyProsId": 16447,
-      "name": "James Conner",
-      "team": "ARI",
-      "position": "RB",
+      "id": "devaughn-vele-no-wr",
+      "fantasyProsId": 26409,
+      "name": "Devaughn Vele",
+      "team": "NO",
+      "position": "WR",
       "overallRank": 243,
-      "positionRank": 72,
-      "previousRank": 242,
-      "highestRank": 117,
-      "lowestRank": 353,
-      "projectedPoints": 43.6,
+      "positionRank": 85,
+      "previousRank": 248,
+      "highestRank": 139,
+      "lowestRank": 321,
+      "projectedPoints": 59.1,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 243
-      }
-    },
-    {
-      "id": "troy-franklin-den-wr",
-      "fantasyProsId": 23092,
-      "name": "Troy Franklin",
-      "team": "DEN",
-      "position": "WR",
-      "overallRank": 244,
-      "positionRank": 85,
-      "previousRank": 247,
-      "highestRank": 142,
-      "lowestRank": 367,
-      "projectedPoints": 60.1,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 244
       }
     },
     {
@@ -4688,12 +4671,29 @@
       "name": "Germie Bernard",
       "team": "PIT",
       "position": "WR",
-      "overallRank": 245,
+      "overallRank": 244,
       "positionRank": 86,
-      "previousRank": 244,
-      "highestRank": 175,
+      "previousRank": 245,
+      "highestRank": 168,
       "lowestRank": 379,
       "projectedPoints": 73.5,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 244
+      }
+    },
+    {
+      "id": "james-conner-ari-rb",
+      "fantasyProsId": 16447,
+      "name": "James Conner",
+      "team": "ARI",
+      "position": "RB",
+      "overallRank": 245,
+      "positionRank": 72,
+      "previousRank": 243,
+      "highestRank": 117,
+      "lowestRank": 357,
+      "projectedPoints": 43.6,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 245
@@ -4707,8 +4707,8 @@
       "position": "RB",
       "overallRank": 246,
       "positionRank": 73,
-      "previousRank": 245,
-      "highestRank": 131,
+      "previousRank": 246,
+      "highestRank": 155,
       "lowestRank": 331,
       "projectedPoints": 51.5,
       "projectedStats": {},
@@ -4717,122 +4717,37 @@
       }
     },
     {
-      "id": "antonio-williams-was-wr",
-      "fantasyProsId": 25418,
-      "name": "Antonio Williams",
-      "team": "WAS",
-      "position": "WR",
+      "id": "samaje-perine-cin-rb",
+      "fantasyProsId": 16423,
+      "name": "Samaje Perine",
+      "team": "CIN",
+      "position": "RB",
       "overallRank": 247,
-      "positionRank": 87,
-      "previousRank": 246,
-      "highestRank": 142,
-      "lowestRank": 389,
-      "projectedPoints": 81.7,
+      "positionRank": 74,
+      "previousRank": 249,
+      "highestRank": 145,
+      "lowestRank": 380,
+      "projectedPoints": 78.3,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 247
       }
     },
     {
-      "id": "devaughn-vele-no-wr",
-      "fantasyProsId": 26409,
-      "name": "Devaughn Vele",
-      "team": "NO",
+      "id": "antonio-williams-was-wr",
+      "fantasyProsId": 25418,
+      "name": "Antonio Williams",
+      "team": "WAS",
       "position": "WR",
       "overallRank": 248,
-      "positionRank": 88,
-      "previousRank": 250,
-      "highestRank": 163,
-      "lowestRank": 315,
-      "projectedPoints": 59.1,
+      "positionRank": 87,
+      "previousRank": 247,
+      "highestRank": 142,
+      "lowestRank": 389,
+      "projectedPoints": 81.7,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 248
-      }
-    },
-    {
-      "id": "samaje-perine-cin-rb",
-      "fantasyProsId": 16423,
-      "name": "Samaje Perine",
-      "team": "CIN",
-      "position": "RB",
-      "overallRank": 249,
-      "positionRank": 74,
-      "previousRank": 255,
-      "highestRank": 155,
-      "lowestRank": 380,
-      "projectedPoints": 78.3,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 249
-      }
-    },
-    {
-      "id": "keon-coleman-buf-wr",
-      "fantasyProsId": 26019,
-      "name": "Keon Coleman",
-      "team": "BUF",
-      "position": "WR",
-      "overallRank": 250,
-      "positionRank": 89,
-      "previousRank": 254,
-      "highestRank": 147,
-      "lowestRank": 306,
-      "projectedPoints": 39.7,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 250
-      }
-    },
-    {
-      "id": "david-njoku-lac-te",
-      "fantasyProsId": 16399,
-      "name": "David Njoku",
-      "team": "LAC",
-      "position": "TE",
-      "overallRank": 251,
-      "positionRank": 30,
-      "previousRank": 248,
-      "highestRank": 137,
-      "lowestRank": 394,
-      "projectedPoints": 57.7,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 251
-      }
-    },
-    {
-      "id": "ollie-gordon-ii-mia-rb",
-      "fantasyProsId": 25984,
-      "name": "Ollie Gordon II",
-      "team": "MIA",
-      "position": "RB",
-      "overallRank": 252,
-      "positionRank": 75,
-      "previousRank": 252,
-      "highestRank": 155,
-      "lowestRank": 317,
-      "projectedPoints": 30.7,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 252
-      }
-    },
-    {
-      "id": "demond-claiborne-min-rb",
-      "fantasyProsId": 28084,
-      "name": "Demond Claiborne",
-      "team": "MIN",
-      "position": "RB",
-      "overallRank": 253,
-      "positionRank": 76,
-      "previousRank": 253,
-      "highestRank": 145,
-      "lowestRank": 382,
-      "projectedPoints": 19.4,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 253
       }
     },
     {
@@ -4841,15 +4756,49 @@
       "name": "Ted Hurst III",
       "team": "TB",
       "position": "WR",
-      "overallRank": 254,
-      "positionRank": 90,
-      "previousRank": 249,
-      "highestRank": 149,
+      "overallRank": 249,
+      "positionRank": 88,
+      "previousRank": 254,
+      "highestRank": 153,
       "lowestRank": 392,
       "projectedPoints": 53.7,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 254
+        "FantasyPros": 249
+      }
+    },
+    {
+      "id": "troy-franklin-den-wr",
+      "fantasyProsId": 23092,
+      "name": "Troy Franklin",
+      "team": "DEN",
+      "position": "WR",
+      "overallRank": 250,
+      "positionRank": 89,
+      "previousRank": 244,
+      "highestRank": 165,
+      "lowestRank": 367,
+      "projectedPoints": 60.1,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 250
+      }
+    },
+    {
+      "id": "keon-coleman-buf-wr",
+      "fantasyProsId": 26019,
+      "name": "Keon Coleman",
+      "team": "BUF",
+      "position": "WR",
+      "overallRank": 251,
+      "positionRank": 90,
+      "previousRank": 250,
+      "highestRank": 149,
+      "lowestRank": 333,
+      "projectedPoints": 39.7,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 251
       }
     },
     {
@@ -4858,15 +4807,32 @@
       "name": "Harrison Butker",
       "team": "KC",
       "position": "K",
-      "overallRank": 255,
+      "overallRank": 252,
       "positionRank": 14,
-      "previousRank": 256,
-      "highestRank": 202,
+      "previousRank": 255,
+      "highestRank": 192,
       "lowestRank": 332,
       "projectedPoints": 131.8,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 255
+        "FantasyPros": 252
+      }
+    },
+    {
+      "id": "david-njoku-lac-te",
+      "fantasyProsId": 16399,
+      "name": "David Njoku",
+      "team": "LAC",
+      "position": "TE",
+      "overallRank": 253,
+      "positionRank": 30,
+      "previousRank": 251,
+      "highestRank": 137,
+      "lowestRank": 394,
+      "projectedPoints": 57.7,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 253
       }
     },
     {
@@ -4875,32 +4841,49 @@
       "name": "Chris Boswell",
       "team": "PIT",
       "position": "K",
-      "overallRank": 256,
+      "overallRank": 254,
       "positionRank": 15,
-      "previousRank": 258,
+      "previousRank": 256,
       "highestRank": 191,
       "lowestRank": 327,
       "projectedPoints": 118.2,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 256
+        "FantasyPros": 254
       }
     },
     {
-      "id": "seth-mcgowan-ind-rb",
-      "fantasyProsId": 23079,
-      "name": "Seth McGowan",
-      "team": "IND",
+      "id": "demond-claiborne-min-rb",
+      "fantasyProsId": 28084,
+      "name": "Demond Claiborne",
+      "team": "MIN",
       "position": "RB",
-      "overallRank": 257,
-      "positionRank": 77,
-      "previousRank": 259,
+      "overallRank": 255,
+      "positionRank": 75,
+      "previousRank": 253,
       "highestRank": 145,
-      "lowestRank": 386,
-      "projectedPoints": 0,
+      "lowestRank": 382,
+      "projectedPoints": 19.4,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 257
+        "FantasyPros": 255
+      }
+    },
+    {
+      "id": "ollie-gordon-ii-mia-rb",
+      "fantasyProsId": 25984,
+      "name": "Ollie Gordon II",
+      "team": "MIA",
+      "position": "RB",
+      "overallRank": 256,
+      "positionRank": 76,
+      "previousRank": 252,
+      "highestRank": 155,
+      "lowestRank": 316,
+      "projectedPoints": 30.7,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 256
       }
     },
     {
@@ -4909,49 +4892,32 @@
       "name": "Evan Engram",
       "team": "DEN",
       "position": "TE",
-      "overallRank": 258,
+      "overallRank": 257,
       "positionRank": 31,
-      "previousRank": 257,
+      "previousRank": 258,
       "highestRank": 154,
-      "lowestRank": 341,
+      "lowestRank": 344,
       "projectedPoints": 63.2,
       "projectedStats": {},
       "sourceRanks": {
+        "FantasyPros": 257
+      }
+    },
+    {
+      "id": "seth-mcgowan-ind-rb",
+      "fantasyProsId": 23079,
+      "name": "Seth McGowan",
+      "team": "IND",
+      "position": "RB",
+      "overallRank": 258,
+      "positionRank": 77,
+      "previousRank": 257,
+      "highestRank": 121,
+      "lowestRank": 386,
+      "projectedPoints": 0,
+      "projectedStats": {},
+      "sourceRanks": {
         "FantasyPros": 258
-      }
-    },
-    {
-      "id": "tank-dell-hou-wr",
-      "fantasyProsId": 25361,
-      "name": "Tank Dell",
-      "team": "HOU",
-      "position": "WR",
-      "overallRank": 259,
-      "positionRank": 91,
-      "previousRank": 251,
-      "highestRank": 164,
-      "lowestRank": 340,
-      "projectedPoints": 79.9,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 259
-      }
-    },
-    {
-      "id": "colby-parkinson-lar-te",
-      "fantasyProsId": 19372,
-      "name": "Colby Parkinson",
-      "team": "LAR",
-      "position": "TE",
-      "overallRank": 260,
-      "positionRank": 32,
-      "previousRank": 260,
-      "highestRank": 177,
-      "lowestRank": 352,
-      "projectedPoints": 57.6,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 260
       }
     },
     {
@@ -4960,15 +4926,15 @@
       "name": "Tyquan Thornton",
       "team": "KC",
       "position": "WR",
-      "overallRank": 261,
-      "positionRank": 92,
-      "previousRank": 262,
+      "overallRank": 259,
+      "positionRank": 91,
+      "previousRank": 261,
       "highestRank": 164,
       "lowestRank": 383,
       "projectedPoints": 67.2,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 261
+        "FantasyPros": 259
       }
     },
     {
@@ -4977,29 +4943,63 @@
       "name": "Cyrus Allen",
       "team": "KC",
       "position": "WR",
-      "overallRank": 262,
-      "positionRank": 93,
-      "previousRank": 263,
-      "highestRank": 122,
+      "overallRank": 260,
+      "positionRank": 92,
+      "previousRank": 262,
+      "highestRank": 116,
       "lowestRank": 393,
       "projectedPoints": 0,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 260
+      }
+    },
+    {
+      "id": "colby-parkinson-lar-te",
+      "fantasyProsId": 19372,
+      "name": "Colby Parkinson",
+      "team": "LAR",
+      "position": "TE",
+      "overallRank": 261,
+      "positionRank": 32,
+      "previousRank": 260,
+      "highestRank": 177,
+      "lowestRank": 352,
+      "projectedPoints": 57.6,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 261
+      }
+    },
+    {
+      "id": "will-reichard-min-k",
+      "fantasyProsId": 26341,
+      "name": "Will Reichard",
+      "team": "MIN",
+      "position": "K",
+      "overallRank": 262,
+      "positionRank": 16,
+      "previousRank": 268,
+      "highestRank": 197,
+      "lowestRank": 327,
+      "projectedPoints": 130.7,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 262
       }
     },
     {
-      "id": "elic-ayomanor-ten-wr",
-      "fantasyProsId": 27059,
-      "name": "Elic Ayomanor",
-      "team": "TEN",
-      "position": "WR",
+      "id": "kendre-miller-no-rb",
+      "fantasyProsId": 24360,
+      "name": "Kendre Miller",
+      "team": "NO",
+      "position": "RB",
       "overallRank": 263,
-      "positionRank": 94,
-      "previousRank": 261,
-      "highestRank": 169,
-      "lowestRank": 378,
-      "projectedPoints": 51.5,
+      "positionRank": 78,
+      "previousRank": 265,
+      "highestRank": 155,
+      "lowestRank": 312,
+      "projectedPoints": 36.7,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 263
@@ -5012,9 +5012,9 @@
       "team": "SF",
       "position": "RB",
       "overallRank": 264,
-      "positionRank": 78,
-      "previousRank": 265,
-      "highestRank": 148,
+      "positionRank": 79,
+      "previousRank": 264,
+      "highestRank": 159,
       "lowestRank": 369,
       "projectedPoints": 77.1,
       "projectedStats": {},
@@ -5023,88 +5023,37 @@
       }
     },
     {
-      "id": "kendre-miller-no-rb",
-      "fantasyProsId": 24360,
-      "name": "Kendre Miller",
-      "team": "NO",
-      "position": "RB",
+      "id": "tank-dell-hou-wr",
+      "fantasyProsId": 25361,
+      "name": "Tank Dell",
+      "team": "HOU",
+      "position": "WR",
       "overallRank": 265,
-      "positionRank": 79,
-      "previousRank": 264,
-      "highestRank": 151,
-      "lowestRank": 363,
-      "projectedPoints": 36.7,
+      "positionRank": 93,
+      "previousRank": 259,
+      "highestRank": 164,
+      "lowestRank": 318,
+      "projectedPoints": 79.9,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 265
       }
     },
     {
-      "id": "jack-bech-lv-wr",
-      "fantasyProsId": 27224,
-      "name": "Jack Bech",
-      "team": "LV",
+      "id": "elic-ayomanor-ten-wr",
+      "fantasyProsId": 27059,
+      "name": "Elic Ayomanor",
+      "team": "TEN",
       "position": "WR",
       "overallRank": 266,
-      "positionRank": 95,
-      "previousRank": 266,
-      "highestRank": 168,
-      "lowestRank": 378,
-      "projectedPoints": 53.1,
+      "positionRank": 94,
+      "previousRank": 263,
+      "highestRank": 179,
+      "lowestRank": 377,
+      "projectedPoints": 51.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 266
-      }
-    },
-    {
-      "id": "tory-horton-sea-wr",
-      "fantasyProsId": 26022,
-      "name": "Tory Horton",
-      "team": "SEA",
-      "position": "WR",
-      "overallRank": 267,
-      "positionRank": 96,
-      "previousRank": 269,
-      "highestRank": 199,
-      "lowestRank": 370,
-      "projectedPoints": 64.1,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 267
-      }
-    },
-    {
-      "id": "will-reichard-min-k",
-      "fantasyProsId": 26341,
-      "name": "Will Reichard",
-      "team": "MIN",
-      "position": "K",
-      "overallRank": 268,
-      "positionRank": 16,
-      "previousRank": 272,
-      "highestRank": 199,
-      "lowestRank": 327,
-      "projectedPoints": 130.7,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 268
-      }
-    },
-    {
-      "id": "isaiah-davis-nyj-rb",
-      "fantasyProsId": 25977,
-      "name": "Isaiah Davis",
-      "team": "NYJ",
-      "position": "RB",
-      "overallRank": 269,
-      "positionRank": 80,
-      "previousRank": 268,
-      "highestRank": 181,
-      "lowestRank": 331,
-      "projectedPoints": 27.7,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 269
       }
     },
     {
@@ -5113,7 +5062,7 @@
       "name": "Fernando Mendoza",
       "team": "LV",
       "position": "QB",
-      "overallRank": 270,
+      "overallRank": 267,
       "positionRank": 30,
       "previousRank": 270,
       "highestRank": 178,
@@ -5121,21 +5070,72 @@
       "projectedPoints": 192.7,
       "projectedStats": {},
       "sourceRanks": {
+        "FantasyPros": 267
+      }
+    },
+    {
+      "id": "jack-bech-lv-wr",
+      "fantasyProsId": 27224,
+      "name": "Jack Bech",
+      "team": "LV",
+      "position": "WR",
+      "overallRank": 268,
+      "positionRank": 95,
+      "previousRank": 266,
+      "highestRank": 169,
+      "lowestRank": 378,
+      "projectedPoints": 53.1,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 268
+      }
+    },
+    {
+      "id": "ty-johnson-buf-rb",
+      "fantasyProsId": 18406,
+      "name": "Ty Johnson",
+      "team": "BUF",
+      "position": "RB",
+      "overallRank": 269,
+      "positionRank": 80,
+      "previousRank": 273,
+      "highestRank": 174,
+      "lowestRank": 357,
+      "projectedPoints": 71.4,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 269
+      }
+    },
+    {
+      "id": "tory-horton-sea-wr",
+      "fantasyProsId": 26022,
+      "name": "Tory Horton",
+      "team": "SEA",
+      "position": "WR",
+      "overallRank": 270,
+      "positionRank": 96,
+      "previousRank": 267,
+      "highestRank": 199,
+      "lowestRank": 370,
+      "projectedPoints": 64.1,
+      "projectedStats": {},
+      "sourceRanks": {
         "FantasyPros": 270
       }
     },
     {
-      "id": "chimere-dike-ten-wr",
-      "fantasyProsId": 27315,
-      "name": "Chimere Dike",
-      "team": "TEN",
-      "position": "WR",
+      "id": "isaiah-davis-nyj-rb",
+      "fantasyProsId": 25977,
+      "name": "Isaiah Davis",
+      "team": "NYJ",
+      "position": "RB",
       "overallRank": 271,
-      "positionRank": 97,
-      "previousRank": 267,
-      "highestRank": 169,
-      "lowestRank": 375,
-      "projectedPoints": 48.7,
+      "positionRank": 81,
+      "previousRank": 269,
+      "highestRank": 188,
+      "lowestRank": 336,
+      "projectedPoints": 27.7,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 271
@@ -5149,7 +5149,7 @@
       "position": "K",
       "overallRank": 272,
       "positionRank": 17,
-      "previousRank": 273,
+      "previousRank": 272,
       "highestRank": 199,
       "lowestRank": 332,
       "projectedPoints": 128.4,
@@ -5159,17 +5159,17 @@
       }
     },
     {
-      "id": "ty-johnson-buf-rb",
-      "fantasyProsId": 18406,
-      "name": "Ty Johnson",
-      "team": "BUF",
-      "position": "RB",
+      "id": "chimere-dike-ten-wr",
+      "fantasyProsId": 27315,
+      "name": "Chimere Dike",
+      "team": "TEN",
+      "position": "WR",
       "overallRank": 273,
-      "positionRank": 81,
+      "positionRank": 97,
       "previousRank": 271,
-      "highestRank": 162,
-      "lowestRank": 357,
-      "projectedPoints": 71.4,
+      "highestRank": 169,
+      "lowestRank": 375,
+      "projectedPoints": 48.7,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 273
@@ -5210,17 +5210,17 @@
       }
     },
     {
-      "id": "theo-johnson-nyg-te",
-      "fantasyProsId": 23104,
-      "name": "Theo Johnson",
-      "team": "NYG",
-      "position": "TE",
+      "id": "kyle-williams-ne-wr",
+      "fantasyProsId": 27487,
+      "name": "Kyle Williams",
+      "team": "NE",
+      "position": "WR",
       "overallRank": 276,
-      "positionRank": 34,
-      "previousRank": 276,
-      "highestRank": 195,
-      "lowestRank": 348,
-      "projectedPoints": 48.7,
+      "positionRank": 99,
+      "previousRank": 278,
+      "highestRank": 173,
+      "lowestRank": 346,
+      "projectedPoints": 15.6,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 276
@@ -5233,9 +5233,9 @@
       "team": "DEN",
       "position": "WR",
       "overallRank": 277,
-      "positionRank": 99,
+      "positionRank": 100,
       "previousRank": 277,
-      "highestRank": 217,
+      "highestRank": 209,
       "lowestRank": 346,
       "projectedPoints": 42.5,
       "projectedStats": {},
@@ -5244,34 +5244,34 @@
       }
     },
     {
-      "id": "kyle-williams-ne-wr",
-      "fantasyProsId": 27487,
-      "name": "Kyle Williams",
-      "team": "NE",
-      "position": "WR",
+      "id": "lequint-allen-jr-jac-rb",
+      "fantasyProsId": 27285,
+      "name": "LeQuint Allen Jr.",
+      "team": "JAC",
+      "position": "RB",
       "overallRank": 278,
-      "positionRank": 100,
-      "previousRank": 280,
-      "highestRank": 201,
-      "lowestRank": 346,
-      "projectedPoints": 15.6,
+      "positionRank": 82,
+      "previousRank": 279,
+      "highestRank": 163,
+      "lowestRank": 364,
+      "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 278
       }
     },
     {
-      "id": "lequint-allen-jr-jac-rb",
-      "fantasyProsId": 27285,
-      "name": "LeQuint Allen Jr.",
-      "team": "JAC",
-      "position": "RB",
+      "id": "michael-penix-jr-atl-qb",
+      "fantasyProsId": 22973,
+      "name": "Michael Penix Jr.",
+      "team": "ATL",
+      "position": "QB",
       "overallRank": 279,
-      "positionRank": 82,
-      "previousRank": 285,
-      "highestRank": 207,
-      "lowestRank": 380,
-      "projectedPoints": 0,
+      "positionRank": 31,
+      "previousRank": 282,
+      "highestRank": 191,
+      "lowestRank": 367,
+      "projectedPoints": 83.5,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 279
@@ -5284,8 +5284,8 @@
       "team": "ATL",
       "position": "QB",
       "overallRank": 280,
-      "positionRank": 31,
-      "previousRank": 278,
+      "positionRank": 32,
+      "previousRank": 280,
       "highestRank": 158,
       "lowestRank": 344,
       "projectedPoints": 164.4,
@@ -5295,71 +5295,20 @@
       }
     },
     {
-      "id": "elijah-sarratt-bal-wr",
-      "fantasyProsId": 27463,
-      "name": "Elijah Sarratt",
-      "team": "BAL",
-      "position": "WR",
+      "id": "theo-johnson-nyg-te",
+      "fantasyProsId": 23104,
+      "name": "Theo Johnson",
+      "team": "NYG",
+      "position": "TE",
       "overallRank": 281,
-      "positionRank": 101,
-      "previousRank": 281,
-      "highestRank": 207,
-      "lowestRank": 376,
-      "projectedPoints": 39.7,
+      "positionRank": 34,
+      "previousRank": 276,
+      "highestRank": 195,
+      "lowestRank": 343,
+      "projectedPoints": 48.7,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 281
-      }
-    },
-    {
-      "id": "michael-penix-jr-atl-qb",
-      "fantasyProsId": 22973,
-      "name": "Michael Penix Jr.",
-      "team": "ATL",
-      "position": "QB",
-      "overallRank": 282,
-      "positionRank": 32,
-      "previousRank": 283,
-      "highestRank": 191,
-      "lowestRank": 367,
-      "projectedPoints": 83.5,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 282
-      }
-    },
-    {
-      "id": "san-francisco-49ers-sf-dst",
-      "fantasyProsId": 8270,
-      "name": "San Francisco 49ers",
-      "team": "SF",
-      "position": "DST",
-      "overallRank": 283,
-      "positionRank": 17,
-      "previousRank": 284,
-      "highestRank": 166,
-      "lowestRank": 355,
-      "projectedPoints": 88.8,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 283
-      }
-    },
-    {
-      "id": "dj-giddens-ind-rb",
-      "fantasyProsId": 27097,
-      "name": "DJ Giddens",
-      "team": "IND",
-      "position": "RB",
-      "overallRank": 284,
-      "positionRank": 83,
-      "previousRank": 279,
-      "highestRank": 208,
-      "lowestRank": 328,
-      "projectedPoints": 27.3,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 284
       }
     },
     {
@@ -5368,15 +5317,32 @@
       "name": "New Orleans Saints",
       "team": "NO",
       "position": "DST",
-      "overallRank": 285,
-      "positionRank": 18,
-      "previousRank": 282,
+      "overallRank": 282,
+      "positionRank": 17,
+      "previousRank": 285,
       "highestRank": 171,
       "lowestRank": 355,
       "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 285
+        "FantasyPros": 282
+      }
+    },
+    {
+      "id": "elijah-sarratt-bal-wr",
+      "fantasyProsId": 27463,
+      "name": "Elijah Sarratt",
+      "team": "BAL",
+      "position": "WR",
+      "overallRank": 283,
+      "positionRank": 101,
+      "previousRank": 281,
+      "highestRank": 204,
+      "lowestRank": 378,
+      "projectedPoints": 39.7,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 283
       }
     },
     {
@@ -5385,32 +5351,49 @@
       "name": "Kirk Cousins",
       "team": "LV",
       "position": "QB",
-      "overallRank": 286,
+      "overallRank": 284,
       "positionRank": 33,
-      "previousRank": 289,
+      "previousRank": 286,
       "highestRank": 210,
       "lowestRank": 347,
       "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 286
+        "FantasyPros": 284
       }
     },
     {
-      "id": "eli-stowers-phi-te",
-      "fantasyProsId": 23144,
-      "name": "Eli Stowers",
-      "team": "PHI",
-      "position": "TE",
-      "overallRank": 287,
-      "positionRank": 35,
-      "previousRank": 286,
-      "highestRank": 202,
-      "lowestRank": 391,
-      "projectedPoints": 31.2,
+      "id": "san-francisco-49ers-sf-dst",
+      "fantasyProsId": 8270,
+      "name": "San Francisco 49ers",
+      "team": "SF",
+      "position": "DST",
+      "overallRank": 285,
+      "positionRank": 18,
+      "previousRank": 283,
+      "highestRank": 166,
+      "lowestRank": 355,
+      "projectedPoints": 88.8,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 287
+        "FantasyPros": 285
+      }
+    },
+    {
+      "id": "dj-giddens-ind-rb",
+      "fantasyProsId": 27097,
+      "name": "DJ Giddens",
+      "team": "IND",
+      "position": "RB",
+      "overallRank": 286,
+      "positionRank": 83,
+      "previousRank": 284,
+      "highestRank": 196,
+      "lowestRank": 326,
+      "projectedPoints": 27.3,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 286
       }
     },
     {
@@ -5419,49 +5402,15 @@
       "name": "Deshaun Watson",
       "team": "CLE",
       "position": "QB",
-      "overallRank": 288,
+      "overallRank": 287,
       "positionRank": 34,
-      "previousRank": 291,
+      "previousRank": 288,
       "highestRank": 136,
       "lowestRank": 346,
       "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 288
-      }
-    },
-    {
-      "id": "darius-slayton-fa-wr",
-      "fantasyProsId": 18706,
-      "name": "Darius Slayton",
-      "team": "FA",
-      "position": "WR",
-      "overallRank": 289,
-      "positionRank": 102,
-      "previousRank": 287,
-      "highestRank": 177,
-      "lowestRank": 384,
-      "projectedPoints": 0,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 289
-      }
-    },
-    {
-      "id": "christian-kirk-sf-wr",
-      "fantasyProsId": 17268,
-      "name": "Christian Kirk",
-      "team": "SF",
-      "position": "WR",
-      "overallRank": 290,
-      "positionRank": 103,
-      "previousRank": 288,
-      "highestRank": 177,
-      "lowestRank": 384,
-      "projectedPoints": 65.3,
-      "projectedStats": {},
-      "sourceRanks": {
-        "FantasyPros": 290
+        "FantasyPros": 287
       }
     },
     {
@@ -5470,32 +5419,32 @@
       "name": "Brashard Smith",
       "team": "KC",
       "position": "RB",
-      "overallRank": 291,
+      "overallRank": 288,
       "positionRank": 84,
-      "previousRank": 292,
-      "highestRank": 207,
+      "previousRank": 291,
+      "highestRank": 188,
       "lowestRank": 390,
       "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 291
+        "FantasyPros": 288
       }
     },
     {
-      "id": "mike-gesicki-cin-te",
-      "fantasyProsId": 17272,
-      "name": "Mike Gesicki",
+      "id": "andrei-iosivas-cin-wr",
+      "fantasyProsId": 25335,
+      "name": "Andrei Iosivas",
       "team": "CIN",
-      "position": "TE",
-      "overallRank": 292,
-      "positionRank": 36,
-      "previousRank": 290,
-      "highestRank": 195,
-      "lowestRank": 350,
+      "position": "WR",
+      "overallRank": 289,
+      "positionRank": 102,
+      "previousRank": 298,
+      "highestRank": 169,
+      "lowestRank": 359,
       "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
-        "FantasyPros": 292
+        "FantasyPros": 289
       }
     },
     {
@@ -5504,11 +5453,62 @@
       "name": "Adam Randall",
       "team": "BAL",
       "position": "RB",
-      "overallRank": 293,
+      "overallRank": 290,
       "positionRank": 85,
-      "previousRank": 296,
-      "highestRank": 217,
+      "previousRank": 293,
+      "highestRank": 215,
       "lowestRank": 390,
+      "projectedPoints": 0,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 290
+      }
+    },
+    {
+      "id": "mike-gesicki-cin-te",
+      "fantasyProsId": 17272,
+      "name": "Mike Gesicki",
+      "team": "CIN",
+      "position": "TE",
+      "overallRank": 291,
+      "positionRank": 35,
+      "previousRank": 292,
+      "highestRank": 195,
+      "lowestRank": 350,
+      "projectedPoints": 0,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 291
+      }
+    },
+    {
+      "id": "eli-stowers-phi-te",
+      "fantasyProsId": 23144,
+      "name": "Eli Stowers",
+      "team": "PHI",
+      "position": "TE",
+      "overallRank": 292,
+      "positionRank": 36,
+      "previousRank": 287,
+      "highestRank": 202,
+      "lowestRank": 391,
+      "projectedPoints": 31.2,
+      "projectedStats": {},
+      "sourceRanks": {
+        "FantasyPros": 292
+      }
+    },
+    {
+      "id": "emari-demercado-dal-rb",
+      "fantasyProsId": 25654,
+      "name": "Emari Demercado",
+      "team": "DAL",
+      "position": "RB",
+      "overallRank": 293,
+      "positionRank": 86,
+      "previousRank": 295,
+      "highestRank": 219,
+      "lowestRank": 388,
       "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
@@ -5522,8 +5522,8 @@
       "team": "PHI",
       "position": "WR",
       "overallRank": 294,
-      "positionRank": 104,
-      "previousRank": 297,
+      "positionRank": 103,
+      "previousRank": 294,
       "highestRank": 201,
       "lowestRank": 370,
       "projectedPoints": 0,
@@ -5533,16 +5533,16 @@
       }
     },
     {
-      "id": "emari-demercado-dal-rb",
-      "fantasyProsId": 25654,
-      "name": "Emari Demercado",
-      "team": "DAL",
-      "position": "RB",
+      "id": "indianapolis-colts-ind-dst",
+      "fantasyProsId": 8130,
+      "name": "Indianapolis Colts",
+      "team": "IND",
+      "position": "DST",
       "overallRank": 295,
-      "positionRank": 86,
-      "previousRank": 298,
-      "highestRank": 221,
-      "lowestRank": 388,
+      "positionRank": 19,
+      "previousRank": 296,
+      "highestRank": 170,
+      "lowestRank": 355,
       "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
@@ -5550,17 +5550,17 @@
       }
     },
     {
-      "id": "indianapolis-colts-ind-dst",
-      "fantasyProsId": 8130,
-      "name": "Indianapolis Colts",
-      "team": "IND",
-      "position": "DST",
+      "id": "devin-singletary-nyg-rb",
+      "fantasyProsId": 18280,
+      "name": "Devin Singletary",
+      "team": "NYG",
+      "position": "RB",
       "overallRank": 296,
-      "positionRank": 19,
+      "positionRank": 87,
       "previousRank": 299,
-      "highestRank": 170,
-      "lowestRank": 355,
-      "projectedPoints": 0,
+      "highestRank": 218,
+      "lowestRank": 353,
+      "projectedPoints": 23,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 296
@@ -5574,8 +5574,8 @@
       "position": "QB",
       "overallRank": 297,
       "positionRank": 35,
-      "previousRank": 295,
-      "highestRank": 237,
+      "previousRank": 297,
+      "highestRank": 223,
       "lowestRank": 367,
       "projectedPoints": 0,
       "projectedStats": {},
@@ -5584,61 +5584,51 @@
       }
     },
     {
-      "id": "andrei-iosivas-cin-wr",
-      "fantasyProsId": 25335,
-      "name": "Andrei Iosivas",
-      "team": "CIN",
+      "id": "christian-kirk-sf-wr",
+      "fantasyProsId": 17268,
+      "name": "Christian Kirk",
+      "team": "SF",
       "position": "WR",
       "overallRank": 298,
-      "positionRank": 105,
-      "highestRank": 183,
-      "lowestRank": 359,
-      "projectedPoints": 0,
+      "positionRank": 104,
+      "previousRank": 290,
+      "highestRank": 177,
+      "lowestRank": 384,
+      "projectedPoints": 65.3,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 298
       }
     },
     {
-      "id": "devin-singletary-nyg-rb",
-      "fantasyProsId": 18280,
-      "name": "Devin Singletary",
-      "team": "NYG",
-      "position": "RB",
+      "id": "darius-slayton-fa-wr",
+      "fantasyProsId": 18706,
+      "name": "Darius Slayton",
+      "team": "FA",
+      "position": "WR",
       "overallRank": 299,
-      "positionRank": 87,
-      "previousRank": 300,
-      "highestRank": 218,
-      "lowestRank": 392,
-      "projectedPoints": 23,
+      "positionRank": 105,
+      "previousRank": 289,
+      "highestRank": 177,
+      "lowestRank": 379,
+      "projectedPoints": 0,
       "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 299
       }
     },
     {
-      "id": "atlanta-falcons-atl-dst",
-      "fantasyProsId": 8010,
-      "name": "Atlanta Falcons",
-      "team": "ATL",
-      "position": "DST",
+      "id": "demario-douglas-ne-wr",
+      "fantasyProsId": 25304,
+      "name": "DeMario Douglas",
+      "team": "NE",
+      "position": "WR",
       "overallRank": 300,
-      "positionRank": 20,
-      "previousRank": 294,
-      "highestRank": 193,
-      "lowestRank": 355,
-      "projectedPoints": 105,
-      "projectedStats": {
-        "sacks": 49.3,
-        "defInterceptions": 12.6,
-        "fumbleRecoveries": 7.9,
-        "forcedFumbles": 12.1,
-        "defTd": 2.3,
-        "safeties": 0.5,
-        "pointsAllowed": 419.2,
-        "yardsAllowed": 5670.7,
-        "fantasyPoints": 105
-      },
+      "positionRank": 106,
+      "highestRank": 173,
+      "lowestRank": 363,
+      "projectedPoints": 0,
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 300
       }
