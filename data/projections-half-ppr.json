@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T10:31:14.593Z",
+  "generatedAt": "2026-10-14T10:27:07.278Z",
   "season": 2026,
   "scoring": "Half PPR",
   "scoringKey": "half-ppr",
@@ -3943,8 +3943,13 @@
       "previousRank": 205,
       "highestRank": 132,
       "lowestRank": 332,
-      "projectedPoints": 129.9,
-      "projectedStats": {},
+      "projectedPoints": 44.7,
+      "projectedStats": {
+        "fg": 7,
+        "fga": 29.1,
+        "xp": 32.5,
+        "fantasyPoints": 44.7
+      },
       "sourceRanks": {
         "FantasyPros": 205
       }
@@ -4444,23 +4449,17 @@
       }
     },
     {
-      "id": "harrison-mevis-lar-k",
+      "id": "harrison-mevis-fa-k",
       "fantasyProsId": 26638,
       "name": "Harrison Mevis",
-      "team": "LAR",
+      "team": "FA",
       "position": "K",
       "overallRank": 233,
       "positionRank": 9,
-      "previousRank": 233,
       "highestRank": 172,
       "lowestRank": 337,
-      "projectedPoints": 54.4,
-      "projectedStats": {
-        "fg": 11,
-        "fga": 27,
-        "xp": 30.2,
-        "fantasyPoints": 54.4
-      },
+      "projectedPoints": 0,
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 233
       }
@@ -5465,14 +5464,13 @@
       }
     },
     {
-      "id": "emari-demercado-fa-rb",
+      "id": "emari-demercado-dal-rb",
       "fantasyProsId": 25654,
       "name": "Emari Demercado",
-      "team": "FA",
+      "team": "DAL",
       "position": "RB",
       "overallRank": 291,
       "positionRank": 87,
-      "previousRank": 291,
       "highestRank": 217,
       "lowestRank": 361,
       "projectedPoints": 0,

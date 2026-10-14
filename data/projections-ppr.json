@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T10:31:14.593Z",
+  "generatedAt": "2026-10-14T10:27:07.278Z",
   "season": 2026,
   "scoring": "PPR",
   "scoringKey": "ppr",
@@ -3793,8 +3793,13 @@
       "previousRank": 195,
       "highestRank": 161,
       "lowestRank": 333,
-      "projectedPoints": 129.9,
-      "projectedStats": {},
+      "projectedPoints": 44.7,
+      "projectedStats": {
+        "fg": 7,
+        "fga": 29.1,
+        "xp": 32.5,
+        "fantasyPoints": 44.7
+      },
       "sourceRanks": {
         "FantasyPros": 195
       }
@@ -4515,23 +4520,17 @@
       }
     },
     {
-      "id": "harrison-mevis-lar-k",
+      "id": "harrison-mevis-fa-k",
       "fantasyProsId": 26638,
       "name": "Harrison Mevis",
-      "team": "LAR",
+      "team": "FA",
       "position": "K",
       "overallRank": 236,
       "positionRank": 12,
-      "previousRank": 236,
       "highestRank": 193,
       "lowestRank": 333,
-      "projectedPoints": 54.4,
-      "projectedStats": {
-        "fg": 11,
-        "fga": 27,
-        "xp": 30.2,
-        "fantasyPoints": 54.4
-      },
+      "projectedPoints": 0,
+      "projectedStats": {},
       "sourceRanks": {
         "FantasyPros": 236
       }
